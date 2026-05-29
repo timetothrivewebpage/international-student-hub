@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 360" fill="none" preserveAspectRatio="xMidYMax meet" role="img" aria-label="Illustration of a university campus skyline">
+
+  <!-- Clouds -->
+  <g stroke="#b6c3a8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M210 72c0-13 10-23 23-23 9 0 17 5 21 13 3-2 6-3 10-3 11 0 19 9 19 20"/>
+    <path d="M560 52c0-11 9-20 20-20 7 0 14 4 17 10 2-1 5-2 8-2 9 0 16 7 16 16"/>
+    <path d="M980 62c0-12 10-22 22-22 8 0 15 4 19 11 3-1 6-2 9-2 10 0 18 8 18 18"/>
+    <path d="M1248 96c0-9 7-17 17-17 6 0 11 3 14 8 2-1 4-1 6-1 8 0 14 6 14 14"/>
+  </g>
+
+  <!-- Hills -->
+  <g stroke="#b6c3a8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 300 C 180 255 360 255 540 290 S 900 335 1080 298 1300 258 1440 292" opacity=".85"/>
+    <path d="M0 330 C 220 300 420 322 640 322 S 1040 296 1240 312 1440 322 1440 322" opacity=".6"/>
+  </g>
+  <path d="M0 332 C 220 302 420 324 640 324 S 1040 298 1240 314 1440 324 1440 360 0 360 Z" fill="#cdd8c4" opacity=".32"/>
+
+  <!-- Soft-green accent on the tall right-hand tower (drawn under the outlines) -->
+  <rect x="1150" y="168" width="56" height="162" fill="#cdd8c4" opacity=".4"/>
+
+  <g stroke="#b6c3a8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- LEFT · academic building with columns -->
+    <path d="M70 330 V196 H190 V330"/>
+    <path d="M58 196 L130 156 L202 196 Z"/>
+    <path d="M80 214 H180"/>
+    <path d="M88 214 V312 M112 214 V312 M136 214 V312 M160 214 V312"/>
+    <path d="M118 330 V300 H142 V330"/>
+
+    <!-- LEFT · clock tower -->
+    <path d="M214 330 V150 H262 V330"/>
+    <path d="M209 150 L238 119 L267 150"/>
+    <path d="M238 119 V104"/>
+    <circle cx="238" cy="100" r="4"/>
+    <rect x="226" y="170" width="24" height="24" rx="2"/>
+    <circle cx="238" cy="182" r="7"/>
+    <path d="M238 178 V182 L242 185"/>
+    <path d="M222 212 H254 M222 237 H254 M222 262 H254"/>
+
+    <!-- LEFT · pine trees -->
+    <path d="M300 330 L320 292 L340 330 Z M307 308 L320 283 L333 308 Z M320 283 V330"/>
+    <path d="M352 330 L368 301 L384 330 Z M358 313 L368 293 L378 313 Z M368 293 V330"/>
+
+    <!-- centre · two faint distant trees, keeping the middle open -->
+    <path d="M432 330 L444 306 L456 330 Z M444 306 V330" opacity=".45"/>
+    <path d="M1006 330 L1018 306 L1030 330 Z M1018 306 V330" opacity=".45"/>
+
+    <!-- RIGHT · modern towers -->
+    <path d="M1090 330 V206 H1140 V330"/>
+    <path d="M1097 222 H1133 M1097 244 H1133 M1097 266 H1133 M1097 288 H1133 M1097 310 H1133"/>
+    <path d="M1150 330 V168 H1206 V330"/>
+    <path d="M1158 186 H1198 M1158 208 H1198 M1158 230 H1198 M1158 252 H1198 M1158 274 H1198 M1158 296 H1198 M1158 318 H1198"/>
+    <path d="M1216 330 V232 H1262 V330"/>
+    <path d="M1223 248 H1255 M1223 270 H1255 M1223 292 H1255 M1223 314 H1255"/>
+
+    <!-- RIGHT · domed building -->
+    <path d="M1286 330 V250 H1356 V330"/>
+    <path d="M1286 250 a35 35 0 0 1 70 0"/>
+    <path d="M1321 215 V205"/>
+    <circle cx="1321" cy="201" r="3.5"/>
+    <path d="M1300 272 H1342 M1300 296 H1342"/>
+
+    <!-- RIGHT · pine trees -->
+    <path d="M1376 330 L1392 301 L1408 330 Z M1382 313 L1392 293 L1402 313 Z M1392 293 V330"/>
+  </g>
+</svg>

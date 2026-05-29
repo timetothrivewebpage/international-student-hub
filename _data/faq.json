@@ -1,0 +1,653 @@
+{
+  "last_reviewed": "May 9, 2026",
+  "intro": "The questions international students most often ask in their first weeks at the University of Alberta, each routed to the office, plan, or external authority that can answer it. This is a routing and information reference — not legal, medical, immigration, or financial advice. Where official rules apply, the linked source pages are authoritative. For individual immigration questions, contact ISVS.",
+  "emergency_contacts": [
+    { "need": "Immediate danger / ambulance / police / fire", "contact": "Call 911", "url": "" },
+    { "need": "Non-emergency health advice in Alberta", "contact": "Call Health Link 811", "url": "" },
+    { "need": "Mental health crisis line in Canada", "contact": "Call or text 9-8-8", "url": "" },
+    { "need": "Edmonton Distress Line", "contact": "780-482-4357", "url": "" },
+    { "need": "International Student & Visitor Services (ISVS)", "contact": "ISVS home", "url": "https://www.ualberta.ca/en/international/index.html" },
+    { "need": "Student Service Centre", "contact": "Student Service Centre", "url": "https://www.ualberta.ca/en/registrar/about/student-service-centre.html" },
+    { "need": "University Health Centre", "contact": "University Health Centre", "url": "https://www.ualberta.ca/en/services/health-centre/index.html" },
+    { "need": "Need Help Now (crisis resources)", "contact": "Need Help Now", "url": "https://www.ualberta.ca/en/current-students/need-help-now/index.html" },
+    { "need": "Campus Food Bank", "contact": "Campus Food Bank", "url": "https://www.campusfoodbank.com/" },
+    { "need": "Social Insurance Number", "contact": "Service Canada — SIN", "url": "https://www.canada.ca/en/employment-social-development/services/sin.html" },
+    { "need": "Study permit extension", "contact": "IRCC", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/extend-study-permit.html" },
+    { "need": "Off-campus work rules", "contact": "IRCC", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html" }
+  ],
+  "sections": [
+    {
+      "id": "start-here",
+      "short": "Start Here",
+      "title": "Start here: who can answer what?",
+      "items": [
+        {
+          "q": "I am a new international student. What is the first UAlberta office I should know?",
+          "a": "Start with International Student and Visitor Services (ISVS). ISVS is the main UAlberta unit for international student settlement, immigration-adjacent support, orientation, webinars, and referrals. Use it for study permits, work permits, visas, health insurance, Social Insurance Number information, arriving in Edmonton, cultural adjustment, emergency funding referrals, and getting connected to campus services.",
+          "sources": [
+            { "label": "ISVS home", "url": "https://www.ualberta.ca/en/international/index.html" },
+            { "label": "Contact ISVS", "url": "https://www.ualberta.ca/en/international/about/international-services-centre.html" }
+          ]
+        },
+        {
+          "q": "How do I contact ISVS?",
+          "a": "Use the official ISVS contact page and the student service portal. Generally use your @ualberta.ca email and include your student ID when asking about your file. ISVS also advertises in-person support, but availability can change by term, so check the contact page before going in person.",
+          "sources": [
+            { "label": "Contact ISVS", "url": "https://www.ualberta.ca/en/international/about/international-services-centre.html" }
+          ]
+        },
+        {
+          "q": "What is the Student Service Centre (SSC), and when should I use it?",
+          "a": "The Student Service Centre is the broad front door for registrar and student-service questions: admissions, registration, records, transcripts, convocation, financial support routing, general Bear Tracks questions, and referrals to health, wellness, academic, or faculty supports. For faculty-specific academic advice, degree rules, course substitutions, or program planning, SSC may refer you to your faculty or department.",
+          "sources": [
+            { "label": "Student Service Centre", "url": "https://www.ualberta.ca/en/registrar/about/student-service-centre.html" }
+          ]
+        },
+        {
+          "q": "Should I ask UASU, GSA, ISA, my faculty, or ISVS?",
+          "a": "Quick routing rule: ISVS for international-student immigration and settlement questions; SSC for records, registration, fees, and general student-service routing; UASU for undergraduate advocacy, student services, health/dental plan info, Safewalk, and student groups; GSA for graduate representation, graduate services, health/dental plan info, and GSAP; ISA for international student advocacy and community; your faculty/department for program-specific academic rules.",
+          "sources": [
+            { "label": "ISVS home", "url": "https://www.ualberta.ca/en/international/index.html" },
+            { "label": "UASU", "url": "https://www.su.ualberta.ca/" },
+            { "label": "GSA", "url": "https://www.gsa.ualberta.ca/" }
+          ]
+        },
+        {
+          "q": "Is this FAQ immigration advice?",
+          "a": "No. This is an information and routing guide. Immigration rules change and individual circumstances matter. For UAlberta-specific support, contact ISVS. For official legal requirements and applications, use IRCC pages. Do not rely only on friends, social media, or outdated blog posts for immigration decisions.",
+          "sources": [
+            { "label": "Immigration resources - UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/index.html" },
+            { "label": "Study permit extension - IRCC", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/extend-study-permit.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrival",
+      "short": "Arrival",
+      "title": "Before arrival and first week in Edmonton",
+      "items": [
+        {
+          "q": "What should I complete before travelling to Canada?",
+          "a": "At minimum, confirm your immigration documents, admission status, course registration access, housing plan, health-insurance plan, finances for tuition and living costs, and arrival transportation. Also review UAlberta preparation pages, international orientation information, and any faculty-specific onboarding instructions.",
+          "sources": [
+            { "label": "Prepare for UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/prepare-for-ualberta/index.html" },
+            { "label": "Find housing - ISVS", "url": "https://www.ualberta.ca/en/international/international-student-services/prepare-for-ualberta/find-housing.html" }
+          ]
+        },
+        {
+          "q": "Does UAlberta offer International Student Orientation?",
+          "a": "Yes. International Student Orientation and related welcome programming help you understand travel planning, housing, winter preparation, campus services, cultural adjustment, and practical first steps such as getting a SIN when eligible. Check the orientation page and your UAlberta email for term-specific dates and registration.",
+          "sources": [
+            { "label": "Prepare for UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/prepare-for-ualberta/index.html" }
+          ]
+        },
+        {
+          "q": "What documents should I keep with me during travel?",
+          "a": "Carry essential documents in your hand luggage, not checked baggage: passport, letter of introduction or port-of-entry letter if applicable, study permit approval documents, UAlberta admission letter, proof of funds, housing address, contact information for UAlberta and family, health-insurance information, and any documents IRCC told you to carry. Border officers may ask to see supporting documents.",
+          "sources": [
+            { "label": "Immigration resources - UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/index.html" }
+          ]
+        },
+        {
+          "q": "How do I get from Edmonton International Airport to campus or housing?",
+          "a": "UAlberta welcome services may offer term-specific arrival supports such as airport information or transportation guidance. Check the current orientation/welcome page before you travel. If no arrival program is available, plan a safe airport transfer in advance and keep your accommodation address offline on your phone and on paper.",
+          "sources": [
+            { "label": "Getting around - ISVS", "url": "https://www.ualberta.ca/en/international/international-student-services/prepare-for-ualberta/getting-around.html" }
+          ]
+        },
+        {
+          "q": "What should I do in my first 72 hours in Edmonton?",
+          "a": "A practical order: confirm housing and safe transportation; check your UAlberta email; attend orientation/check-in; activate or verify your CCID, Bear Tracks, and ONEcard; confirm course registration; confirm health-insurance coverage; apply for AHCIP or understand UAHIP if applicable; apply for a SIN if you are eligible to work; learn how to call 911, 811, and campus support services.",
+          "sources": [
+            { "label": "Bear Tracks Help", "url": "https://www.ualberta.ca/en/registrar/registration-and-courses/bear-tracks.html" },
+            { "label": "Health insurance - UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/prepare-for-ualberta/health-insurance.html" }
+          ]
+        },
+        {
+          "q": "What should I buy first for Edmonton winter?",
+          "a": "Do not panic-buy everything before you arrive. Focus first on a warm winter jacket, gloves, hat, scarf, thermal layers, winter boots with grip, and a way to protect your phone battery in the cold. ISVS orientation and settlement sessions often cover winter preparation, and local students can help you avoid overpriced or unsuitable items.",
+          "sources": [
+            { "label": "Prepare for UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/prepare-for-ualberta/index.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "immigration",
+      "short": "Immigration",
+      "title": "Study permits, immigration status, and documents",
+      "items": [
+        {
+          "q": "Where do I apply for my first study permit?",
+          "a": "Apply through IRCC using official instructions. UAlberta provides study-permit information and may provide tools or supports for admitted degree-seeking students, but the application itself is an IRCC process. Always check current IRCC requirements for your country and program level.",
+          "sources": [
+            { "label": "Immigration resources - UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/index.html" }
+          ]
+        },
+        {
+          "q": "Can ISVS help with my study permit, work permit, visa, or immigration questions?",
+          "a": "Yes. ISVS has licensed immigration specialists and advisors who support UAlberta international students with immigration-related questions and referrals. Use ISVS instead of relying on unofficial WhatsApp, Reddit, TikTok, or country group advice for high-stakes questions.",
+          "sources": [
+            { "label": "ISVS home", "url": "https://www.ualberta.ca/en/international/index.html" },
+            { "label": "Contact ISVS", "url": "https://www.ualberta.ca/en/international/about/international-services-centre.html" }
+          ]
+        },
+        {
+          "q": "When should I renew or extend my study permit?",
+          "a": "IRCC says you should apply to extend your study permit at least 30 days before it expires. Do not wait until the final week. If your passport expires soon, renew the passport first when possible, because IRCC will not issue a study permit beyond your passport validity.",
+          "sources": [
+            { "label": "Study permit extension - IRCC", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/extend-study-permit.html" }
+          ]
+        },
+        {
+          "q": "Can I keep studying while my study permit extension is being processed?",
+          "a": "If you applied for the extension before your current permit expired and you remain in Canada, IRCC generally allows you to keep studying under the same conditions while the application is in process (maintained status). Because status issues are individual, confirm your situation with IRCC instructions or ISVS if anything is unusual.",
+          "sources": [
+            { "label": "Study permit extension - IRCC", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/extend-study-permit.html" },
+            { "label": "Contact ISVS", "url": "https://www.ualberta.ca/en/international/about/international-services-centre.html" }
+          ]
+        },
+        {
+          "q": "What happens if I finish my program earlier than expected?",
+          "a": "IRCC rules can shorten how long your study permit remains valid after program completion. If you finish earlier, check IRCC rules and speak with ISVS before assuming you can remain in Canada until the printed expiry date.",
+          "sources": [
+            { "label": "Study permit extension - IRCC", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/extend-study-permit.html" }
+          ]
+        },
+        {
+          "q": "Can I take a reduced course load, withdraw, or study part time?",
+          "a": "Do not change to part-time status, withdraw from courses, or take a leave without checking immigration consequences. UAlberta notes that part-time study or withdrawals during regular terms can affect Post-Graduation Work Permit eligibility, except in limited situations such as a final term. Speak with your faculty and ISVS before changing registration.",
+          "sources": [
+            { "label": "Immigration resources - UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/index.html" }
+          ]
+        },
+        {
+          "q": "What should I do if my study permit application is refused?",
+          "a": "Read the refusal letter carefully, do not immediately reuse the same documents, and contact UAlberta/ISVS if you are an admitted student. You may need to understand the refusal reasons, deadlines, whether a deferral is possible, and whether reapplication or other options are appropriate.",
+          "sources": [
+            { "label": "Contact ISVS", "url": "https://www.ualberta.ca/en/international/about/international-services-centre.html" }
+          ]
+        },
+        {
+          "q": "What is a visa or eTA, and is it the same as a study permit?",
+          "a": "No. A study permit authorizes study in Canada. A temporary resident visa or electronic travel authorization (eTA) is a travel document that helps you enter Canada. Some students need both a valid study permit and a valid entry document. Check IRCC rules for your passport country before leaving Canada and before re-entering.",
+          "sources": [
+            { "label": "Immigration resources - UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/index.html" }
+          ]
+        },
+        {
+          "q": "When should I start planning for the Post-Graduation Work Permit (PGWP)?",
+          "a": "Start in your first year, not your last month. PGWP eligibility can be affected by full-time status, program completion, timing, previous PGWP use, leave periods, and application deadlines. UAlberta summarizes PGWP basics, but IRCC rules can change, so verify requirements before making academic or travel decisions.",
+          "sources": [
+            { "label": "Immigration resources - UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/index.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work-sin",
+      "short": "Work & SIN",
+      "title": "Working in Canada and the Social Insurance Number (SIN)",
+      "items": [
+        {
+          "q": "What is a Social Insurance Number (SIN), and why do I need it?",
+          "a": "A SIN is a nine-digit number issued by Service Canada. You need it to work in Canada and to access some government programs or benefits. Treat it like sensitive personal information: do not put it in resumes, rental applications, social media messages, or casual emails.",
+          "sources": [
+            { "label": "Social Insurance Number - Service Canada", "url": "https://www.canada.ca/en/employment-social-development/services/sin.html" }
+          ]
+        },
+        {
+          "q": "Where do I get a SIN?",
+          "a": "Apply through Service Canada online, by mail, or in person. You generally need valid identity and immigration documents. Temporary residents normally need a work permit or a study permit that states they may work or may accept employment. UAlberta welcome programming may also point you to term-specific SIN information.",
+          "sources": [
+            { "label": "Social Insurance Number - Service Canada", "url": "https://www.canada.ca/en/employment-social-development/services/sin.html" }
+          ]
+        },
+        {
+          "q": "Can I work before my classes start?",
+          "a": "No. IRCC states that students can only start working in Canada once their study program has started. Even if your permit allows work, do not begin work before your program start date.",
+          "sources": [
+            { "label": "Work off campus - IRCC", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html" }
+          ]
+        },
+        {
+          "q": "How many hours can I work off campus during regular academic terms?",
+          "a": "IRCC currently states that eligible students may work up to 24 hours per week off campus during regular academic terms. Exceeding the limit can violate study-permit conditions and affect future applications. Because this number has changed in recent years, always verify the current IRCC page before relying on it.",
+          "sources": [
+            { "label": "Work off campus - IRCC", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html" }
+          ]
+        },
+        {
+          "q": "Can I work full time during scheduled breaks?",
+          "a": "Eligible students may generally work full time during regularly scheduled breaks, such as winter or summer breaks, if they meet IRCC conditions before and after the break. Students on unauthorized leave, not studying full time when required, or between schools may have different restrictions.",
+          "sources": [
+            { "label": "Work off campus - IRCC", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html" }
+          ]
+        },
+        {
+          "q": "My study permit does not say I may work. What should I do?",
+          "a": "Do not work and do not apply for a SIN until the permit conditions are fixed. IRCC says students whose permits are missing work conditions may need to request an amendment before they can obtain a SIN and work. Contact ISVS if you are unsure.",
+          "sources": [
+            { "label": "Work off campus - IRCC", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html" },
+            { "label": "Contact ISVS", "url": "https://www.ualberta.ca/en/international/about/international-services-centre.html" }
+          ]
+        },
+        {
+          "q": "Do I need a separate co-op work permit for internships or required placements?",
+          "a": "IRCC announced that, as of April 1, 2026, eligible post-secondary international students no longer need a separate work permit for required student work placements such as co-ops or internships when the employer is approved by the designated learning institution. Check IRCC and your faculty, because eligibility and implementation details matter.",
+          "sources": [
+            { "label": "Co-op/internship notice - IRCC", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/co-op-internship-work-permit-exemption.html" }
+          ]
+        },
+        {
+          "q": "Where can I find student jobs and career support?",
+          "a": "Use the UAlberta Career Centre for resumes, interviews, job search, career planning, and fraud awareness. campusBRIDGE is a key platform for job postings, career events, experiential learning, and work-integrated learning. International undergraduates should also check whether ISWEP or similar international-student work programs are available in the current year.",
+          "sources": [
+            { "label": "Career Centre", "url": "https://www.ualberta.ca/en/career-centre/index.html" },
+            { "label": "campusBRIDGE", "url": "https://www.ualberta.ca/en/career-centre/resources/campusbridge.html" }
+          ]
+        },
+        {
+          "q": "What should I know about job scams?",
+          "a": "Be cautious with jobs that ask for money, personal banking information, cryptocurrency transactions, cheque deposits, package forwarding, or work that sounds too easy for unusually high pay. Use the Career Centre and official postings when possible, and never share your SIN until an employer legitimately needs it after hiring.",
+          "sources": [
+            { "label": "Career Centre", "url": "https://www.ualberta.ca/en/career-centre/index.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "short": "Health",
+      "title": "Health insurance, doctors, emergencies, and mental health",
+      "items": [
+        {
+          "q": "Do international students need health insurance?",
+          "a": "Yes. UAlberta states that international students must have basic health insurance. Depending on your immigration status, length of stay, age, and residency situation, you may be covered through the Alberta Health Care Insurance Plan (AHCIP) or through UAHIP. Do not assume you are covered until you confirm your status.",
+          "sources": [
+            { "label": "Health insurance - UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/prepare-for-ualberta/health-insurance.html" },
+            { "label": "AHCIP - Study Alberta", "url": "https://study.alberta.ca/plan-your-studies/before-you-apply/health-care/" }
+          ]
+        },
+        {
+          "q": "Is AHS the same as AHCIP?",
+          "a": "No. Students often say “register for AHS,” but the public health insurance plan is AHCIP, administered through Alberta Health. Alberta Health Services (AHS) operates health services such as hospitals and Health Link 811. For insurance registration, look for AHCIP instructions.",
+          "sources": [
+            { "label": "AHCIP - Study Alberta", "url": "https://study.alberta.ca/plan-your-studies/before-you-apply/health-care/" }
+          ]
+        },
+        {
+          "q": "Who may be eligible for AHCIP?",
+          "a": "Study Alberta says international students with a valid study permit and at least a one-year stay in Alberta may be eligible. It also gives examples for students with 12-month permits and some 3-to-12 month permits who intend to live in Alberta for at least 12 months. Apply promptly after arriving and confirm eligibility with Alberta Health if your documents or dates are unusual.",
+          "sources": [
+            { "label": "AHCIP - Study Alberta", "url": "https://study.alberta.ca/plan-your-studies/before-you-apply/health-care/" }
+          ]
+        },
+        {
+          "q": "What is UAHIP?",
+          "a": "UAHIP is the University of Alberta Health Insurance Plan for international students, employees, and families in Canada who are not eligible for provincial coverage. It is intended as basic health coverage when AHCIP is not available. Registered students are typically enrolled by the university after course registration is confirmed, but check your UAlberta email and UAHIP instructions.",
+          "sources": [
+            { "label": "Health insurance - UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/prepare-for-ualberta/health-insurance.html" }
+          ]
+        },
+        {
+          "q": "What is the UASU Health and Dental Plan?",
+          "a": "The UASU Health and Dental Plan is extended coverage for undergraduate students. It helps cover services that basic provincial or UAHIP coverage does not normally cover, such as some prescription, dental, vision, and paramedical services. You generally need basic health coverage (AHCIP, another provincial plan, or UAHIP) to use the extended plan.",
+          "sources": [
+            { "label": "UASU Health and Dental Plan", "url": "https://www.su.ualberta.ca/services/healthplan/" }
+          ]
+        },
+        {
+          "q": "What is the GSA Health and Dental Plan?",
+          "a": "The GSA Health and Dental Plan is extended coverage for eligible graduate students. It is separate from basic AHCIP or UAHIP and can include additional health, dental, vision, and travel benefits. Graduate students should check the GSA page for current enrollment, opt-out, family add-on, and change-of-coverage deadlines.",
+          "sources": [
+            { "label": "GSA Health and Dental Plan", "url": "https://www.gsa.ualberta.ca/services/health-and-dental-plan/" }
+          ]
+        },
+        {
+          "q": "Where can I see a doctor on or near campus?",
+          "a": "The University Health Centre can serve as a primary care provider for students and offers health services to UAlberta students, employees, and eligible family members. For urgent or emergency care, use 911, Health Link 811, a walk-in clinic, or a hospital emergency department depending on severity.",
+          "sources": [
+            { "label": "University Health Centre", "url": "https://www.ualberta.ca/en/services/health-centre/index.html" }
+          ]
+        },
+        {
+          "q": "What should I do in a medical emergency?",
+          "a": "Call 911 for immediate danger, a life-threatening emergency, or a situation needing ambulance, police, or fire response. For non-emergency health advice in Alberta, call Health Link at 811. If you are near campus and need emergency hospital care, the University of Alberta Hospital emergency department is close to North Campus.",
+          "sources": [
+            { "label": "Need Help Now", "url": "https://www.ualberta.ca/en/current-students/need-help-now/index.html" }
+          ]
+        },
+        {
+          "q": "Where can I get mental health support?",
+          "a": "For non-crisis support, UAlberta Counselling and Clinical Services offers confidential counselling and psychiatric services to eligible students. The UASU Peer Support Centre offers free, confidential, non-judgmental supportive listening and referrals. Graduate students can also use the Graduate Student Assistance Program (GSAP). For immediate danger call 911; for crisis lines use 9-8-8 or the Edmonton Distress Line.",
+          "sources": [
+            { "label": "Counselling and Clinical Services", "url": "https://www.ualberta.ca/en/current-students/counselling/index.html" },
+            { "label": "Need Help Now", "url": "https://www.ualberta.ca/en/current-students/need-help-now/index.html" }
+          ]
+        },
+        {
+          "q": "Where can someone get help after sexual assault or sexual violence?",
+          "a": "The UAlberta Sexual Assault Centre provides confidential support, crisis intervention, information, and referrals for survivors and supporters. You do not need to make a formal complaint to ask for support. In immediate danger, call 911.",
+          "sources": [
+            { "label": "Need Help Now", "url": "https://www.ualberta.ca/en/current-students/need-help-now/index.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "short": "Housing",
+      "title": "Housing, transportation, food, and campus safety",
+      "items": [
+        {
+          "q": "Where should I look for housing?",
+          "a": "Start with UAlberta Residence Services and the ISVS housing page. Residence may be simpler for first-year students because it reduces commute, furniture, utilities, and lease complexity. Off-campus housing can be cheaper or more flexible but requires more caution about leases, scams, deposits, transit, and winter travel.",
+          "sources": [
+            { "label": "Find housing - ISVS", "url": "https://www.ualberta.ca/en/international/international-student-services/prepare-for-ualberta/find-housing.html" },
+            { "label": "Residence Services", "url": "https://www.ualberta.ca/en/residence/index.html" }
+          ]
+        },
+        {
+          "q": "Is housing guaranteed for new students?",
+          "a": "UAlberta advertises guaranteed housing for eligible first-year undergraduate students, including new international undergraduates, who apply to Edmonton-campus residence by the stated deadline. Deadlines and conditions matter, so check the current guaranteed-housing page rather than relying on old posts.",
+          "sources": [
+            { "label": "Guaranteed housing", "url": "https://www.ualberta.ca/en/residence/apply/guaranteed-housing.html" },
+            { "label": "Apply to live in residence", "url": "https://www.ualberta.ca/en/residence/apply/index.html" }
+          ]
+        },
+        {
+          "q": "What is International House?",
+          "a": "International House is a UAlberta residence community for upper-year undergraduate and graduate students from Canada and around the world. It emphasizes global education, intercultural community, and residence life — a strong option for students who want a more international living-learning environment.",
+          "sources": [
+            { "label": "Residence Services", "url": "https://www.ualberta.ca/en/residence/index.html" }
+          ]
+        },
+        {
+          "q": "How can I avoid rental scams?",
+          "a": "Do not send large deposits before verifying the landlord, unit, lease terms, and legitimacy of the listing. Be cautious if the landlord refuses a video tour, pressures you to pay immediately, asks for unusual payment methods, or offers rent far below market value. Use UAlberta housing resources, local tenant information, and trusted contacts before signing.",
+          "sources": [
+            { "label": "Find housing - ISVS", "url": "https://www.ualberta.ca/en/international/international-student-services/prepare-for-ualberta/find-housing.html" }
+          ]
+        },
+        {
+          "q": "What is U-Pass?",
+          "a": "U-Pass is a transit pass connected to UAlberta student enrollment and student association agreements. It provides access to participating Edmonton-region transit systems for eligible students. Check current eligibility, fees, activation instructions, and opt-out rules on the official U-Pass page.",
+          "sources": [
+            { "label": "U-Pass", "url": "https://www.su.ualberta.ca/services/upass/" },
+            { "label": "Getting around - ISVS", "url": "https://www.ualberta.ca/en/international/international-student-services/prepare-for-ualberta/getting-around.html" }
+          ]
+        },
+        {
+          "q": "Is it safe to walk on campus at night?",
+          "a": "UAlberta is an urban campus, so use normal city safety habits: travel with others when possible, plan transit, keep your phone charged, and avoid isolated routes late at night. UASU Safewalk is a volunteer-run service that can accompany students on or near campus when operating. Check current Safewalk hours before relying on it.",
+          "sources": [
+            { "label": "Safewalk - UASU", "url": "https://www.su.ualberta.ca/services/safewalk/" }
+          ]
+        },
+        {
+          "q": "Where can I get help if I cannot afford food?",
+          "a": "The Campus Food Bank supports UAlberta community members experiencing food insecurity. UASU also lists campus food options and student services. Asking for food support is not shameful; many students use these resources during financial stress.",
+          "sources": [
+            { "label": "Campus Food Bank", "url": "https://www.campusfoodbank.com/" }
+          ]
+        },
+        {
+          "q": "What should I do if I feel unsafe or witness an emergency?",
+          "a": "Call 911 if there is immediate danger. For non-emergency campus concerns, use UAlberta safety resources and building staff where appropriate. If the issue involves harassment, discrimination, violence, or misconduct, UAlberta has offices that can explain reporting and support options.",
+          "sources": [
+            { "label": "Need Help Now", "url": "https://www.ualberta.ca/en/current-students/need-help-now/index.html" },
+            { "label": "Safe Disclosure and Human Rights", "url": "https://www.ualberta.ca/en/vice-president-finance/safe-disclosure-human-rights/index.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "academics",
+      "short": "Academics",
+      "title": "Registration, academics, accessibility, and student records",
+      "items": [
+        {
+          "q": "What is Bear Tracks?",
+          "a": "Bear Tracks is UAlberta's secure self-service system for student information. Students use it to manage registration, schedules, grades, exam schedules, fee information, tax forms, and personal information. You need an active CCID to access most functions.",
+          "sources": [
+            { "label": "Bear Tracks Help", "url": "https://www.ualberta.ca/en/registrar/registration-and-courses/bear-tracks.html" }
+          ]
+        },
+        {
+          "q": "What is a CCID?",
+          "a": "Your CCID is your Campus Computing ID. It gives access to UAlberta systems such as Bear Tracks, UAlberta email, and other online services. Protect it with strong password habits and do not share login credentials with friends, agents, or family members.",
+          "sources": [
+            { "label": "Bear Tracks Help", "url": "https://www.ualberta.ca/en/registrar/registration-and-courses/bear-tracks.html" }
+          ]
+        },
+        {
+          "q": "How do I register for courses?",
+          "a": "After accepting your offer and completing any required deposit or conditions, use Bear Tracks to build a schedule and enroll. Registration access may take time after offer acceptance or deposit processing. For degree requirements and course selection, use faculty advising, department pages, and official calendar requirements — not only peer advice.",
+          "sources": [
+            { "label": "Bear Tracks Help", "url": "https://www.ualberta.ca/en/registrar/registration-and-courses/bear-tracks.html" },
+            { "label": "Student Service Centre", "url": "https://www.ualberta.ca/en/registrar/about/student-service-centre.html" }
+          ]
+        },
+        {
+          "q": "What is ONEcard?",
+          "a": "ONEcard is the official UAlberta student identification card. New students usually need to register in at least one class, upload a photo, wait for approval, and pick up the card with government photo ID and UAlberta student ID. Remote students may have virtual ONEcard options.",
+          "sources": [
+            { "label": "ONEcard", "url": "https://www.ualberta.ca/en/onecard/index.html" }
+          ]
+        },
+        {
+          "q": "Where can I get academic skills, writing, and learning support?",
+          "a": "The Academic Success Centre offers academic advising, learning support, workshops, online resources, and writing support for undergraduate and graduate students. Use it early for writing, exam preparation, time management, reading strategies, and adapting to Canadian academic expectations.",
+          "sources": [
+            { "label": "Academic Success Centre", "url": "https://www.ualberta.ca/en/current-students/academic-success-centre/index.html" }
+          ]
+        },
+        {
+          "q": "What if I need disability-related accommodations?",
+          "a": "Register with Accessibility and Accommodations as early as possible. Students with permanent disabilities, chronic physical or mental health conditions, temporary barriers, or other documented needs may be eligible for accommodations. Documentation is usually required or strongly recommended, and accommodations are not always retroactive.",
+          "sources": [
+            { "label": "Accessibility and Accommodations", "url": "https://www.ualberta.ca/en/current-students/accessibility-resources/index.html" }
+          ]
+        },
+        {
+          "q": "Where can I get help with research, citations, and library access?",
+          "a": "Use UAlberta Library for research help, subject guides, databases, borrowing, citation support, course materials, study spaces, and interlibrary loan. Your ONEcard may also connect you to additional library access such as the Edmonton Public Library L-Pass for eligible students.",
+          "sources": [
+            { "label": "UAlberta Library", "url": "https://www.library.ualberta.ca/" }
+          ]
+        },
+        {
+          "q": "Who can help if I think I was treated unfairly in an academic or administrative process?",
+          "a": "Student Ombuds is a confidential, impartial service that helps students understand policies, fairness concerns, academic issues, discipline processes, interpersonal conflict, and options for next steps. Ombuds does not replace faculty processes but can help you navigate them.",
+          "sources": [
+            { "label": "Student Ombuds", "url": "https://www.ualberta.ca/en/current-students/ombuds/index.html" }
+          ]
+        },
+        {
+          "q": "Where can I report or discuss discrimination, harassment, or serious misconduct?",
+          "a": "The Office of Safe Disclosure and Human Rights provides a confidential space to discuss discrimination, harassment, accommodation concerns, wrongdoing, health and safety concerns, and other misconduct-related issues. You can ask about options before deciding whether to make a formal report.",
+          "sources": [
+            { "label": "Safe Disclosure and Human Rights", "url": "https://www.ualberta.ca/en/vice-president-finance/safe-disclosure-human-rights/index.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "graduate",
+      "short": "Graduate",
+      "title": "Graduate student-specific questions",
+      "items": [
+        {
+          "q": "What is the GSA?",
+          "a": "The Graduate Students Association represents UAlberta graduate students and negotiates or provides graduate student services, advocacy, and resources. Check GSA pages for orientation, health/dental coverage, U-Pass, financial support, and wellbeing services.",
+          "sources": [
+            { "label": "GSA", "url": "https://www.gsa.ualberta.ca/" },
+            { "label": "GSA services", "url": "https://www.gsa.ualberta.ca/services/" }
+          ]
+        },
+        {
+          "q": "What is GSAP?",
+          "a": "The Graduate Student Assistance Program is a confidential counselling and support program for eligible graduate students and, where applicable, partners or dependents. It can support concerns such as stress, anxiety, depression, conflict, finances, and family issues.",
+          "sources": [
+            { "label": "Graduate Student Assistance Program", "url": "https://www.gsa.ualberta.ca/services/graduate-student-assistance-program/" }
+          ]
+        },
+        {
+          "q": "What should I do if I have a conflict with my supervisor?",
+          "a": "Start by documenting the issue, reviewing department and Faculty of Graduate & Postdoctoral Studies expectations, and seeking confidential guidance before escalation. Useful contacts may include your graduate program administrator, associate chair/graduate coordinator, GSA, Student Ombuds, Safe Disclosure and Human Rights, or Counselling and Clinical Services.",
+          "sources": [
+            { "label": "GSA", "url": "https://www.gsa.ualberta.ca/" },
+            { "label": "Student Ombuds", "url": "https://www.ualberta.ca/en/current-students/ombuds/index.html" }
+          ]
+        },
+        {
+          "q": "Is emergency financial help available for graduate students?",
+          "a": "The GSA Emergency Bursary is a non-repayable support option for eligible graduate students facing unanticipated emergencies. Also review UAlberta bursaries and emergency funding. International students should prepare realistic budgets because emergency bursaries are not designed to solve long-term funding gaps.",
+          "sources": [
+            { "label": "GSA Emergency Bursary", "url": "https://www.gsa.ualberta.ca/services/awards-and-financial-support/gsa-emergency-bursary/" },
+            { "label": "Bursaries and emergency funding - UAlberta", "url": "https://www.ualberta.ca/en/registrar/scholarships-awards-financial-support/bursaries-emergency-funding/index.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "short": "Community",
+      "title": "Community, identity, student associations, and belonging",
+      "items": [
+        {
+          "q": "What is the International Students Association?",
+          "a": "The International Students Association (ISA) is a student representative association for international students at UAlberta. It provides advocacy and community connection. Check the ISA website and current social channels for events, elections, campaigns, and ways to get involved.",
+          "sources": [
+            { "label": "UASU Student Representative Associations", "url": "https://www.su.ualberta.ca/governance/sras/" }
+          ]
+        },
+        {
+          "q": "Where can I find cultural, faith, national, or interest-based student groups?",
+          "a": "UAlberta recognizes hundreds of student groups, including cultural, religious, recreational, academic, residence, and shared-interest groups. Because student groups change frequently, browse the official student-groups directory or UASU group listings rather than a static list.",
+          "sources": [
+            { "label": "Student groups", "url": "https://www.su.ualberta.ca/services/studentgroups/" }
+          ]
+        },
+        {
+          "q": "How can UASU help undergraduate international students?",
+          "a": "UASU represents undergraduate students and provides or connects students to services such as the Health and Dental Plan, Peer Support Centre, Safewalk, student groups, advocacy, and student representative associations. International undergraduates can also use UASU advocacy and elections to raise international-student concerns.",
+          "sources": [
+            { "label": "UASU", "url": "https://www.su.ualberta.ca/" }
+          ]
+        },
+        {
+          "q": "How can the GSA help graduate international students?",
+          "a": "GSA represents graduate students and coordinates graduate-specific services including health/dental plan information, GSAP, graduate advocacy, and emergency bursary information. Graduate international students should check GSA resources in addition to ISVS and their academic department.",
+          "sources": [
+            { "label": "GSA services", "url": "https://www.gsa.ualberta.ca/services/" }
+          ]
+        },
+        {
+          "q": "What is First Peoples' House, and should international students know about it?",
+          "a": "First Peoples' House supports First Nations, Métis, and Inuit students through community, cultural connection, holistic support, academic support, housing resources, and related programs. International students who are not Indigenous to Canada should not treat FNMI-specific services as general international-student services, but should know the office exists, respect Indigenous spaces, and attend open learning opportunities when invited.",
+          "sources": [
+            { "label": "First Peoples' House", "url": "https://www.ualberta.ca/en/current-students/first-peoples-house/index.html" }
+          ]
+        },
+        {
+          "q": "Are there prayer, meditation, or chaplaincy supports?",
+          "a": "Yes. UAlberta Interfaith Chaplains support students, staff, and faculty whether or not they identify with a faith tradition, and UAlberta lists multi-faith prayer and meditation spaces. For urgent safety or mental-health crises, use emergency and crisis resources rather than chaplaincy alone.",
+          "sources": [
+            { "label": "Interfaith Chaplains", "url": "https://www.ualberta.ca/en/current-students/interfaith-chaplains/index.html" }
+          ]
+        },
+        {
+          "q": "What if I feel lonely or culturally isolated?",
+          "a": "Use a combination of supports: ISVS settlement and events, ISA community, UASU or GSA services, student groups, residence programming, recreation, faith or cultural groups, the Peer Support Centre, and Counselling and Clinical Services. Loneliness is common in the first year and is a valid reason to seek support early.",
+          "sources": [
+            { "label": "ISVS home", "url": "https://www.ualberta.ca/en/international/index.html" },
+            { "label": "Counselling and Clinical Services", "url": "https://www.ualberta.ca/en/current-students/counselling/index.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recreation-careers",
+      "short": "Careers",
+      "title": "Recreation, experience records, careers, and life after graduation",
+      "items": [
+        {
+          "q": "What does CCR mean at UAlberta?",
+          "a": "Many UAlberta pages use CCR to mean Campus and Community Recreation, which operates recreation programming and facilities — fitness classes, intramurals, club sports, aquatics, climbing, and wellness activities. If you mean co-curricular records instead, UAlberta uses different program-specific language, so check your faculty or campus experiential-learning systems.",
+          "sources": [
+            { "label": "Campus and Community Recreation", "url": "https://www.ualberta.ca/en/campus-community-recreation/index.html" }
+          ]
+        },
+        {
+          "q": "Why should international students use recreation services?",
+          "a": "Recreation is not just fitness. It can reduce isolation, build routine, help with winter mental health, and create low-pressure ways to meet people. If you are nervous about joining, start with beginner-friendly classes, intramurals, drop-in activities, or residence recreation programming.",
+          "sources": [
+            { "label": "Campus and Community Recreation", "url": "https://www.ualberta.ca/en/campus-community-recreation/index.html" }
+          ]
+        },
+        {
+          "q": "What is campusBRIDGE?",
+          "a": "campusBRIDGE is a UAlberta platform for career development, job postings, events, experiential learning, and work-integrated learning opportunities. Use it together with Career Centre resources to avoid scams, prepare resumes, and find relevant opportunities.",
+          "sources": [
+            { "label": "campusBRIDGE", "url": "https://www.ualberta.ca/en/career-centre/resources/campusbridge.html" },
+            { "label": "Career Centre", "url": "https://www.ualberta.ca/en/career-centre/index.html" }
+          ]
+        },
+        {
+          "q": "How early should I start career planning?",
+          "a": "Start in first year. International students have extra constraints such as work authorization, SIN timing, Canadian resume norms, networking expectations, co-op or internship rules, and PGWP planning. Use the Career Centre early, not only after graduation.",
+          "sources": [
+            { "label": "Career Centre", "url": "https://www.ualberta.ca/en/career-centre/index.html" }
+          ]
+        },
+        {
+          "q": "What should I do before graduation if I want to stay and work in Canada?",
+          "a": "Before your final term, review PGWP eligibility, confirm full-time history and any leaves or part-time terms, check passport validity, confirm completion-letter timing, and understand whether you can work while waiting for a PGWP decision. Contact ISVS for UAlberta-specific guidance and check IRCC before making travel or employment decisions.",
+          "sources": [
+            { "label": "Immigration resources - UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/index.html" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "short": "Money",
+      "title": "Money, fees, emergency funding, and budgeting",
+      "items": [
+        {
+          "q": "What should I budget for besides tuition?",
+          "a": "Budget for rent, food, winter clothing, health and dental costs not covered by insurance, books or course materials, transit, phone, household items, recreation, emergency travel, immigration applications, and exchange-rate changes. International students should also keep emergency funds because family transfers, banking holds, or work delays can happen.",
+          "sources": [
+            { "label": "Prepare for UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/prepare-for-ualberta/index.html" },
+            { "label": "Bursaries and emergency funding - UAlberta", "url": "https://www.ualberta.ca/en/registrar/scholarships-awards-financial-support/bursaries-emergency-funding/index.html" }
+          ]
+        },
+        {
+          "q": "Can bursaries solve my tuition or living-cost shortfall?",
+          "a": "Usually not by themselves. UAlberta bursaries and emergency funds can help with shortfalls or urgent situations, but do not rely on emergency funding as a primary financial plan. Build a realistic full-year budget before arrival and update it after seeing actual Edmonton costs.",
+          "sources": [
+            { "label": "Bursaries and emergency funding - UAlberta", "url": "https://www.ualberta.ca/en/registrar/scholarships-awards-financial-support/bursaries-emergency-funding/index.html" }
+          ]
+        },
+        {
+          "q": "Where can graduate students get emergency funding?",
+          "a": "Eligible graduate students can review the GSA Emergency Bursary and UAlberta financial-support pages. Emergency bursaries are normally for unexpected, urgent circumstances and may require documentation. Apply early and continue looking for longer-term solutions if the shortfall is ongoing.",
+          "sources": [
+            { "label": "GSA Emergency Bursary", "url": "https://www.gsa.ualberta.ca/services/awards-and-financial-support/gsa-emergency-bursary/" }
+          ]
+        },
+        {
+          "q": "Where can undergraduates look for emergency or financial support?",
+          "a": "Undergraduate students should review UAlberta bursaries and emergency funding, speak with SSC for routing, and contact UASU services if the issue overlaps with food, health, advocacy, or emergency student support. International students can also contact ISVS if the issue affects immigration, settlement, or crisis planning.",
+          "sources": [
+            { "label": "Bursaries and emergency funding - UAlberta", "url": "https://www.ualberta.ca/en/registrar/scholarships-awards-financial-support/bursaries-emergency-funding/index.html" },
+            { "label": "UASU", "url": "https://www.su.ualberta.ca/" }
+          ]
+        }
+      ]
+    }
+  ]
+}

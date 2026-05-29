@@ -1,0 +1,19 @@
+# --- Site settings ---
+title: International Student Hub
+description: Simplifying university information for international students so you can focus on your goals.
+
+# GitHub Pages project site lives at <user>.github.io/international-student-hub
+# baseurl is prepended to all links built with the `relative_url` filter.
+# If you later move to a custom domain or a user/organisation page, set this to "".
+baseurl: "/international-student-hub"
+url: ""
+
+# --- Build settings ---
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

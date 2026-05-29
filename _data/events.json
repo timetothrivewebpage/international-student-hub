@@ -1,0 +1,29 @@
+[
+  {
+    "month": "MAY",
+    "day": "15",
+    "title": "Study Skills Workshop",
+    "date": "Fri, May 15, 2026",
+    "time": "2:00 PM - 3:30 PM",
+    "location": "Online",
+    "url": "#"
+  },
+  {
+    "month": "MAY",
+    "day": "22",
+    "title": "Career Pathways Fair",
+    "date": "Fri, May 22, 2026",
+    "time": "11:00 AM - 3:00 PM",
+    "location": "Students’ Union Building",
+    "url": "#"
+  },
+  {
+    "month": "MAY",
+    "day": "29",
+    "title": "International Gamer’s Party",
+    "date": "Fri, May 29, 2026",
+    "time": "4:00 PM - 5:00 PM",
+    "location": "Telus Centre",
+    "url": "#"
+  }
+]

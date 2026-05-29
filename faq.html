@@ -1,0 +1,112 @@
+---
+layout: default
+title: International Student FAQ
+description: A routing and orientation reference for international students at the University of Alberta.
+permalink: /faq/
+---
+
+<section class="hero hero--inner">
+  <div class="hero__art" aria-hidden="true">
+    <img src="{{ '/assets/img/campus-skyline.svg' | relative_url }}" alt="">
+  </div>
+  <div class="container hero__inner">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <span aria-hidden="true">&rsaquo;</span>
+      <span aria-current="page">International Student FAQ</span>
+    </nav>
+    <h1 class="hero__title hero__title--inner">International Student FAQ</h1>
+    <p class="hero__subtitle">A routing and orientation reference for international students at the University of Alberta.</p>
+  </div>
+</section>
+
+<section class="container faq-page">
+  <p class="faq-intro">{{ site.data.faq.intro }}</p>
+  <p class="faq-meta">{% include icon.html name="calendar" %} Last reviewed: {{ site.data.faq.last_reviewed }}</p>
+
+  <!-- Emergency & essential contacts -->
+  <div class="faq-emergency" id="emergency">
+    <div class="faq-emergency__head">
+      <span class="faq-emergency__badge">{% include icon.html name="phone" %}</span>
+      <div>
+        <h2 class="faq-emergency__title">Emergency &amp; essential contacts</h2>
+        <p class="faq-emergency__sub">Save these before you need them. In immediate danger, always call&nbsp;911.</p>
+      </div>
+    </div>
+    <ul class="faq-emergency__grid">
+      {% for c in site.data.faq.emergency_contacts %}
+      <li class="faq-emergency__card{% if c.url == '' %} faq-emergency__card--call{% endif %}">
+        <span class="faq-emergency__need">{{ c.need }}</span>
+        {% if c.url and c.url != "" %}
+        <a class="faq-emergency__contact" href="{{ c.url }}" target="_blank" rel="noopener">{{ c.contact }} {% include icon.html name="external" %}</a>
+        {% else %}
+        <span class="faq-emergency__contact faq-emergency__contact--plain">{{ c.contact }}</span>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <!-- Search + category filter (FAQ controls) -->
+  <div class="faq-controls" data-faq-controls>
+    <form class="searchbar" role="search" onsubmit="return false;">
+      <label class="visually-hidden" for="faq-search">Search the FAQ</label>
+      {% include icon.html name="search" %}
+      <input id="faq-search" type="search" data-faq-search placeholder="Search questions, e.g. study permit, SIN, housing…" autocomplete="off">
+      <button type="submit" class="searchbar__btn" aria-label="Search">{% include icon.html name="search" %}</button>
+    </form>
+
+    <div class="filter-pills" role="tablist" aria-label="Filter FAQ by topic">
+      <button class="pill is-active" data-filter="all" role="tab" aria-selected="true">All Topics</button>
+      {% for sec in site.data.faq.sections %}
+      <button class="pill" data-filter="{{ sec.id }}" role="tab" aria-selected="false">{{ sec.short | default: sec.title }}</button>
+      {% endfor %}
+    </div>
+
+    <p class="faq-count" data-faq-count aria-live="polite"></p>
+  </div>
+
+  <!-- Sections -->
+  <div data-faq-list>
+    {% for sec in site.data.faq.sections %}
+    <section class="faq-section" id="{{ sec.id }}" data-faq-section="{{ sec.id }}" aria-labelledby="{{ sec.id }}-h">
+      <h2 class="faq-section__title" id="{{ sec.id }}-h">
+        <span class="faq-section__num">{{ forloop.index }}</span>
+        {{ sec.title }}
+      </h2>
+      <div class="faq-section__items">
+        {% for item in sec.items %}
+        <details class="faq-item"
+                 data-faq-item
+                 data-q="{{ item.q | downcase }}"
+                 data-a="{{ item.a | strip_html | downcase }}">
+          <summary class="faq-item__q">
+            <span class="faq-item__q-mark" aria-hidden="true">Q</span>
+            <span class="faq-item__q-text">{{ item.q }}</span>
+            <span class="faq-item__chev" aria-hidden="true">{% include icon.html name="chevron-down" %}</span>
+          </summary>
+          <div class="faq-item__a">
+            <p>{{ item.a }}</p>
+            {% if item.sources and item.sources.size > 0 %}
+            <p class="faq-item__sources">
+              <span class="faq-item__sources-label">Sources</span>
+              {% for s in item.sources %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.label }} {% include icon.html name="external" %}</a>{% endfor %}
+            </p>
+            {% endif %}
+          </div>
+        </details>
+        {% endfor %}
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+
+  <p class="faq-empty" data-faq-empty hidden>
+    {% include icon.html name="search" %}
+    <span>No questions match your search. Try a different keyword or clear the filter.</span>
+  </p>
+
+  <p class="faq-disclaimer">This FAQ is an information and routing reference, not legal, medical, immigration, or financial advice. Where official rules apply, the linked source pages from UAlberta, IRCC, Service Canada, Alberta Health, and student associations are authoritative. Rules change between intakes — check the linked official pages before making decisions, and contact ISVS for individual immigration questions.</p>
+</section>
+
+<script src="{{ '/assets/js/faq.js' | relative_url }}" defer></script>

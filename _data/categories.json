@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Mental Health",
+    "description": "Support for your mental well-being and personal wellness.",
+    "icon": "heart",
+    "url": "/mental-health/"
+  },
+  {
+    "title": "Immigration",
+    "description": "Visas, permits, work authorization and immigration guidance.",
+    "icon": "passport",
+    "url": "/immigration/"
+  },
+  {
+    "title": "Academic Resources",
+    "description": "Tutoring, academic support and learning resources.",
+    "icon": "book",
+    "url": "/academic-resources/"
+  },
+  {
+    "title": "Campus Life",
+    "description": "Housing, dining, health and everyday campus life.",
+    "icon": "home",
+    "url": "/campus-life/"
+  },
+  {
+    "title": "Student Groups",
+    "description": "Clubs, communities and cultural connection on campus.",
+    "icon": "people",
+    "url": "/student-groups/"
+  },
+  {
+    "title": "Events & Workshops",
+    "description": "Upcoming events, workshops and skills sessions.",
+    "icon": "calendar",
+    "url": "/events/"
+  },
+  {
+    "title": "Job Opportunities",
+    "description": "On-campus jobs, internships and career support.",
+    "icon": "briefcase",
+    "url": "/jobs/"
+  },
+  {
+    "title": "Campus Map",
+    "description": "Find buildings, services and important locations.",
+    "icon": "map-pin",
+    "url": "/campus-map/"
+  }
+]

@@ -1,0 +1,104 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+  <div class="hero__art" aria-hidden="true">
+    <img src="{{ '/assets/img/campus-skyline.svg' | relative_url }}" alt="">
+  </div>
+  <div class="container hero__inner">
+    <h1 class="hero__title">Find support faster, with less stress</h1>
+    <p class="hero__subtitle">Simplifying university information for international students<br>so you can focus on your goals.</p>
+  </div>
+</section>
+
+<section class="search-band" aria-label="Site search">
+  <div class="container">
+    <form class="searchbar" role="search" action="{{ '/search/' | relative_url }}">
+      <label class="visually-hidden" for="home-search">Search</label>
+      {% include icon.html name="search" %}
+      <input id="home-search" type="search" name="q" placeholder="Search for services, events, immigration help…">
+      <button type="submit" class="searchbar__btn" aria-label="Search">{% include icon.html name="search" %}</button>
+    </form>
+  </div>
+</section>
+
+<section class="categories container" aria-labelledby="cat-heading">
+  <h2 id="cat-heading" class="section-heading section-heading--center">Main Categories</h2>
+  <div class="category-grid">
+    {% for cat in site.data.categories %}
+    <a class="category-card" href="{{ cat.url | relative_url }}">
+      <span class="category-card__icon">{% include icon.html name=cat.icon %}</span>
+      <span class="category-card__body">
+        <span class="category-card__title">{{ cat.title }}</span>
+        <span class="category-card__desc">{{ cat.description }}</span>
+      </span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="home-columns container">
+  <!-- Quick Access -->
+  <div class="panel">
+    <h2 class="panel__title">Quick Access</h2>
+    <ul class="quick-list">
+      {% for item in site.data.quick_access %}
+      <li>
+        <a class="quick-list__row" href="{{ item.url | relative_url }}">
+          <span class="quick-list__icon">{% include icon.html name=item.icon %}</span>
+          <span class="quick-list__label">{{ item.label }}</span>
+          <span class="quick-list__chev">{% include icon.html name="chevron-right" %}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <a class="panel__more" href="{{ '/services/' | relative_url }}">View All Services {% include icon.html name="arrow-right" %}</a>
+  </div>
+
+  <!-- Latest Announcements -->
+  <div class="panel">
+    <h2 class="panel__title">Latest Announcements</h2>
+    <ul class="mini-announcements">
+      {% assign latest = site.data.announcements | slice: 0, 3 %}
+      {% for a in latest %}
+      <li class="mini-announcement">
+        <span class="mini-announcement__icon">{% include icon.html name="megaphone" %}</span>
+        <div class="mini-announcement__body">
+          <div class="mini-announcement__top">
+            <a class="mini-announcement__title" href="{{ a.url }}">{{ a.title }}</a>
+            <time class="mini-announcement__date" datetime="{{ a.datetime }}">{{ a.date }}</time>
+          </div>
+          <p class="mini-announcement__blurb">{{ a.blurb }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    <a class="panel__more" href="{{ '/announcements/' | relative_url }}">View All Announcements {% include icon.html name="arrow-right" %}</a>
+  </div>
+
+  <!-- Upcoming Events -->
+  <div class="panel">
+    <h2 class="panel__title">Upcoming Events</h2>
+    <ul class="event-list">
+      {% for ev in site.data.events %}
+      <li>
+        <a class="event-row" href="{{ ev.url }}">
+          <span class="event-row__date">
+            <span class="event-row__month">{{ ev.month }}</span>
+            <span class="event-row__day">{{ ev.day }}</span>
+          </span>
+          <span class="event-row__body">
+            <span class="event-row__title">{{ ev.title }}</span>
+            <span class="event-row__meta">{{ ev.date }}&nbsp;&nbsp;{{ ev.time }}</span>
+            <span class="event-row__loc">{{ ev.location }}</span>
+          </span>
+          <span class="event-row__chev">{% include icon.html name="chevron-right" %}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <a class="panel__more" href="{{ '/events/' | relative_url }}">View All Events {% include icon.html name="arrow-right" %}</a>
+  </div>
+</section>

@@ -1,0 +1,61 @@
+---
+layout: default
+title: All Announcements
+description: Stay updated with the latest notices for international students.
+permalink: /announcements/
+---
+
+<section class="hero hero--inner">
+  <div class="hero__art" aria-hidden="true">
+    <img src="{{ '/assets/img/campus-skyline.svg' | relative_url }}" alt="">
+  </div>
+  <div class="container hero__inner">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <span aria-hidden="true">&rsaquo;</span>
+      <span aria-current="page">All Announcements</span>
+    </nav>
+    <h1 class="hero__title hero__title--inner">All Announcements</h1>
+    <p class="hero__subtitle">Stay updated with the latest notices for international students.</p>
+  </div>
+</section>
+
+<section class="container announcements-page">
+  <form class="searchbar" role="search" onsubmit="return false;">
+    <label class="visually-hidden" for="ann-search">Search announcements</label>
+    {% include icon.html name="search" %}
+    <input id="ann-search" type="search" data-announcement-search placeholder="Search announcements…">
+    <button type="submit" class="searchbar__btn" aria-label="Search">{% include icon.html name="search" %}</button>
+  </form>
+
+  <div class="filter-pills" role="tablist" aria-label="Filter announcements by category">
+    <button class="pill is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+    <button class="pill" data-filter="immigration" role="tab" aria-selected="false">Immigration</button>
+    <button class="pill" data-filter="academic" role="tab" aria-selected="false">Academic</button>
+    <button class="pill" data-filter="wellness" role="tab" aria-selected="false">Wellness</button>
+    <button class="pill" data-filter="campus-life" role="tab" aria-selected="false">Campus Life</button>
+  </div>
+
+  <ul class="announcement-list" data-announcement-list>
+    {% for a in site.data.announcements %}
+    <li class="announcement{% if a.pinned %} announcement--pinned{% endif %}"
+        data-category="{{ a.category }}"
+        data-title="{{ a.title | downcase }}"
+        data-blurb="{{ a.blurb | downcase }}">
+      <span class="announcement__icon">{% if a.category == "immigration" %}{% include icon.html name="passport" %}{% elsif a.category == "academic" %}{% include icon.html name="book" %}{% elsif a.category == "wellness" %}{% include icon.html name="heart" %}{% elsif a.category == "campus-life" %}{% include icon.html name="home" %}{% else %}{% include icon.html name="megaphone" %}{% endif %}</span>
+      {% if a.pinned %}
+      <span class="announcement__pin">{% include icon.html name="map-pin" %}<span>PINNED UPDATE</span></span>
+      {% endif %}
+      <div class="announcement__body">
+        <a class="announcement__title" href="{{ a.url }}">{{ a.title }}</a>
+        <p class="announcement__blurb">{{ a.blurb }}</p>
+      </div>
+      <time class="announcement__date" datetime="{{ a.datetime }}">{{ a.date }}</time>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <p class="announcement-empty" data-announcement-empty hidden>No announcements match your search.</p>
+</section>
+
+<script src="{{ '/assets/js/announcements.js' | relative_url }}" defer></script>

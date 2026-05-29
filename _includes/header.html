@@ -1,0 +1,30 @@
+<header class="site-header">
+  <div class="utility-bar">
+    <div class="container utility-bar__inner">
+      <button class="utility-bar__lang" type="button" aria-label="Select language">
+        {% include icon.html name="globe" %}
+        <span>English</span>
+        {% include icon.html name="chevron-down" %}
+      </button>
+      <nav class="utility-bar__links" aria-label="Utility">
+        <a href="{{ '/contact/' | relative_url }}">Contact Us</a>
+        <span class="utility-bar__divider" aria-hidden="true"></span>
+        <a href="{{ '/hours-locations/' | relative_url }}">Hours &amp; Locations</a>
+        <span class="utility-bar__divider" aria-hidden="true"></span>
+        <a class="utility-bar__search" href="{{ '/search/' | relative_url }}">
+          {% include icon.html name="search" %}
+          <span>Search</span>
+        </a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="brand-bar">
+    <div class="container brand-bar__inner">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <img class="brand__mark" src="{{ '/assets/img/logo-mark.png' | relative_url }}" alt="" width="40" height="40">
+        <span class="brand__text">International Student Hub</span>
+      </a>
+    </div>
+  </div>
+</header>

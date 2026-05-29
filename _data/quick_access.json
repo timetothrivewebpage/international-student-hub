@@ -1,0 +1,6 @@
+[
+  { "label": "International Student FAQ", "icon": "help", "url": "/faq/" },
+  { "label": "Emergency Help", "icon": "phone", "url": "/faq/#emergency" },
+  { "label": "Immigration Support", "icon": "id", "url": "/faq/#immigration" },
+  { "label": "Find a Study Spot", "icon": "map-pin", "url": "#" }
+]
