@@ -1,0 +1,106 @@
+---
+layout: default
+title: Give Feedback
+description: Share feedback on the International Student Hub research prototype.
+permalink: /feedback/
+---
+
+<section class="hero hero--inner">
+  <div class="hero__art" aria-hidden="true">
+    <img src="{{ '/assets/img/campus-skyline.svg' | relative_url }}" alt="">
+  </div>
+  <div class="container hero__inner">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <span aria-hidden="true">&rsaquo;</span>
+      <span aria-current="page">Give Feedback</span>
+    </nav>
+    <h1 class="hero__title hero__title--inner">Give Feedback</h1>
+    <p class="hero__subtitle">Help improve this student navigation prototype.</p>
+  </div>
+</section>
+
+<section class="container feedback-page">
+  <div class="feedback-layout">
+    <div class="feedback-intro">
+      <h2>Your feedback matters</h2>
+      <p>This form is for reviewing the International Student Hub prototype and understanding whether it helps students find support more easily.</p>
+      <p>Please do not submit urgent requests, medical details, immigration case details, or anything you would not want reviewed by the research team.</p>
+      <a class="info-link" href="{{ '/privacy/' | relative_url }}">Read the privacy notice {% include icon.html name="arrow-right" %}</a>
+    </div>
+
+    <form class="feedback-form" method="post" action="" data-feedback-form>
+      <fieldset>
+        <legend>About you</legend>
+
+        <label class="form-field" for="feedback-name">
+          <span>Name</span>
+          <input id="feedback-name" name="name" type="text" autocomplete="name" required>
+        </label>
+
+        <label class="form-field" for="feedback-ccid">
+          <span>University CCID</span>
+          <input id="feedback-ccid" name="ccid" type="text" autocomplete="username" required>
+        </label>
+
+        <label class="form-field" for="feedback-department">
+          <span>Department or faculty</span>
+          <input id="feedback-department" name="department" type="text" autocomplete="organization">
+        </label>
+
+        <label class="form-field" for="feedback-year">
+          <span>Year of study</span>
+          <select id="feedback-year" name="year_of_study" required>
+            <option value="">Select one</option>
+            <option>First year</option>
+            <option>Second year</option>
+            <option>Third year</option>
+            <option>Fourth year or higher</option>
+            <option>Graduate student</option>
+            <option>Visiting or exchange student</option>
+            <option>Prefer not to say</option>
+          </select>
+        </label>
+
+        <label class="form-field" for="feedback-origin">
+          <span>Country of origin</span>
+          <input id="feedback-origin" name="country_of_origin" type="text" autocomplete="country-name" required>
+        </label>
+
+        <label class="form-field" for="feedback-status">
+          <span>Status in Canada</span>
+          <select id="feedback-status" name="status_in_canada" required>
+            <option value="">Select one</option>
+            <option>Study permit holder</option>
+            <option>Work permit holder</option>
+            <option>Permanent resident</option>
+            <option>Canadian citizen</option>
+            <option>Visitor or exchange status</option>
+            <option>Other</option>
+            <option>Prefer not to say</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Your feedback</legend>
+
+        <label class="form-field form-field--wide" for="feedback-message">
+          <span>What should be improved?</span>
+          <textarea id="feedback-message" name="feedback" rows="8" required placeholder="Tell us what felt confusing, missing, useful, too long, or hard to find."></textarea>
+        </label>
+
+        <label class="form-check" for="feedback-consent">
+          <input id="feedback-consent" name="consent" type="checkbox" required>
+          <span>I understand this feedback may be reviewed by the research team for prototype improvement, and this form is not for urgent support.</span>
+        </label>
+      </fieldset>
+
+      <p class="form-status" data-feedback-status role="alert" tabindex="-1" hidden>This preview form is ready, but no submission endpoint has been configured yet.</p>
+
+      <button class="form-submit" type="submit">Submit feedback</button>
+    </form>
+  </div>
+</section>
+
+<script src="{{ '/assets/js/feedback.js' | relative_url }}" defer></script>

@@ -1,0 +1,41 @@
+---
+layout: default
+title: Accessibility
+description: Accessibility notes for the International Student Hub prototype.
+permalink: /accessibility/
+---
+
+<section class="hero hero--inner">
+  <div class="hero__art" aria-hidden="true">
+    <img src="{{ '/assets/img/campus-skyline.svg' | relative_url }}" alt="">
+  </div>
+  <div class="container hero__inner">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <span aria-hidden="true">&rsaquo;</span>
+      <span aria-current="page">Accessibility</span>
+    </nav>
+    <h1 class="hero__title hero__title--inner">Accessibility</h1>
+    <p class="hero__subtitle">Accessibility goals and limitations for this student research prototype.</p>
+  </div>
+</section>
+
+<section class="container info-page">
+  <div class="info-panel">
+    <h2>Accessibility approach</h2>
+    <p>This prototype aims to use clear headings, readable spacing, descriptive links, keyboard focus states, and responsive layouts that work on mobile and desktop screens.</p>
+    <p>If something is difficult to read, navigate, or understand, that feedback is useful for improving the prototype.</p>
+  </div>
+
+  <div class="info-grid info-grid--two">
+    <article class="info-card">
+      <h3>Known limitations</h3>
+      <p>Some features are still prototypes, including site-wide search and feedback submission. Content should be checked against official source pages before decisions are made.</p>
+    </article>
+    <article class="info-card">
+      <h3>Student accommodations</h3>
+      <p>For official University of Alberta accessibility and accommodations support, use the linked resources in the FAQ or official UAlberta pages.</p>
+      <a class="info-link" href="{{ '/faq/#academics' | relative_url }}">Open FAQ accessibility resources {% include icon.html name="arrow-right" %}</a>
+    </article>
+  </div>
+</section>

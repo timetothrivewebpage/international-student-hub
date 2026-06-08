@@ -34,6 +34,7 @@ title: Home
         <span class="category-card__title">{{ cat.title }}</span>
         <span class="category-card__desc">{{ cat.description }}</span>
       </span>
+      <span class="category-card__arrow">{% include icon.html name="arrow-right" %}</span>
     </a>
     {% endfor %}
   </div>
@@ -43,6 +44,14 @@ title: Home
   <!-- Quick Access -->
   <div class="panel">
     <h2 class="panel__title">Quick Access</h2>
+    <div class="home-emergency-callout">
+      <span class="home-emergency-callout__icon">{% include icon.html name="phone" %}</span>
+      <div class="home-emergency-callout__body">
+        <strong>Need help now?</strong>
+        <span>Immediate danger or risk of harm: call 911.</span>
+        <a href="{{ '/mental-health.html#emergency' | relative_url }}">View urgent support options {% include icon.html name="arrow-right" %}</a>
+      </div>
+    </div>
     <ul class="quick-list">
       {% for item in site.data.quick_access %}
       <li>

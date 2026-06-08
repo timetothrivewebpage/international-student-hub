@@ -24,28 +24,14 @@ permalink: /faq/
   <p class="faq-intro">{{ site.data.faq.intro }}</p>
   <p class="faq-meta">{% include icon.html name="calendar" %} Last reviewed: {{ site.data.faq.last_reviewed }}</p>
 
-  <!-- Emergency & essential contacts -->
-  <div class="faq-emergency" id="emergency">
-    <div class="faq-emergency__head">
-      <span class="faq-emergency__badge">{% include icon.html name="phone" %}</span>
-      <div>
-        <h2 class="faq-emergency__title">Emergency &amp; essential contacts</h2>
-        <p class="faq-emergency__sub">Save these before you need them. In immediate danger, always call&nbsp;911.</p>
-      </div>
+  <aside class="faq-help-now" id="emergency" aria-label="Emergency help">
+    <span class="faq-help-now__icon">{% include icon.html name="phone" %}</span>
+    <div>
+      <h2>Need help now?</h2>
+      <p>For immediate danger or risk of harm, call 911. For crisis and urgent mental-health options, use the Mental Health emergency section.</p>
+      <a href="{{ '/mental-health.html#emergency' | relative_url }}">Open emergency and crisis resources {% include icon.html name="arrow-right" %}</a>
     </div>
-    <ul class="faq-emergency__grid">
-      {% for c in site.data.faq.emergency_contacts %}
-      <li class="faq-emergency__card{% if c.url == '' %} faq-emergency__card--call{% endif %}">
-        <span class="faq-emergency__need">{{ c.need }}</span>
-        {% if c.url and c.url != "" %}
-        <a class="faq-emergency__contact" href="{{ c.url }}" target="_blank" rel="noopener">{{ c.contact }} {% include icon.html name="external" %}</a>
-        {% else %}
-        <span class="faq-emergency__contact faq-emergency__contact--plain">{{ c.contact }}</span>
-        {% endif %}
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
+  </aside>
 
   <!-- Search + category filter (FAQ controls) -->
   <div class="faq-controls" data-faq-controls>

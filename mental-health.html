@@ -1,0 +1,182 @@
+---
+layout: default
+title: Mental Health & Wellness Support
+description: Support options for mental well-being, safety, connection, and day-to-day student stress.
+permalink: /mental-health.html
+---
+
+{% assign mh = site.data.mental_health_wellness %}
+
+<section class="hero hero--inner">
+  <div class="hero__art" aria-hidden="true">
+    <img src="{{ '/assets/img/campus-skyline.svg' | relative_url }}" alt="">
+  </div>
+  <div class="container hero__inner">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <span aria-hidden="true">&rsaquo;</span>
+      <span aria-current="page">Mental Health</span>
+    </nav>
+    <h1 class="hero__title hero__title--inner">{{ mh.metadata.title }}</h1>
+    <p class="hero__subtitle">{{ mh.hero.subtitle }}</p>
+  </div>
+</section>
+
+<section class="container mental-health-page">
+  <div class="mh-reassurance">
+    <span class="mh-reassurance__icon">{% include icon.html name="heart" %}</span>
+    <div>
+      <h2>{{ mh.hero.title }}</h2>
+      <p>Professional and peer support is available through the University of Alberta and community partners.</p>
+    </div>
+  </div>
+
+  <section class="mh-emergency" id="emergency" aria-labelledby="mh-emergency-title">
+    <div class="mh-emergency__header">
+      <span class="mh-emergency__badge">{% include icon.html name="phone" %}</span>
+      <div>
+        <h2 id="mh-emergency-title">{{ mh.emergency.title }}</h2>
+        <p>{{ mh.emergency.summary }}</p>
+      </div>
+    </div>
+
+    <div class="mh-emergency__grid">
+      {% for item in mh.emergency.items %}
+      <article class="mh-urgent-card mh-urgent-card--primary">
+        <span class="mh-urgent-card__level">Emergency</span>
+        <h3>{{ item.name }}</h3>
+        <p>{{ item.whenToUse }}</p>
+        <p class="mh-urgent-card__contact"><span>Call</span> <strong>{{ item.phone }}</strong></p>
+        {% if item.availability %}
+        <p class="mh-urgent-card__meta">{{ item.availability }}</p>
+        {% endif %}
+      </article>
+      {% endfor %}
+
+      {% for resource in mh.resources %}
+      {% if resource.categoryIds contains "crisis-safety" and resource.crisisLevel == "urgent" %}
+      <article class="mh-urgent-card">
+        <span class="mh-urgent-card__level">Urgent support</span>
+        <h3>{{ resource.name }}</h3>
+        <p>{{ resource.whenToUse | default: resource.summary }}</p>
+        <div class="mh-urgent-card__details">
+          {% if resource.contact.phone %}
+          <a href="tel:{{ resource.contact.phone | remove: ' ' | remove: '-' }}" class="mh-urgent-card__phone">{{ resource.contact.phone }}</a>
+          {% endif %}
+          {% if resource.availability.hoursText %}
+          <span>{{ resource.availability.hoursText }}</span>
+          {% endif %}
+        </div>
+        {% if resource.contact.websiteUrl %}
+        <a class="mh-card-link" href="{{ resource.contact.websiteUrl }}" target="_blank" rel="noopener">Visit website {% include icon.html name="external" %}</a>
+        {% endif %}
+      </article>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="mh-quick" aria-labelledby="mh-quick-title">
+    <h2 id="mh-quick-title" class="section-heading">Quick access</h2>
+    <div class="mh-quick__grid">
+      {% for card in mh.quickAccessCards %}
+      <a class="mh-quick-card" href="#{{ card.targetCategory }}">
+        <span class="mh-quick-card__icon">{% include icon.html name=card.icon %}</span>
+        <span class="mh-quick-card__body">
+          <span class="mh-quick-card__title">{{ card.title }}</span>
+          <span class="mh-quick-card__summary">{{ card.summary }}</span>
+        </span>
+        <span class="mh-quick-card__arrow">{% include icon.html name="arrow-right" %}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="mh-wellness" aria-labelledby="mh-wellness-title">
+    <h2 id="mh-wellness-title" class="section-heading">Wellness resource links</h2>
+    <ul class="mh-link-list">
+      {% for item in mh.wellnessResourceLinks %}
+      <li>
+        <a href="#{{ item.categoryIds[0] }}">
+          <span>
+            <strong>{{ item.title }}</strong>
+            <small>{{ item.summary }}</small>
+          </span>
+          {% include icon.html name="chevron-right" %}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="mh-directory" aria-labelledby="mh-directory-title">
+    <div class="mh-directory__intro">
+      <h2 id="mh-directory-title" class="section-heading">Resource directory</h2>
+      <p>Resources are grouped by the kind of support students may be looking for. Crisis and safety options appear first.</p>
+    </div>
+
+    {% for category in mh.categories %}
+    <section class="mh-resource-section" id="{{ category.id }}" aria-labelledby="{{ category.id }}-title">
+      <div class="mh-resource-section__head">
+        <h3 id="{{ category.id }}-title">{{ category.label }}</h3>
+        <p>{{ category.description }}</p>
+      </div>
+      <div class="mh-resource-grid">
+        {% for resource in mh.resources %}
+        {% if resource.categoryIds contains category.id %}
+        {% assign location = resource.locations[0] %}
+        <article class="mh-resource-card{% if resource.crisisLevel == 'emergency' or resource.crisisLevel == 'urgent' %} mh-resource-card--urgent{% endif %}">
+          <div class="mh-resource-card__top">
+            <span class="mh-resource-card__provider">{{ resource.provider }}</span>
+          </div>
+          <h4>{{ resource.name }}</h4>
+          <p>{{ resource.summary }}</p>
+
+          <dl class="mh-resource-meta">
+            {% if resource.availability.hoursText %}
+            <div>
+              <dt>{% include icon.html name="clock" %}<span>Availability</span></dt>
+              <dd>{{ resource.availability.hoursText }}</dd>
+            </div>
+            {% endif %}
+            {% if resource.contact.phone %}
+            <div>
+              <dt>{% include icon.html name="phone" %}<span>Phone</span></dt>
+              <dd><a href="tel:{{ resource.contact.phone | remove: ' ' | remove: '-' }}">{{ resource.contact.phone }}</a></dd>
+            </div>
+            {% endif %}
+            {% if resource.contact.email %}
+            <div>
+              <dt>{% include icon.html name="mail" %}<span>Email</span></dt>
+              <dd><a href="mailto:{{ resource.contact.email }}">{{ resource.contact.email }}</a></dd>
+            </div>
+            {% endif %}
+            {% if location and location.campus != "Unknown" %}
+            <div>
+              <dt>{% include icon.html name="map-pin" %}<span>Location</span></dt>
+              <dd>
+                {% if location.room %}{{ location.room }}{% elsif location.name %}{{ location.name }}{% else %}{{ location.campus }}{% endif %}
+                {% if location.campus and location.campus != "Online" %}<span>{{ location.campus }}</span>{% endif %}
+              </dd>
+            </div>
+            {% endif %}
+          </dl>
+
+          {% if resource.contact.websiteUrl %}
+          <a class="mh-card-link" href="{{ resource.contact.websiteUrl }}" target="_blank" rel="noopener">Visit website {% include icon.html name="external" %}</a>
+          {% endif %}
+        </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+    {% endfor %}
+  </section>
+
+  <p class="mh-disclaimer">{{ mh.metadata.disclaimer }} Last verified: {{ mh.metadata.lastVerified | date: "%B %-d, %Y" }}.</p>
+
+  <a class="mh-back-top" href="#main" aria-label="Back to top">
+    <span>Back to top</span>
+    {% include icon.html name="arrow-up" %}
+  </a>
+</section>

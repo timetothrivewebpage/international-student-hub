@@ -1,0 +1,2800 @@
+{
+  "metadata": {
+    "title": "Mental Health & Wellness Support",
+    "institution": "University of Alberta",
+    "audiencePrimary": [
+      "international_students",
+      "undergraduate_students",
+      "graduate_students"
+    ],
+    "lastVerified": "2026-06-08",
+    "dataVersion": "1.0.0",
+    "language": "en",
+    "disclaimer": "This page is an informational directory and is not a substitute for professional medical advice or emergency care.",
+    "sourcePolicy": "Official UAlberta, UASU, GSA, Studentcare, AHS, CMHA, and 211 Alberta pages prioritized.",
+    "retrievalNotes": [
+      "Several www.ualberta.ca pages returned a JavaScript verification page or CloudFront 403 when opened directly from this environment. Facts for those pages were verified from official search-crawled page content and cross-checked with other official pages where available."
+    ]
+  },
+  "emergency": {
+    "title": "Need help now?",
+    "summary": "For immediate danger or risk of harm, call 911.",
+    "items": [
+      {
+        "id": "emergency-911",
+        "name": "Emergency Services",
+        "phone": "911",
+        "availability": "24/7",
+        "whenToUse": "Immediate danger, medical emergency, or immediate risk of harm to self or others.",
+        "sourceUrls": [
+          "https://www.ualberta.ca/en/emergency/index.html"
+        ],
+        "needsReview": false
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Mental Health",
+    "title": "You are not alone.",
+    "subtitle": "Support is available for mental well-being, safety, connection, and day-to-day student stress.",
+    "primaryCta": {
+      "label": "Get Help Now",
+      "targetId": "emergency"
+    }
+  },
+  "quickAccessCards": [
+    {
+      "id": "crisis-support",
+      "title": "Crisis Support",
+      "summary": "Immediate options for danger, urgent distress, or after-hours mental health support.",
+      "icon": "life-buoy",
+      "targetCategory": "crisis-safety"
+    },
+    {
+      "id": "counselling",
+      "title": "Counselling Services",
+      "summary": "Professional mental-health support for registered U of A students.",
+      "icon": "message-heart",
+      "targetCategory": "professional-support"
+    },
+    {
+      "id": "peer-support",
+      "title": "Peer Support",
+      "summary": "Free supportive listening and connection with trained student peers.",
+      "icon": "users-round",
+      "targetCategory": "peer-social"
+    },
+    {
+      "id": "international-transition",
+      "title": "International Students",
+      "summary": "Advising, settlement, events, and transition support for international students.",
+      "icon": "globe-2",
+      "targetCategory": "international-transition"
+    }
+  ],
+  "categories": [
+    {
+      "id": "professional-support",
+      "label": "Professional Mental Health Support",
+      "description": "Therapy, psychiatry, medical care, social work, and clinical services."
+    },
+    {
+      "id": "crisis-safety",
+      "label": "Crisis, Safety & Urgent Support",
+      "description": "Emergency, after-hours, violence prevention, and safety resources."
+    },
+    {
+      "id": "peer-social",
+      "label": "Peer, Social & Community Support",
+      "description": "Peer listening, social connection, identity-based community, and student-led support."
+    },
+    {
+      "id": "international-transition",
+      "label": "International Student Transition",
+      "description": "International student advising, transition, immigration-related stress, and adjustment."
+    },
+    {
+      "id": "academic-life-stress",
+      "label": "Academic & Life Stressors",
+      "description": "Academic pressure, accessibility, finances, housing, and navigation support."
+    },
+    {
+      "id": "identity-culture",
+      "label": "Identity, Culture & Belonging",
+      "description": "Culturally relevant, identity-affirming, spiritual, and community-specific support."
+    },
+    {
+      "id": "self-help-wellness",
+      "label": "Self-Help & Wellness Skills",
+      "description": "Workshops, apps, substance awareness, sleep, stress, habits, and self-care resources."
+    }
+  ],
+  "resources": [
+    {
+      "id": "emergency-services",
+      "name": "Emergency Services",
+      "provider": "Emergency services",
+      "providerType": "external",
+      "categoryIds": [
+        "crisis-safety"
+      ],
+      "priority": 1,
+      "summary": "Call 911 for immediate danger, a medical emergency, or immediate risk of harm.",
+      "description": "Emergency services are the first option when there is immediate danger, a medical emergency, or an immediate risk of harm to self or others. UAlberta emergency guidance lists 911 for police, fire, and medical emergencies on all campuses.",
+      "bestFor": [
+        "immediate-danger",
+        "medical-emergency",
+        "immediate-harm-risk"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Anyone experiencing or witnessing an emergency.",
+      "cost": "Free",
+      "availability": {
+        "type": "24_7",
+        "hoursText": "24/7",
+        "notes": null
+      },
+      "accessModes": [
+        "phone"
+      ],
+      "crisisLevel": "emergency",
+      "whenToUse": "Immediate danger, medical emergency, or immediate risk of harm to self or others.",
+      "contact": {
+        "phone": "911",
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/emergency/index.html"
+      },
+      "locations": [
+        {
+          "name": null,
+          "address": null,
+          "campus": "Unknown",
+          "room": null
+        }
+      ],
+      "tags": [
+        "emergency",
+        "crisis",
+        "safety"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/emergency/index.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/emergency/index.html",
+          "claim": "Verifies 911 for all campuses and immediate mental-health risk language.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "access-24-7",
+      "name": "Access 24/7, Adult Intake and Crisis Services",
+      "provider": "Alberta Health Services",
+      "providerType": "ahs",
+      "categoryIds": [
+        "crisis-safety",
+        "professional-support"
+      ],
+      "priority": 2,
+      "summary": "AHS addiction and mental-health intake, crisis, assessment, and navigation service for adults.",
+      "description": "Access 24/7 provides urgent and non-urgent addiction and mental health services, including navigation, screening, assessment, referral, consultation, crisis intervention, outreach, and short-term stabilization. It is not an emergency department or 911 service.",
+      "bestFor": [
+        "urgent-distress",
+        "addiction-support",
+        "mental-health-navigation",
+        "after-hours-support"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Adults 18 years and older.",
+      "cost": "Free",
+      "availability": {
+        "type": "24_7",
+        "hoursText": "24 hour service by phone; self-presentation listed as 8:00 AM to 10:00 PM.",
+        "notes": "Professional referrals accepted but not required."
+      },
+      "accessModes": [
+        "phone",
+        "in_person",
+        "referral_required"
+      ],
+      "crisisLevel": "urgent",
+      "whenToUse": "Urgent addiction or mental-health support, crisis intervention, or help navigating adult mental-health services when there is no imminent 911-level danger.",
+      "contact": {
+        "phone": "780-424-2424",
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.albertahealthservices.ca/findhealth/Service.aspx?serviceAtFacilityID=1132871"
+      },
+      "locations": [
+        {
+          "name": "Edmonton Community Health Hub North",
+          "address": "13211 Fort Road NW, Edmonton, Alberta T5A 1C3",
+          "campus": "Off-campus",
+          "room": null
+        }
+      ],
+      "tags": [
+        "crisis",
+        "ahs",
+        "addiction",
+        "mental-health"
+      ],
+      "sourceUrls": [
+        "https://www.albertahealthservices.ca/findhealth/Service.aspx?serviceAtFacilityID=1132871"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.albertahealthservices.ca/findhealth/Service.aspx?serviceAtFacilityID=1132871",
+          "claim": "Verifies phone, address, 24-hour availability, eligibility, access notes, and service scope.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "cmha-edmonton-distress-line",
+      "name": "Edmonton Distress Line",
+      "provider": "CMHA Edmonton",
+      "providerType": "community",
+      "categoryIds": [
+        "crisis-safety"
+      ],
+      "priority": 3,
+      "summary": "Free 24/7 confidential phone support for distress, crisis, or concern about someone else.",
+      "description": "The Edmonton Distress Line provides confidential, judgment-free support for people in crisis or distress and for people supporting someone else. Responders can listen, provide emotional support, explore options, and connect callers with local resources.",
+      "bestFor": [
+        "crisis",
+        "distress",
+        "suicide-concern",
+        "family-violence",
+        "emotional-support"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Anyone in the Edmonton region experiencing distress or crisis, or supporting someone who is.",
+      "cost": "Free",
+      "availability": {
+        "type": "24_7",
+        "hoursText": "24/7",
+        "notes": null
+      },
+      "accessModes": [
+        "phone"
+      ],
+      "crisisLevel": "urgent",
+      "whenToUse": "When you are in crisis, feeling overwhelmed, struggling with a difficult situation, or supporting someone in distress.",
+      "contact": {
+        "phone": "780-482-4357",
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://edmonton.cmha.ca/brochure/distress-line/"
+      },
+      "locations": [
+        {
+          "name": null,
+          "address": null,
+          "campus": "Off-campus",
+          "room": null
+        }
+      ],
+      "tags": [
+        "crisis",
+        "distress-line",
+        "community"
+      ],
+      "sourceUrls": [
+        "https://edmonton.cmha.ca/brochure/distress-line/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://edmonton.cmha.ca/brochure/distress-line/",
+          "claim": "Verifies 780-482-4357, 24/7 availability, who it is for, and immediate danger 911 guidance.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "protective-services",
+      "name": "U of A Protective Services",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "crisis-safety"
+      ],
+      "priority": 4,
+      "summary": "Campus safety contact for emergencies after 911, crisis diversion, and non-emergency security concerns.",
+      "description": "U of A Protective Services supports campus safety and can be contacted after calling 911, for crisis diversion, and for non-emergency security concerns. UAlberta emergency information lists Protective Services as available 24/7 for North Campus, South Campus, and Campus Saint-Jean.",
+      "bestFor": [
+        "campus-safety",
+        "security-concern",
+        "crisis-diversion",
+        "post-911-campus-response"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Campus community members and people on or near U of A campuses.",
+      "cost": "Free",
+      "availability": {
+        "type": "24_7",
+        "hoursText": "24/7",
+        "notes": "For immediate danger, call 911 first."
+      },
+      "accessModes": [
+        "phone",
+        "in_person"
+      ],
+      "crisisLevel": "urgent",
+      "whenToUse": "Campus security concerns, crisis diversion, or notifying U of A after calling 911 for an on-campus emergency.",
+      "contact": {
+        "phone": "780-492-5050",
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/campus-life/campus-security.html"
+      },
+      "locations": [
+        {
+          "name": "U of A Protective Services",
+          "address": "11390-87 Ave, Edmonton, Alberta",
+          "campus": "North Campus",
+          "room": "Education Car Park"
+        }
+      ],
+      "tags": [
+        "safety",
+        "protective-services",
+        "campus-security"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/emergency/index.html",
+        "https://www.ualberta.ca/en/campus-life/campus-security.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/emergency/index.html",
+          "claim": "Verifies Protective Services phone and 24/7 emergency contact role.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.ualberta.ca/en/campus-life/campus-security.html",
+          "claim": "Verifies non-emergency security, crisis diversion, and after-911 campus contact guidance.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "sexual-assault-centre",
+      "name": "U of A Sexual Assault Centre",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "crisis-safety",
+        "professional-support",
+        "identity-culture"
+      ],
+      "priority": 5,
+      "summary": "Free confidential support for people affected by sexual assault, harassment, relationship violence, or stalking.",
+      "description": "The U of A Sexual Assault Centre provides same-day support, option review, psychological support, follow-up, referral, and advocacy for people affected by sexual violence. Services are free and available to people of all genders, sexualities, and backgrounds.",
+      "bestFor": [
+        "sexual-violence",
+        "relationship-violence",
+        "stalking",
+        "survivor-support",
+        "advocacy"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "People affected by sexual or gender-based violence and their supporters.",
+      "cost": "Free",
+      "availability": {
+        "type": "business_hours",
+        "hoursText": "Mon - Fri, 8:30 a.m. - 4:00 p.m.",
+        "notes": "In-person drop-in and appointments; virtual by appointment."
+      },
+      "accessModes": [
+        "in_person",
+        "online",
+        "phone",
+        "drop_in",
+        "appointment"
+      ],
+      "crisisLevel": "urgent",
+      "whenToUse": "Support after sexual assault or abuse, sexual harassment, relationship violence, stalking, or when reviewing reporting and support options.",
+      "contact": {
+        "phone": "780-492-9771",
+        "email": "uasac@ualberta.ca",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/current-students/sexual-assault-centre/index.html"
+      },
+      "locations": [
+        {
+          "name": "U of A Sexual Assault Centre",
+          "address": "Students' Union Building, Edmonton, Alberta T6G 2H8",
+          "campus": "North Campus",
+          "room": "2-705 SUB"
+        }
+      ],
+      "tags": [
+        "sexual-violence",
+        "survivor-support",
+        "advocacy",
+        "confidential"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/current-students/sexual-assault-centre/index.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/current-students/sexual-assault-centre/index.html",
+          "claim": "Verifies services, hours, free access, phone, email, and SUB location.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "helping-individuals-at-risk",
+      "name": "Helping Individuals at Risk (HIAR)",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "crisis-safety",
+        "academic-life-stress"
+      ],
+      "priority": 6,
+      "summary": "Confidential centralized support for concerns about someone at risk of harming self or others.",
+      "description": "HIAR is a confidential, centralized resource for members of the campus community to report worrisome behaviours or concerns about individuals at risk of harming themselves or others. It can also provide guidance when someone observes troubling behaviour and is unsure how to help.",
+      "bestFor": [
+        "concern-for-someone",
+        "worrisome-behaviour",
+        "harm-risk",
+        "consultation"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "University community members with concerns about an individual at risk.",
+      "cost": "Free",
+      "availability": {
+        "type": "business_hours",
+        "hoursText": null,
+        "notes": "Exact current office hours were not verified from a live HIAR page."
+      },
+      "accessModes": [
+        "phone",
+        "online",
+        "email"
+      ],
+      "crisisLevel": "urgent",
+      "whenToUse": "When you are concerned about worrisome behaviour or possible risk of harm and need to report or consult on next steps.",
+      "contact": {
+        "phone": "780-492-4372",
+        "email": "hiarua@ualberta.ca",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/provost/portfolio/helping-individuals-at-risk-program/index.html"
+      },
+      "locations": [
+        {
+          "name": null,
+          "address": null,
+          "campus": "Unknown",
+          "room": null
+        }
+      ],
+      "tags": [
+        "risk",
+        "reporting",
+        "consultation",
+        "safety"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/provost/portfolio/helping-individuals-at-risk-program/index.html",
+        "https://www.ualberta.ca/en/human-resources-health-safety-environment/media-library/managing-and-administration/health-and-wellness-administration/assisting-a-colleague-in-distress.pdf",
+        "https://uasucares.su.ualberta.ca/en/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/human-resources-health-safety-environment/media-library/managing-and-administration/health-and-wellness-administration/assisting-a-colleague-in-distress.pdf",
+          "claim": "Verifies HIAR description, phone, and email in UAlberta PDF content.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://uasucares.su.ualberta.ca/en/",
+          "claim": "Corroborates HIAR as a centralized campus resource and lists phone and email.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Primary HIAR page direct retrieval was blocked; phone and email were verified from UAlberta PDF content and UASU Cares."
+      ]
+    },
+    {
+      "id": "options-navigation-network",
+      "name": "Options Navigation Network",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "crisis-safety",
+        "identity-culture"
+      ],
+      "priority": 7,
+      "summary": "University units that help people affected by SGBV understand their available options.",
+      "description": "The Options Navigation Network is a group of University units with enhanced training to act as system navigators for people who have been subjected to sexual and gender-based violence and are seeking information on options through the University.",
+      "bestFor": [
+        "sexual-gender-based-violence",
+        "reporting-options",
+        "system-navigation"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "People affected by sexual and gender-based violence who need information about options.",
+      "cost": "Free",
+      "availability": {
+        "type": "varies",
+        "hoursText": null,
+        "notes": "Contact pathway and current participating units should be manually reviewed."
+      },
+      "accessModes": [
+        "online",
+        "appointment"
+      ],
+      "crisisLevel": "urgent",
+      "whenToUse": "When seeking information about University options after sexual or gender-based violence.",
+      "contact": {
+        "phone": null,
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/provost/policies-and-procedures/sexual-gender-based-violence-policy/options-navigation-network.html"
+      },
+      "locations": [
+        {
+          "name": null,
+          "address": null,
+          "campus": "Unknown",
+          "room": null
+        }
+      ],
+      "tags": [
+        "sgbv",
+        "options",
+        "navigation",
+        "sexual-violence"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/provost/policies-and-procedures/sexual-gender-based-violence-policy/options-navigation-network.html",
+        "https://www.ualberta.ca/en/alfresco/uappol/humanresources/sexual-and-gender-based-violence/procedure/sexual-and-gender-based-violence-disclosures-procedure.pdf",
+        "https://www.ualberta.ca/en/campus-life/health-wellness/index.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/alfresco/uappol/humanresources/sexual-and-gender-based-violence/procedure/sexual-and-gender-based-violence-disclosures-procedure.pdf",
+          "claim": "Verifies ONN purpose and enhanced-training navigator role.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.ualberta.ca/en/campus-life/health-wellness/index.html",
+          "claim": "Verifies ONN listed in student health and wellness resources.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "No direct public phone, email, or booking URL was verified."
+      ]
+    },
+    {
+      "id": "empower-me",
+      "name": "Empower Me",
+      "provider": "Studentcare / Dialogue",
+      "providerType": "studentcare",
+      "categoryIds": [
+        "professional-support",
+        "international-transition",
+        "self-help-wellness"
+      ],
+      "priority": 8,
+      "summary": "Confidential mental-health and wellness service through the undergraduate Studentcare plan.",
+      "description": "Empower Me is a confidential mental-health and wellness service available 24/7, 365 days a year through Studentcare for eligible students. It offers online registration, many-language consultations, video appointments, a 24/7 bilingual call centre for booking, crisis access, live virtual coaching, and self-help training.",
+      "bestFor": [
+        "mental-health",
+        "career",
+        "relationships",
+        "finances",
+        "nutrition",
+        "multilingual-support"
+      ],
+      "audiences": [
+        "undergraduate_students",
+        "international_students"
+      ],
+      "eligibility": "Eligibility depends on Studentcare plan coverage; users should check the Studentcare Who's Covered section.",
+      "cost": "Plan-covered",
+      "availability": {
+        "type": "24_7",
+        "hoursText": "Service available 24/7, 365 days a year. Appointments listed as Mon - Fri 8 a.m. - 8 p.m. and Sat - Sun 8:30 a.m. - 5 p.m.",
+        "notes": "Appointment booking by Dialogue app/web or 24/7 bilingual call centre."
+      },
+      "accessModes": [
+        "online",
+        "phone",
+        "appointment"
+      ],
+      "crisisLevel": "urgent",
+      "whenToUse": "When eligible students need confidential mental-health or wellness support, including urgent access to clinicians through the plan.",
+      "contact": {
+        "phone": "1-855-853-0565",
+        "email": null,
+        "bookingUrl": "https://www.dialogue.co/",
+        "websiteUrl": "https://www.studentcare.ca/rte/en/IHaveAPlan_UniversityofAlbertaUndergraduateStudentsSU_EmpowerMe_EmpowerMe"
+      },
+      "locations": [
+        {
+          "name": null,
+          "address": null,
+          "campus": "Online",
+          "room": null
+        }
+      ],
+      "tags": [
+        "studentcare",
+        "empower-me",
+        "multilingual",
+        "online"
+      ],
+      "sourceUrls": [
+        "https://www.studentcare.ca/rte/en/IHaveAPlan_UniversityofAlbertaUndergraduateStudentsSU_EmpowerMe_EmpowerMe"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.studentcare.ca/rte/en/IHaveAPlan_UniversityofAlbertaUndergraduateStudentsSU_EmpowerMe_EmpowerMe",
+          "claim": "Verifies service scope, 24/7 availability, appointment hours, call-centre phone, eligibility caveat, and many-language consultations.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "The DOCX listed 833-628-5589, but current Studentcare source lists 1-855-853-0565; the older number was not used.",
+        "Graduate Studentcare plan administration changed as of September 1, 2025, so this record is scoped to the undergraduate Studentcare page that was verified."
+      ]
+    },
+    {
+      "id": "graduate-student-assistance-program",
+      "name": "Graduate Student Assistance Program (GSAP)",
+      "provider": "Graduate Students' Association / Homewood Health",
+      "providerType": "gsa",
+      "categoryIds": [
+        "professional-support",
+        "academic-life-stress",
+        "self-help-wellness"
+      ],
+      "priority": 9,
+      "summary": "24/7 confidential counselling and assistance program for U of A graduate students.",
+      "description": "GSAP provides confidential professional counselling and other assistance for graduate students. Verified materials describe 24/7 access for crisis support and support for anxiety, depression, substance use, family conflict, life roles, legal and financial consultations, and health-promotion resources.",
+      "bestFor": [
+        "graduate-students",
+        "counselling",
+        "anxiety",
+        "depression",
+        "legal-financial",
+        "crisis"
+      ],
+      "audiences": [
+        "graduate_students",
+        "international_students"
+      ],
+      "eligibility": "All University of Alberta graduate students; eligible dependents may be included according to program materials.",
+      "cost": "Plan-covered",
+      "availability": {
+        "type": "24_7",
+        "hoursText": "24 hours a day, 7 days a week, 365 days a year.",
+        "notes": null
+      },
+      "accessModes": [
+        "phone",
+        "online",
+        "appointment"
+      ],
+      "crisisLevel": "urgent",
+      "whenToUse": "When a graduate student needs confidential counselling, immediate assistance in a crisis, or related life, legal, financial, or wellness support.",
+      "contact": {
+        "phone": "1-800-663-1142",
+        "email": null,
+        "bookingUrl": "https://homeweb.ca/",
+        "websiteUrl": "https://www.ualberta.ca/en/human-resources-health-safety-environment/media-library/culture-well-being/english-graduate-student-assistance-program.pdf"
+      },
+      "locations": [
+        {
+          "name": null,
+          "address": null,
+          "campus": "Online",
+          "room": null
+        }
+      ],
+      "tags": [
+        "graduate-students",
+        "homewood-health",
+        "gsap",
+        "counselling"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/human-resources-health-safety-environment/media-library/culture-well-being/english-graduate-student-assistance-program.pdf",
+        "https://www.ualberta.ca/en/human-resources-health-safety-environment/culture-and-well-being/mental-emotional-well-being/employee-and-family-assistance-program/efap-faq.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/human-resources-health-safety-environment/media-library/culture-well-being/english-graduate-student-assistance-program.pdf",
+          "claim": "Verifies GSAP name, Homewood Health provider, 24/7 access, phone numbers, Homeweb, and service scope.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.ualberta.ca/en/human-resources-health-safety-environment/culture-and-well-being/mental-emotional-well-being/employee-and-family-assistance-program/efap-faq.html",
+          "claim": "Verifies that GSAP is specifically for graduate students and that graduate students can call 24/7/365.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "two-one-one-alberta",
+      "name": "211 Alberta",
+      "provider": "211 Alberta",
+      "providerType": "community",
+      "categoryIds": [
+        "crisis-safety",
+        "academic-life-stress",
+        "international-transition"
+      ],
+      "priority": 10,
+      "summary": "Free confidential 24/7 helpline and online database for Alberta community and social services.",
+      "description": "211 Alberta is a helpline and online database of community and social services in Alberta. It offers free, confidential, live-answer support 24/7 by call, text, or chat and includes topics such as crisis resources, mental-health supports, housing, food, legal, newcomers, disability supports, and violence or abuse.",
+      "bestFor": [
+        "community-resources",
+        "housing",
+        "food",
+        "legal",
+        "newcomers",
+        "mental-health-navigation"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Anyone seeking Alberta community or social-service information.",
+      "cost": "Free",
+      "availability": {
+        "type": "24_7",
+        "hoursText": "24/7",
+        "notes": "Call, text, chat, or search online."
+      },
+      "accessModes": [
+        "phone",
+        "online"
+      ],
+      "crisisLevel": "urgent",
+      "whenToUse": "When you need help finding community services, basic needs, mental-health supports, newcomer services, or other Alberta resources.",
+      "contact": {
+        "phone": "211",
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://ab.211.ca/"
+      },
+      "locations": [
+        {
+          "name": null,
+          "address": null,
+          "campus": "Online",
+          "room": null
+        }
+      ],
+      "tags": [
+        "211",
+        "community-resources",
+        "basic-needs",
+        "navigation"
+      ],
+      "sourceUrls": [
+        "https://ab.211.ca/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://ab.211.ca/",
+          "claim": "Verifies 24/7 free confidential live-answer support, call/text/chat language, and community-service database scope.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "counselling-clinical-services",
+      "name": "Counselling + Clinical Services",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "professional-support",
+        "self-help-wellness"
+      ],
+      "priority": 11,
+      "summary": "Free confidential therapy, groups, workshops, psychiatry, consultation, and referral for eligible students.",
+      "description": "Counselling + Clinical Services helps eligible U of A students with concerns such as anxiety, depression, stress, loneliness, grief, trauma, and more. Services include individual therapy, group therapy, couples therapy, workshops, psychiatric services, consultations, and referrals.",
+      "bestFor": [
+        "anxiety",
+        "stress",
+        "depression",
+        "grief",
+        "loneliness",
+        "trauma",
+        "relationships"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Currently registered part-time or full-time U of A students, including International Visiting students. Open Studies students are excluded unless in ESL, Transition Year Program, or Fresh Start.",
+      "cost": "Free",
+      "availability": {
+        "type": "business_hours",
+        "hoursText": "Spring/Summer: Mon - Fri, 8:00 a.m. - 4:00 p.m.; Fall/Winter: Mon - Fri, 8:00 a.m. - 4:30 p.m.",
+        "notes": "CCS is not meant for crisis situations."
+      },
+      "accessModes": [
+        "in_person",
+        "online",
+        "phone",
+        "appointment"
+      ],
+      "crisisLevel": "non_urgent",
+      "whenToUse": null,
+      "contact": {
+        "phone": "780-492-5205",
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/current-students/counselling/index.html"
+      },
+      "locations": [
+        {
+          "name": "Counselling + Clinical Services",
+          "address": "Students' Union Building, Edmonton, Alberta",
+          "campus": "North Campus",
+          "room": "SUB 2-600"
+        }
+      ],
+      "tags": [
+        "therapy",
+        "counselling",
+        "psychiatry",
+        "workshops",
+        "students"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/current-students/counselling/index.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/current-students/counselling/index.html",
+          "claim": "Verifies services, eligibility, free confidential access, phone, location, hours, and crisis caveat.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "ccs-individual-therapy",
+      "name": "CCS Individual Therapy",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "professional-support"
+      ],
+      "priority": 12,
+      "summary": "One-at-a-time and short-term therapy options through Counselling + Clinical Services.",
+      "description": "CCS Individual Therapy includes One-at-a-Time Therapy for a specific issue or goal and short-term therapy through an initial consultation pathway. Therapy services are free and confidential for eligible students, with in-person and telehealth options subject to availability.",
+      "bestFor": [
+        "anxiety",
+        "stress",
+        "depression",
+        "loneliness",
+        "relationship-issues",
+        "grief"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Eligible U of A students; all appointments are subject to approval based on eligibility.",
+      "cost": "Free",
+      "availability": {
+        "type": "business_hours",
+        "hoursText": "CCS office hours apply.",
+        "notes": "Short-term therapy starts with an initial consultation; One-at-a-Time Therapy can be booked online."
+      },
+      "accessModes": [
+        "in_person",
+        "online",
+        "phone",
+        "appointment"
+      ],
+      "crisisLevel": "non_urgent",
+      "whenToUse": null,
+      "contact": {
+        "phone": "780-492-5205",
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/current-students/counselling/individual-therapy-services/index.html"
+      },
+      "locations": [
+        {
+          "name": "Counselling + Clinical Services",
+          "address": "Students' Union Building, Edmonton, Alberta",
+          "campus": "North Campus",
+          "room": "SUB 2-600"
+        }
+      ],
+      "tags": [
+        "individual-therapy",
+        "oaatt",
+        "short-term-therapy"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/current-students/counselling/individual-therapy-services/index.html",
+        "https://www.ualberta.ca/en/current-students/counselling/individual-therapy-services/short-term-therapy-faq.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/current-students/counselling/individual-therapy-services/index.html",
+          "claim": "Verifies OAATT, short-term therapy, cost, eligibility approval note, and phone booking for initial consultation.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.ualberta.ca/en/current-students/counselling/individual-therapy-services/short-term-therapy-faq.html",
+          "claim": "Verifies location, telehealth options, and free access for undergraduate and graduate students.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "ccs-psychiatry-services",
+      "name": "CCS Psychiatry Services",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "professional-support"
+      ],
+      "priority": 13,
+      "summary": "Psychiatric assessment, diagnosis, and medication support through CCS with physician referral.",
+      "description": "CCS psychiatrists can provide assessment, diagnosis, and medication support for students with more complex mental-health concerns. A referral by a physician is required.",
+      "bestFor": [
+        "complex-mental-health",
+        "medication",
+        "assessment",
+        "diagnosis"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Eligible U of A students with a physician referral.",
+      "cost": "Free",
+      "availability": {
+        "type": "business_hours",
+        "hoursText": "CCS office hours apply.",
+        "notes": "Requires physician referral."
+      },
+      "accessModes": [
+        "in_person",
+        "appointment",
+        "referral_required"
+      ],
+      "crisisLevel": "non_urgent",
+      "whenToUse": null,
+      "contact": {
+        "phone": "780-492-5205",
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/current-students/counselling/psychiatry-services.html"
+      },
+      "locations": [
+        {
+          "name": "Counselling + Clinical Services",
+          "address": "Students' Union Building, Edmonton, Alberta",
+          "campus": "North Campus",
+          "room": "SUB 2-600"
+        }
+      ],
+      "tags": [
+        "psychiatry",
+        "medication",
+        "referral-required"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/current-students/counselling/index.html",
+        "https://www.ualberta.ca/en/services/health-centre/services/mental-health.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/current-students/counselling/index.html",
+          "claim": "Verifies psychiatry service scope and physician referral requirement.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.ualberta.ca/en/services/health-centre/services/mental-health.html",
+          "claim": "Verifies UHC physicians can refer to mental-health professionals and CCS.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "The seed psychiatry-specific URL was not directly retrieved; facts were verified through the main CCS page and UHC mental-health page."
+      ]
+    },
+    {
+      "id": "wellness-supports-social-work-team",
+      "name": "Wellness Supports Social Work Team",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "professional-support",
+        "academic-life-stress",
+        "self-help-wellness"
+      ],
+      "priority": 14,
+      "summary": "Registered social workers offering case management, system navigation, and wellness support.",
+      "description": "Wellness Supports helps students connect with on- and off-campus resources and provides one-to-one supportive case management. The Social Work Team can help with system navigation, personal development, general daily functioning, practical problem solving, and crisis management.",
+      "bestFor": [
+        "resource-navigation",
+        "case-management",
+        "housing",
+        "finances",
+        "grief",
+        "wellness-planning"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "U of A students.",
+      "cost": "Free",
+      "availability": {
+        "type": "business_hours",
+        "hoursText": null,
+        "notes": "Call or email to schedule an appointment."
+      },
+      "accessModes": [
+        "phone",
+        "email",
+        "appointment"
+      ],
+      "crisisLevel": "non_urgent",
+      "whenToUse": null,
+      "contact": {
+        "phone": "780-492-1619",
+        "email": "wellness@ualberta.ca",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/current-students/wellness-supports/index.html"
+      },
+      "locations": [
+        {
+          "name": "Wellness Supports",
+          "address": "Students' Union Building, Edmonton, Alberta",
+          "campus": "North Campus",
+          "room": "2-300 SUB"
+        }
+      ],
+      "tags": [
+        "social-work",
+        "case-management",
+        "resource-navigation",
+        "student-wellness"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/current-students/wellness-supports/resources.html",
+        "https://www.ualberta.ca/en/current-students/counselling/resources/index.html",
+        "https://www.ualberta.ca/en/current-students/wellness-supports/parent-and-student-supporters-wellness-guide.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/current-students/wellness-supports/resources.html",
+          "claim": "Verifies consultation role, resource navigation, phone, and email.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.ualberta.ca/en/current-students/counselling/resources/index.html",
+          "claim": "Verifies social-work referral fit for case management, system navigation, personal development, daily functioning, and crisis management.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.ualberta.ca/en/current-students/wellness-supports/parent-and-student-supporters-wellness-guide.html",
+          "claim": "Verifies North Campus location, phone, and email for Wellness Supports Social Workers.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "university-health-centre-mental-health",
+      "name": "University Health Centre Mental Health Support",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "professional-support"
+      ],
+      "priority": 15,
+      "summary": "Physician-based mental-health support, referral, and free RSW access through the UHC.",
+      "description": "The University Health Centre offers physician support for mental health, including discussion, diagnosis, referrals, and medication where appropriate. UHC patients can also be referred to a registered mental health social worker through the Edmonton O-day'min Primary Care Network.",
+      "bestFor": [
+        "medical-care",
+        "medication",
+        "referral",
+        "whole-health",
+        "mental-health-consult"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Students, employees, and family members of students including spouses and children under 18.",
+      "cost": "Plan-covered",
+      "availability": {
+        "type": "business_hours",
+        "hoursText": "May - August: Mon - Fri, 8:30 a.m. - 4:00 p.m.; September - April: Mon - Fri, 8:30 a.m. - 4:30 p.m.",
+        "notes": "Phone lines are closed for lunch between noon and 1:00 p.m."
+      },
+      "accessModes": [
+        "in_person",
+        "online",
+        "phone",
+        "appointment",
+        "referral_required"
+      ],
+      "crisisLevel": "non_urgent",
+      "whenToUse": null,
+      "contact": {
+        "phone": "780-492-2612",
+        "email": "hws@ualberta.ca",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/services/health-centre/services/mental-health.html"
+      },
+      "locations": [
+        {
+          "name": "University Health Centre",
+          "address": "Students' Union Building, Edmonton, Alberta T6G 2J7",
+          "campus": "North Campus",
+          "room": "2-200 SUB"
+        }
+      ],
+      "tags": [
+        "health-centre",
+        "physician",
+        "mental-health",
+        "referral"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/services/health-centre/index.html",
+        "https://www.ualberta.ca/en/services/health-centre/services/mental-health.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/services/health-centre/services/mental-health.html",
+          "claim": "Verifies physician mental-health support, RSW referral, additional resources, and student plan references.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.ualberta.ca/en/services/health-centre/index.html",
+          "claim": "Verifies eligibility, phone, email, location, and seasonal hours.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "peer-support-centre",
+      "name": "Peer Support Centre",
+      "provider": "University of Alberta Students' Union",
+      "providerType": "uasu",
+      "categoryIds": [
+        "peer-social",
+        "crisis-safety"
+      ],
+      "priority": 16,
+      "summary": "Free confidential supportive listening from trained peer volunteers in a non-judgmental space.",
+      "description": "The Peer Support Centre is a Students' Union service that offers free, confidential, non-judgmental support. Trained volunteers offer peer support, crisis management, information, resources, and a safe place to talk; the centre is not an emergency or medical service.",
+      "bestFor": [
+        "supportive-listening",
+        "loneliness",
+        "stress",
+        "resource-navigation",
+        "peer-support"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Students and the University of Alberta community.",
+      "cost": "Free",
+      "availability": {
+        "type": "seasonal",
+        "hoursText": "Fall/Winter: Mon, Wed, Fri 9 a.m. - 5 p.m.; Tue, Thu 10 a.m. - 7 p.m. Seasonal closures may apply.",
+        "notes": "The page listed modified hours until April 17 and then closure until September."
+      },
+      "accessModes": [
+        "in_person",
+        "phone",
+        "online",
+        "drop_in",
+        "appointment"
+      ],
+      "crisisLevel": "non_urgent",
+      "whenToUse": null,
+      "contact": {
+        "phone": "780-492-4268",
+        "email": "psc@uasu.ca",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.su.ualberta.ca/services/psc/"
+      },
+      "locations": [
+        {
+          "name": "Peer Support Centre",
+          "address": "Students' Union Building, Edmonton, Alberta",
+          "campus": "North Campus",
+          "room": "2-707 SUB"
+        }
+      ],
+      "tags": [
+        "peer-support",
+        "supportive-listening",
+        "students-union"
+      ],
+      "sourceUrls": [
+        "https://www.su.ualberta.ca/services/psc/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.su.ualberta.ca/services/psc/",
+          "claim": "Verifies mission, service scope, emergency caveat, phone, email, location, and current/seasonal hours.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "campus-saint-jean-wellbeing-mental-health",
+      "name": "Campus Saint-Jean Well-Being and Mental Health",
+      "provider": "University of Alberta Campus Saint-Jean",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "professional-support",
+        "identity-culture",
+        "international-transition"
+      ],
+      "priority": 17,
+      "summary": "Free confidential bilingual counselling and mental-health resources for Campus Saint-Jean students.",
+      "description": "Campus Saint-Jean lists a free, confidential, bilingual counselling and therapy service for students, with direct appointment contact by email or text. The page also lists French-language crisis and wellness resources and links to other UAlberta mental-health supports.",
+      "bestFor": [
+        "french-language-support",
+        "counselling",
+        "anxiety",
+        "stress",
+        "bereavement",
+        "transition"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Students, especially Campus Saint-Jean students.",
+      "cost": "Free",
+      "availability": {
+        "type": "appointment",
+        "hoursText": null,
+        "notes": "Appointment availability was not specified."
+      },
+      "accessModes": [
+        "email",
+        "phone",
+        "appointment"
+      ],
+      "crisisLevel": "non_urgent",
+      "whenToUse": null,
+      "contact": {
+        "phone": "780-938-1017",
+        "email": "jouellet@ualberta.ca",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/campus-saint-jean/services/well-being-and-mental-health/index.html"
+      },
+      "locations": [
+        {
+          "name": "Campus Saint-Jean",
+          "address": "8406 Rue Marie-Anne Gaboury, Edmonton, Alberta T6C 4G9",
+          "campus": "Campus Saint-Jean",
+          "room": null
+        }
+      ],
+      "tags": [
+        "campus-saint-jean",
+        "french",
+        "bilingual",
+        "counselling"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/campus-saint-jean/services/well-being-and-mental-health/index.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/campus-saint-jean/services/well-being-and-mental-health/index.html",
+          "claim": "Verifies bilingual counselling service, contact email, text number, example concerns, French-language helpline, and campus contact details.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "augustana-health-wellness",
+      "name": "Augustana Health + Wellness",
+      "provider": "University of Alberta Augustana Campus",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "professional-support",
+        "crisis-safety",
+        "identity-culture",
+        "academic-life-stress"
+      ],
+      "priority": 18,
+      "summary": "Augustana counselling, spiritual care, online care, accessibility, and crisis-support information.",
+      "description": "Augustana Health + Wellness lists crisis numbers and campus supports including personal counselling, chaplaincy and spiritual care, online counselling and care, sexual violence response and wellness, and accessibility plus student success support. In-person confidential personal counselling sessions are listed as available at no fee.",
+      "bestFor": [
+        "augustana",
+        "counselling",
+        "spiritual-care",
+        "online-care",
+        "accessibility",
+        "sexual-violence-support"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Augustana students.",
+      "cost": "Free",
+      "availability": {
+        "type": "scheduled",
+        "hoursText": "Personal counselling listed for Mondays, Wednesdays, and Thursdays.",
+        "notes": "Crisis numbers listed separately; appointment availability may vary."
+      },
+      "accessModes": [
+        "in_person",
+        "online",
+        "phone",
+        "appointment"
+      ],
+      "crisisLevel": "non_urgent",
+      "whenToUse": null,
+      "contact": {
+        "phone": null,
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/augustana/student-life/health/index.html"
+      },
+      "locations": [
+        {
+          "name": "Augustana Campus",
+          "address": "4901 - 46 Avenue, Camrose, Alberta T4V 2R3",
+          "campus": "Augustana",
+          "room": null
+        }
+      ],
+      "tags": [
+        "augustana",
+        "counselling",
+        "crisis-lines",
+        "spiritual-care",
+        "accessibility"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/augustana/student-life/health/index.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/augustana/student-life/health/index.html",
+          "claim": "Verifies crisis numbers, counselling, spiritual care, online care, ACAA support, PASS support, and campus address.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "The current counselling booking URL and direct counselling contact details were not exposed in the retrieved page content."
+      ]
+    },
+    {
+      "id": "ccs-groups-workshops-resources",
+      "name": "CCS Groups, Workshops and Mental Health Resources",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "professional-support",
+        "self-help-wellness",
+        "peer-social"
+      ],
+      "priority": 19,
+      "summary": "CCS groups, workshops, and self-help resources on common mental-health and student-life concerns.",
+      "description": "CCS offers group therapy, mental-health workshops, and a resource collection on topics such as mood, anxiety, assertiveness, perfectionism, ADHD, sleep, self-care, and relationships. Workshops are educational and may be open to staff and faculty as well as students.",
+      "bestFor": [
+        "skills",
+        "anxiety",
+        "stress",
+        "sleep",
+        "perfectionism",
+        "self-care"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Students for CCS services; workshops may also be open to staff and faculty.",
+      "cost": "Free",
+      "availability": {
+        "type": "scheduled",
+        "hoursText": null,
+        "notes": "Workshop schedules vary by term."
+      },
+      "accessModes": [
+        "online",
+        "in_person",
+        "drop_in",
+        "appointment"
+      ],
+      "crisisLevel": "preventive",
+      "whenToUse": null,
+      "contact": {
+        "phone": "780-492-5205",
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/current-students/counselling/resources/index.html"
+      },
+      "locations": [
+        {
+          "name": "Counselling + Clinical Services",
+          "address": "Students' Union Building, Edmonton, Alberta",
+          "campus": "North Campus",
+          "room": "SUB 2-600"
+        }
+      ],
+      "tags": [
+        "workshops",
+        "group-therapy",
+        "self-help",
+        "mental-health-resources"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/current-students/counselling/index.html",
+        "https://www.ualberta.ca/en/current-students/counselling/resources/index.html",
+        "https://www.ualberta.ca/en/campus-life/health-wellness/grief-loss.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/current-students/counselling/index.html",
+          "claim": "Verifies group therapy, couples therapy, workshop topics, and staff/faculty workshop access.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.ualberta.ca/en/current-students/counselling/resources/index.html",
+          "claim": "Verifies resource topics including sleep, self-care, stress, relationships, grief, and translated simplified Chinese resources.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "campus-pharmacy",
+      "name": "Campus Pharmacy",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "professional-support",
+        "self-help-wellness"
+      ],
+      "priority": 20,
+      "summary": "Full-service campus pharmacy for prescriptions, medication reviews, immunizations, and naloxone access.",
+      "description": "Campus Pharmacy is listed as a full-service pharmacy serving U of A students and staff. UASU Cares lists medication reviews, immunizations, tobacco cessation products and services, and travel consultations; UAlberta substance awareness pages identify the pharmacy as a naloxone kit location.",
+      "bestFor": [
+        "prescriptions",
+        "medication-review",
+        "immunizations",
+        "naloxone",
+        "health-navigation"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Students and staff; exact public eligibility should be reviewed on the live pharmacy page.",
+      "cost": "Paid",
+      "availability": {
+        "type": "business_hours",
+        "hoursText": null,
+        "notes": "Current pharmacy hours were not verified from the live page."
+      },
+      "accessModes": [
+        "in_person",
+        "phone"
+      ],
+      "crisisLevel": "preventive",
+      "whenToUse": null,
+      "contact": {
+        "phone": "780-492-2634",
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/services/campus-pharmacy/index.html"
+      },
+      "locations": [
+        {
+          "name": "Campus Pharmacy",
+          "address": "Students' Union Building, Edmonton, Alberta",
+          "campus": "North Campus",
+          "room": "1-10 SUB"
+        }
+      ],
+      "tags": [
+        "pharmacy",
+        "medication",
+        "naloxone",
+        "health"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/services/campus-pharmacy/index.html",
+        "https://www.ualberta.ca/en/campus-life/health-wellness/substance-aware/index.html",
+        "https://uasucares.su.ualberta.ca/en/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/campus-life/health-wellness/substance-aware/index.html",
+          "claim": "Verifies pharmacy as a naloxone kit location.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://uasucares.su.ualberta.ca/en/",
+          "claim": "Verifies phone and pharmacy service examples.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "The primary campus pharmacy page was not directly retrieved; location comes from the supplied DOCX and should be manually confirmed."
+      ]
+    },
+    {
+      "id": "uasu-cares",
+      "name": "UASU Cares",
+      "provider": "University of Alberta Students' Union",
+      "providerType": "uasu",
+      "categoryIds": [
+        "peer-social",
+        "academic-life-stress",
+        "crisis-safety"
+      ],
+      "priority": 21,
+      "summary": "Interactive wellness directory that helps students find campus and community resources by need.",
+      "description": "UASU Cares is an interactive wellness resource designed to connect students with services during their university career. It includes emergency guidance and resource categories such as mental health, physical health, academic support, basic needs, personal safety, and sexual violence.",
+      "bestFor": [
+        "resource-finding",
+        "navigation",
+        "wellness",
+        "basic-needs",
+        "academic-support"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Students seeking campus or community resources.",
+      "cost": "Free",
+      "availability": {
+        "type": "24_7",
+        "hoursText": "Online directory available 24/7.",
+        "notes": null
+      },
+      "accessModes": [
+        "online"
+      ],
+      "crisisLevel": "preventive",
+      "whenToUse": null,
+      "contact": {
+        "phone": null,
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://uasucares.su.ualberta.ca/en/"
+      },
+      "locations": [
+        {
+          "name": null,
+          "address": null,
+          "campus": "Online",
+          "room": null
+        }
+      ],
+      "tags": [
+        "directory",
+        "wellness",
+        "students-union",
+        "navigation"
+      ],
+      "sourceUrls": [
+        "https://uasucares.su.ualberta.ca/en/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://uasucares.su.ualberta.ca/en/",
+          "claim": "Verifies UASU Cares description, emergency guidance, resource categories, and listed services.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "graduate-student-peer-support-program",
+      "name": "Graduate Student Peer Support Program",
+      "provider": "University of Alberta / Graduate Students' Association",
+      "providerType": "gsa",
+      "categoryIds": [
+        "peer-social",
+        "academic-life-stress"
+      ],
+      "priority": 22,
+      "summary": "Peer support network for graduate students navigating academic, mental, and physical well-being.",
+      "description": "The Graduate Student Peer Support Program is a support network for graduate students navigating challenges and opportunities at U of A. It is managed by Health, Safety and Environment with partners including the Graduate Students' Association, Student Success and Experience, and the Faculty of Graduate and Postdoctoral Studies.",
+      "bestFor": [
+        "graduate-students",
+        "peer-guidance",
+        "belonging",
+        "academic-stress"
+      ],
+      "audiences": [
+        "graduate_students",
+        "international_students"
+      ],
+      "eligibility": "Any graduate student seeking advice, guidance, and support during their time at U of A.",
+      "cost": "Free",
+      "availability": {
+        "type": "varies",
+        "hoursText": null,
+        "notes": "Program access details and current intake route should be reviewed."
+      },
+      "accessModes": [
+        "online",
+        "appointment"
+      ],
+      "crisisLevel": "preventive",
+      "whenToUse": null,
+      "contact": {
+        "phone": null,
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/human-resources-health-safety-environment/environment-and-safety/graduate-student-peer-support-program.html"
+      },
+      "locations": [
+        {
+          "name": null,
+          "address": null,
+          "campus": "Unknown",
+          "room": null
+        }
+      ],
+      "tags": [
+        "graduate-students",
+        "peer-support",
+        "belonging"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/human-resources-health-safety-environment/environment-and-safety/graduate-student-peer-support-program.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/human-resources-health-safety-environment/environment-and-safety/graduate-student-peer-support-program.html",
+          "claim": "Verifies GSPS purpose, partners, eligibility language, and focus on academic, mental, physical well-being and belonging.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "No public phone, email, location, or hours were verified."
+      ]
+    },
+    {
+      "id": "safewalk",
+      "name": "Safewalk",
+      "provider": "University of Alberta Students' Union",
+      "providerType": "uasu",
+      "categoryIds": [
+        "crisis-safety",
+        "peer-social"
+      ],
+      "priority": 23,
+      "summary": "Free walking accompaniment on campus and within service boundaries when you do not want to walk alone.",
+      "description": "Safewalk is a free alternative to walking home alone at night. Volunteers walk with users anywhere on campus or within 20 minutes from nearly any LRT station, with service available to students, staff, faculty, and community members.",
+      "bestFor": [
+        "walking-safety",
+        "night-safety",
+        "campus-commute",
+        "personal-safety"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Any student, staff member, faculty member, or community member within service boundaries.",
+      "cost": "Free",
+      "availability": {
+        "type": "varies",
+        "hoursText": null,
+        "notes": "The current operating schedule should be checked before relying on the service."
+      },
+      "accessModes": [
+        "phone",
+        "online",
+        "appointment"
+      ],
+      "crisisLevel": "preventive",
+      "whenToUse": null,
+      "contact": {
+        "phone": "780-492-5563",
+        "email": "safewalk@su.ualberta.ca",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.su.ualberta.ca/services/safewalk/"
+      },
+      "locations": [
+        {
+          "name": "Service boundaries include North Campus, South Campus, Campus Saint-Jean, Enterprise Square, and nearby LRT areas",
+          "address": null,
+          "campus": "Unknown",
+          "room": null
+        }
+      ],
+      "tags": [
+        "safety",
+        "walking",
+        "students-union"
+      ],
+      "sourceUrls": [
+        "https://www.su.ualberta.ca/services/safewalk/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.su.ualberta.ca/services/safewalk/",
+          "claim": "Verifies service scope, eligibility, phone, email via UASU Cares, and service boundaries.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Current operating hours were not visible in the retrieved UASU page content."
+      ]
+    },
+    {
+      "id": "the-landing",
+      "name": "The Landing",
+      "provider": "University of Alberta Students' Union",
+      "providerType": "uasu",
+      "categoryIds": [
+        "peer-social",
+        "identity-culture"
+      ],
+      "priority": 24,
+      "summary": "Queer-affirming UASU space with peer support, community building, and gender-diversity support.",
+      "description": "The Landing is a student service on North Campus that supports 2SLGBTQ+ communities and their supporters. It offers peer supportive listening, drop-in community-building hours, gender transition guidance and support, and other programming.",
+      "bestFor": [
+        "2slgbtq",
+        "identity",
+        "peer-support",
+        "community",
+        "gender-affirming-support"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "U of A students and 2SLGBTQ+ community members, supporters, friends, family, and loved ones.",
+      "cost": "Free",
+      "availability": {
+        "type": "business_hours",
+        "hoursText": "Main Drop-In Space: Mon - Thu, 12 p.m. - 4 p.m.; Quiet Space: Mon - Thu, 12 p.m. - 4 p.m.",
+        "notes": "Follow The Landing for current event details."
+      },
+      "accessModes": [
+        "in_person",
+        "drop_in",
+        "appointment",
+        "online"
+      ],
+      "crisisLevel": "preventive",
+      "whenToUse": null,
+      "contact": {
+        "phone": null,
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.su.ualberta.ca/services/thelanding/"
+      },
+      "locations": [
+        {
+          "name": "The Landing Main Drop-In Space",
+          "address": "Students' Union Building, Edmonton, Alberta",
+          "campus": "North Campus",
+          "room": "0-68A SUB"
+        },
+        {
+          "name": "The Landing Quiet Space",
+          "address": "Students' Union Building, Edmonton, Alberta",
+          "campus": "North Campus",
+          "room": "0-68J SUB"
+        }
+      ],
+      "tags": [
+        "2slgbtq",
+        "queer-affirming",
+        "peer-support",
+        "community"
+      ],
+      "sourceUrls": [
+        "https://www.su.ualberta.ca/services/thelanding/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.su.ualberta.ca/services/thelanding/",
+          "claim": "Verifies service description, peer support, services offered, room numbers, and hours.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "No current direct phone or email was verified from the UASU page; UASU Cares listed older contact details that were not used."
+      ]
+    },
+    {
+      "id": "unitea",
+      "name": "Unitea",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "peer-social",
+        "self-help-wellness",
+        "international-transition"
+      ],
+      "priority": 25,
+      "summary": "Peer and alumni-hosted tea conversations that support social connection and belonging.",
+      "description": "Unitea creates one-to-one and group conversation spaces with peer and alumni hosts. It is designed to build connection and belonging; it is not a professional counselling service and does not replace clinical support.",
+      "bestFor": [
+        "social-connection",
+        "loneliness",
+        "belonging",
+        "conversation",
+        "transition"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "U of A students.",
+      "cost": "Free",
+      "availability": {
+        "type": "scheduled",
+        "hoursText": null,
+        "notes": "Tea times and events are scheduled; online one-to-one conversations can be requested by email."
+      },
+      "accessModes": [
+        "in_person",
+        "online",
+        "appointment"
+      ],
+      "crisisLevel": "preventive",
+      "whenToUse": null,
+      "contact": {
+        "phone": null,
+        "email": "unitea@ualberta.ca",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/current-students/wellness-supports/community-engagement/unitea/index.html"
+      },
+      "locations": [
+        {
+          "name": null,
+          "address": null,
+          "campus": "North Campus",
+          "room": null
+        }
+      ],
+      "tags": [
+        "connection",
+        "peer-hosts",
+        "belonging",
+        "social-wellness"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/current-students/wellness-supports/community-engagement/unitea/index.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/current-students/wellness-supports/community-engagement/unitea/index.html",
+          "claim": "Verifies program purpose, one-to-one and group tea times, email, confidentiality caveat, and non-counselling disclaimer.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "substance-awareness-and-recovery",
+      "name": "Substance Awareness + Recovery",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "self-help-wellness",
+        "crisis-safety",
+        "peer-social"
+      ],
+      "priority": 26,
+      "summary": "Harm-reduction information, support pathways, naloxone access, and recovery-community resources.",
+      "description": "UAlberta Substance Awareness focuses on substance-use awareness, prevention, and harm reduction. It lists support pathways through Wellness Supports, University Health Centre, and Counselling + Clinical Services, includes overdose-response guidance, and links to the Student Recovery Community initiative.",
+      "bestFor": [
+        "substance-use",
+        "harm-reduction",
+        "recovery",
+        "naloxone",
+        "addiction-support"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "U of A community members.",
+      "cost": "Free",
+      "availability": {
+        "type": "varies",
+        "hoursText": null,
+        "notes": "Support pathway availability depends on the linked service."
+      },
+      "accessModes": [
+        "online",
+        "phone",
+        "in_person"
+      ],
+      "crisisLevel": "preventive",
+      "whenToUse": null,
+      "contact": {
+        "phone": null,
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/campus-life/health-wellness/substance-aware/index.html"
+      },
+      "locations": [
+        {
+          "name": null,
+          "address": null,
+          "campus": "Unknown",
+          "room": null
+        }
+      ],
+      "tags": [
+        "substance-awareness",
+        "harm-reduction",
+        "recovery",
+        "naloxone"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/campus-life/health-wellness/substance-aware/index.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/campus-life/health-wellness/substance-aware/index.html",
+          "claim": "Verifies harm-reduction framing, support pathways, overdose 911 guidance, naloxone information, and Student Recovery Community mention.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "international-student-visitor-services",
+      "name": "International Student + Visitor Services",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "international-transition",
+        "academic-life-stress",
+        "peer-social"
+      ],
+      "priority": 27,
+      "summary": "International student advising, immigration resources, settlement information, events, and orientation.",
+      "description": "International Student and Visitor Services provides programs, services, and events for international students and academic visitors. Licensed immigration specialists and student advisors support students with adjustment to Edmonton, settlement, immigration resources, webinars, social events, and orientation.",
+      "bestFor": [
+        "international-students",
+        "immigration",
+        "settlement",
+        "orientation",
+        "adjustment",
+        "community"
+      ],
+      "audiences": [
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "U of A international students and academic visitors.",
+      "cost": "Free",
+      "availability": {
+        "type": "business_hours",
+        "hoursText": null,
+        "notes": "Event and appointment availability varies."
+      },
+      "accessModes": [
+        "in_person",
+        "online",
+        "appointment"
+      ],
+      "crisisLevel": "preventive",
+      "whenToUse": null,
+      "contact": {
+        "phone": "780-492-2692",
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/international/international-student-services/index.html"
+      },
+      "locations": [
+        {
+          "name": "International Education and Enrolment",
+          "address": "142 TELUS Centre, Edmonton, Alberta T6G 2R3",
+          "campus": "North Campus",
+          "room": "142 TELUS Centre"
+        }
+      ],
+      "tags": [
+        "international-students",
+        "settlement",
+        "immigration",
+        "orientation"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/international/international-student-services/index.html",
+        "https://www.ualberta.ca/en/international/international-student-services/settlement-services/index.html",
+        "https://www.ualberta.ca/en/international/international-student-services/events/index.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/international/international-student-services/index.html",
+          "claim": "Verifies ISVS services, licensed specialists, adjustment support, contact phone, and TELUS Centre address.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.ualberta.ca/en/international/international-student-services/settlement-services/index.html",
+          "claim": "Verifies settlement topics including housing, health care, transportation, winter, family, finances, and scams.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.ualberta.ca/en/international/international-student-services/events/index.html",
+          "claim": "Verifies events, English Conversation Club, immigration webinars, and social/cultural opportunities.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "academic-success-centre",
+      "name": "Academic Success Centre",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "academic-life-stress",
+        "self-help-wellness"
+      ],
+      "priority": 28,
+      "summary": "Academic support, appointments, advising, workshops, online courses, and writing or learning help.",
+      "description": "The Academic Success Centre provides professional academic support for students in all university programs and at all levels of study. Services include appointments, advising, group workshops, online courses, specialized programming, learning support, writing support, and accessibility links.",
+      "bestFor": [
+        "academic-stress",
+        "learning-strategies",
+        "writing",
+        "time-management",
+        "exams",
+        "procrastination"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "U of A students.",
+      "cost": "Free",
+      "availability": {
+        "type": "scheduled",
+        "hoursText": null,
+        "notes": "Workshop and appointment availability varies."
+      },
+      "accessModes": [
+        "online",
+        "in_person",
+        "appointment"
+      ],
+      "crisisLevel": "preventive",
+      "whenToUse": null,
+      "contact": {
+        "phone": "780-492-2682",
+        "email": "success@ualberta.ca",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/current-students/academic-success-centre/index.html"
+      },
+      "locations": [
+        {
+          "name": "Academic Success Centre",
+          "address": "Students' Union Building, Edmonton, Alberta T6G 2J7",
+          "campus": "North Campus",
+          "room": "1-80 SUB"
+        }
+      ],
+      "tags": [
+        "academic-support",
+        "workshops",
+        "writing",
+        "learning"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/current-students/academic-success-centre/index.html",
+        "https://uasucares.su.ualberta.ca/en/"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/current-students/academic-success-centre/index.html",
+          "claim": "Verifies service scope across programs and levels, appointments, advising, workshops, online courses, learning, writing, and accessibility support.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://uasucares.su.ualberta.ca/en/",
+          "claim": "Verifies phone and email from UASU Cares directory.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Phone, email, and room were corroborated from UASU Cares; primary Academic Success page search content did not expose contact block."
+      ]
+    },
+    {
+      "id": "accessibility-accommodations",
+      "name": "Accessibility + Accommodations",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "academic-life-stress",
+        "professional-support"
+      ],
+      "priority": 29,
+      "summary": "Academic accommodations for eligible students with medical or non-medical restrictions.",
+      "description": "Accessibility + Accommodations helps eligible students remove barriers related to medical conditions, including physical or mental disability, and non-medical protected grounds. Students can register for accommodations, receive advising, and coordinate course, exam, housing, parking, support animal, and other accommodation needs.",
+      "bestFor": [
+        "academic-accommodations",
+        "mental-health-disability",
+        "accessibility",
+        "exam-support",
+        "course-load"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Eligible students who encounter medical or non-medical restrictions affecting university participation.",
+      "cost": "Free",
+      "availability": {
+        "type": "business_hours",
+        "hoursText": "North Campus reception: Mon - Fri, 9:00 a.m. - 4:00 p.m. (Wednesdays 10:00 a.m. - 4:00 p.m.); service hours Mon - Fri, 9:00 a.m. - 4:00 p.m.; closed noon - 1:00 p.m.",
+        "notes": "Register early; accommodations are not approved until official notification."
+      },
+      "accessModes": [
+        "online",
+        "in_person",
+        "appointment"
+      ],
+      "crisisLevel": "preventive",
+      "whenToUse": null,
+      "contact": {
+        "phone": "780-492-3381",
+        "email": "arrec@ualberta.ca",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/index.html"
+      },
+      "locations": [
+        {
+          "name": "Accessibility + Accommodations, North Campus",
+          "address": "Students' Union Building, Edmonton, Alberta",
+          "campus": "North Campus",
+          "room": "1-80 SUB"
+        },
+        {
+          "name": "Accessibility + Accommodations, Augustana",
+          "address": "4901 - 46 Avenue, Camrose, AB T4V 2R3",
+          "campus": "Augustana",
+          "room": "L-1090"
+        },
+        {
+          "name": "Campus Saint-Jean accommodations contact",
+          "address": "8460 Rue Marie-Anne Gaboury, Edmonton, AB T6C 4G9",
+          "campus": "Campus Saint-Jean",
+          "room": null
+        }
+      ],
+      "tags": [
+        "accommodations",
+        "accessibility",
+        "mental-health-disability",
+        "academic-support"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/index.html",
+        "https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/register/index.html",
+        "https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/register/how-to-register-for-accommodations.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/index.html",
+          "claim": "Verifies service scope, contact details, campus locations, and hours.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/register/index.html",
+          "claim": "Verifies registration, eligibility framing, mental-health conditions, and early-registration guidance.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "first-peoples-house",
+      "name": "First Peoples' House",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "identity-culture",
+        "peer-social",
+        "academic-life-stress"
+      ],
+      "priority": 30,
+      "summary": "Holistic, culturally grounded support and community for First Nations, Metis, and Inuit students.",
+      "description": "First Peoples' House is a student service centre and community space for First Nations, Metis, and Inuit students. It offers programs and services that foster wellness, cultural connection, academic support, personal growth, student housing pathways, and transition support.",
+      "bestFor": [
+        "indigenous-students",
+        "cultural-connection",
+        "academic-support",
+        "belonging",
+        "holistic-wellness"
+      ],
+      "audiences": [
+        "undergraduate_students",
+        "graduate_students",
+        "international_students"
+      ],
+      "eligibility": "First Nations, Metis, and Inuit students; some events or resources may be broader.",
+      "cost": "Free",
+      "availability": {
+        "type": "business_hours",
+        "hoursText": null,
+        "notes": "Current drop-in hours were not verified."
+      },
+      "accessModes": [
+        "in_person",
+        "email",
+        "appointment"
+      ],
+      "crisisLevel": "preventive",
+      "whenToUse": null,
+      "contact": {
+        "phone": "780-492-5677",
+        "email": "fph@ualberta.ca",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/first-peoples-house/index.html"
+      },
+      "locations": [
+        {
+          "name": "First Peoples' House",
+          "address": "Students' Union Building, Edmonton, Alberta T6G 2J7",
+          "campus": "North Campus",
+          "room": "2-400 SUB"
+        }
+      ],
+      "tags": [
+        "indigenous-students",
+        "fnmi",
+        "culture",
+        "belonging",
+        "academic-support"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/first-peoples-house/index.html",
+        "https://www.ualberta.ca/en/first-peoples-house/about-first-peoples-house/index.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/first-peoples-house/index.html",
+          "claim": "Verifies holistic support, programs, wellness framing, academic support, contact, phone, and location.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.ualberta.ca/en/first-peoples-house/about-first-peoples-house/index.html",
+          "claim": "Verifies student service centre role, FNMI student community focus, and personal growth support.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "black-student-resources",
+      "name": "Resources for Black Students",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "identity-culture",
+        "peer-social",
+        "academic-life-stress"
+      ],
+      "priority": 31,
+      "summary": "Resource list developed by the Black Students' Collective for Black students at U of A.",
+      "description": "Resources for Black Students is a UAlberta page developed by the Black Students' Collective to list resources, services, activities, programs, student groups, and community resources that directly support Black students. It includes student associations and community mental-health links such as the Alberta Black Therapists Network.",
+      "bestFor": [
+        "black-students",
+        "community",
+        "student-groups",
+        "mentorship",
+        "culturally-relevant-support"
+      ],
+      "audiences": [
+        "undergraduate_students",
+        "graduate_students",
+        "international_students"
+      ],
+      "eligibility": "Black students and students seeking relevant campus and community resources.",
+      "cost": "Free",
+      "availability": {
+        "type": "24_7",
+        "hoursText": "Online resource page available 24/7.",
+        "notes": "Individual listed services have their own eligibility and availability."
+      },
+      "accessModes": [
+        "online"
+      ],
+      "crisisLevel": "preventive",
+      "whenToUse": null,
+      "contact": {
+        "phone": null,
+        "email": "wellness@ualberta.ca",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/campus-life/health-wellness/black-student-resources.html"
+      },
+      "locations": [
+        {
+          "name": null,
+          "address": null,
+          "campus": "Online",
+          "room": null
+        }
+      ],
+      "tags": [
+        "black-students",
+        "student-groups",
+        "community",
+        "identity"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/campus-life/health-wellness/black-student-resources.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/campus-life/health-wellness/black-student-resources.html",
+          "claim": "Verifies page purpose, Black Students' Collective authorship, suggested contact email, student groups, and community mental-health resource listing.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "interfaith-chaplains-association",
+      "name": "Interfaith Chaplains' Association",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "identity-culture",
+        "peer-social",
+        "self-help-wellness"
+      ],
+      "priority": 32,
+      "summary": "Spiritual guidance, care, support, and referral for campus community members of any or no faith.",
+      "description": "The Interfaith Chaplains' Association offers spiritual guidance, care, and support to students, staff, and faculty whether or not they identify with a particular faith. Chaplains can also provide information and referrals related to religious groups and activities on campus.",
+      "bestFor": [
+        "spiritual-care",
+        "grief",
+        "belonging",
+        "faith",
+        "life-transitions"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "Any student, staff, or faculty member.",
+      "cost": "Free",
+      "availability": {
+        "type": "varies",
+        "hoursText": null,
+        "notes": "For drop-in hours, contact interfaithchaplains@ualberta.ca."
+      },
+      "accessModes": [
+        "email",
+        "phone",
+        "online",
+        "drop_in",
+        "appointment"
+      ],
+      "crisisLevel": "preventive",
+      "whenToUse": null,
+      "contact": {
+        "phone": "780-492-0339",
+        "email": "interfaithchaplains@ualberta.ca",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/current-students/interfaith-chaplains/index.html"
+      },
+      "locations": [
+        {
+          "name": null,
+          "address": null,
+          "campus": "North Campus",
+          "room": null
+        }
+      ],
+      "tags": [
+        "spiritual-care",
+        "interfaith",
+        "grief",
+        "belonging"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/current-students/interfaith-chaplains/index.html",
+        "https://www.ualberta.ca/en/campus-life/health-wellness/grief-loss.html",
+        "https://www.ualberta.ca/en/campus-life/sexual-violence/help-for-survivors/support-services-and-modification.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/current-students/interfaith-chaplains/index.html",
+          "claim": "Verifies spiritual guidance, care and support for students, staff, and faculty, and referral role.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.ualberta.ca/en/campus-life/sexual-violence/help-for-survivors/support-services-and-modification.html",
+          "claim": "Verifies phone and email contact details.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "student-service-centre",
+      "name": "Student Service Centre",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "categoryIds": [
+        "academic-life-stress",
+        "international-transition"
+      ],
+      "priority": 33,
+      "summary": "Campus-wide starting point for questions about academic, financial, mental, and physical well-being services.",
+      "description": "UAlberta describes the Student Service Centre as a starting place to connect with campus-wide services. It can help students access information and services for academic, financial, mental, and physical well-being and connect them with another service when needed.",
+      "bestFor": [
+        "service-navigation",
+        "academic-questions",
+        "financial-questions",
+        "student-services"
+      ],
+      "audiences": [
+        "all_students",
+        "international_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "eligibility": "U of A students.",
+      "cost": "Free",
+      "availability": {
+        "type": "business_hours",
+        "hoursText": null,
+        "notes": "Current contact details and hours should be reviewed on the live Student Service Centre page."
+      },
+      "accessModes": [
+        "online",
+        "in_person",
+        "phone"
+      ],
+      "crisisLevel": "preventive",
+      "whenToUse": null,
+      "contact": {
+        "phone": null,
+        "email": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/campus-life/index.html"
+      },
+      "locations": [
+        {
+          "name": null,
+          "address": null,
+          "campus": "Unknown",
+          "room": null
+        }
+      ],
+      "tags": [
+        "student-services",
+        "navigation",
+        "academic",
+        "financial"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/campus-life/index.html",
+        "https://www.ualberta.ca/en/campus-life/health-wellness/index.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/campus-life/index.html",
+          "claim": "Verifies Student Service Centre as a place for academic, financial, mental, and physical well-being service access.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.ualberta.ca/en/campus-life/health-wellness/index.html",
+          "claim": "Verifies Student Service Centre as starting place to connect with campus-wide services.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Specific Student Service Centre contact details, location, and hours were not verified."
+      ]
+    }
+  ],
+  "wellnessResourceLinks": [
+    {
+      "id": "managing-stress-anxiety",
+      "title": "Managing stress and anxiety",
+      "summary": "Skills, workshops, and support options for stress, anxiety, and feeling overwhelmed.",
+      "categoryIds": [
+        "self-help-wellness",
+        "professional-support"
+      ],
+      "resourceIds": [
+        "ccs-groups-workshops-resources",
+        "ccs-individual-therapy",
+        "wellness-supports-social-work-team",
+        "university-health-centre-mental-health"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/current-students/counselling/resources/index.html",
+        "https://www.ualberta.ca/en/current-students/counselling/index.html"
+      ]
+    },
+    {
+      "id": "building-healthy-habits",
+      "title": "Building healthy habits",
+      "summary": "Self-help, coaching, wellness planning, substance awareness, and social connection resources.",
+      "categoryIds": [
+        "self-help-wellness"
+      ],
+      "resourceIds": [
+        "wellness-supports-social-work-team",
+        "substance-awareness-and-recovery",
+        "empower-me",
+        "unitea"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/campus-life/health-wellness/substance-aware/index.html",
+        "https://www.studentcare.ca/rte/en/IHaveAPlan_UniversityofAlbertaUndergraduateStudentsSU_EmpowerMe_EmpowerMe"
+      ]
+    },
+    {
+      "id": "sleep-self-care",
+      "title": "Sleep and self-care tips",
+      "summary": "CCS resources and campus supports for sleep, balance, self-care, and daily functioning.",
+      "categoryIds": [
+        "self-help-wellness"
+      ],
+      "resourceIds": [
+        "ccs-groups-workshops-resources",
+        "wellness-supports-social-work-team",
+        "academic-success-centre"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/current-students/counselling/resources/index.html"
+      ]
+    },
+    {
+      "id": "connection-belonging",
+      "title": "Connection and belonging",
+      "summary": "Peer, cultural, spiritual, identity-based, and international-student connection supports.",
+      "categoryIds": [
+        "peer-social",
+        "identity-culture",
+        "international-transition"
+      ],
+      "resourceIds": [
+        "peer-support-centre",
+        "unitea",
+        "the-landing",
+        "first-peoples-house",
+        "black-student-resources",
+        "interfaith-chaplains-association",
+        "international-student-visitor-services"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/campus-life/health-wellness/index.html",
+        "https://www.ualberta.ca/en/current-students/wellness-supports/community-engagement/unitea/index.html"
+      ]
+    },
+    {
+      "id": "urgent-help-and-safety",
+      "title": "Urgent help and safety",
+      "summary": "Emergency, crisis, sexual-violence, campus safety, and after-hours support options.",
+      "categoryIds": [
+        "crisis-safety"
+      ],
+      "resourceIds": [
+        "emergency-services",
+        "access-24-7",
+        "cmha-edmonton-distress-line",
+        "protective-services",
+        "sexual-assault-centre",
+        "helping-individuals-at-risk",
+        "two-one-one-alberta"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/emergency/index.html",
+        "https://edmonton.cmha.ca/brochure/distress-line/",
+        "https://www.albertahealthservices.ca/findhealth/Service.aspx?serviceAtFacilityID=1132871"
+      ]
+    }
+  ],
+  "workshops": [],
+  "navigation": {
+    "primary": [
+      {
+        "label": "Counselling",
+        "targetCategory": "professional-support"
+      },
+      {
+        "label": "Crisis Support",
+        "targetCategory": "crisis-safety"
+      },
+      {
+        "label": "Peer Support",
+        "targetCategory": "peer-social"
+      },
+      {
+        "label": "International Students",
+        "targetCategory": "international-transition"
+      },
+      {
+        "label": "Academic Stress",
+        "targetCategory": "academic-life-stress"
+      }
+    ]
+  }
+}

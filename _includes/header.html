@@ -1,16 +1,10 @@
 <header class="site-header">
   <div class="utility-bar">
     <div class="container utility-bar__inner">
-      <button class="utility-bar__lang" type="button" aria-label="Select language">
-        {% include icon.html name="globe" %}
-        <span>English</span>
-        {% include icon.html name="chevron-down" %}
-      </button>
       <nav class="utility-bar__links" aria-label="Utility">
-        <a href="{{ '/contact/' | relative_url }}">Contact Us</a>
-        <span class="utility-bar__divider" aria-hidden="true"></span>
-        <a href="{{ '/hours-locations/' | relative_url }}">Hours &amp; Locations</a>
-        <span class="utility-bar__divider" aria-hidden="true"></span>
+        <a href="{{ '/about/' | relative_url }}">About this project</a>
+        <a href="{{ '/feedback/' | relative_url }}">Give feedback</a>
+        <a href="{{ '/faq/' | relative_url }}">FAQ</a>
         <a class="utility-bar__search" href="{{ '/search/' | relative_url }}">
           {% include icon.html name="search" %}
           <span>Search</span>
