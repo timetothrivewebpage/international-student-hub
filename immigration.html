@@ -1,0 +1,207 @@
+---
+layout: default
+title: Immigration
+description: Visas, permits, work authorization and immigration guidance.
+permalink: /immigration/
+---
+
+{% assign imm = site.data.immigration_resources %}
+{% assign hidden_resource_ids = "|ualberta-study-permit-outside-canada|ualberta-study-permit-extension|ualberta-trv|ualberta-eta|" %}
+
+<section class="hero hero--inner">
+  <div class="hero__art" aria-hidden="true">
+    <img src="{{ '/assets/img/campus-skyline.svg' | relative_url }}" alt="">
+  </div>
+  <div class="container hero__inner">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <span aria-hidden="true">&rsaquo;</span>
+      <span aria-current="page">Immigration</span>
+    </nav>
+    <h1 class="hero__title hero__title--inner">{{ imm.hero.title }}</h1>
+    <p class="hero__subtitle">{{ imm.hero.subtitle }}</p>
+  </div>
+</section>
+
+<section class="container immigration-page">
+  <div class="imm-notice">
+    <span class="imm-notice__icon">{% include icon.html name=imm.importantNotice.icon %}</span>
+    <div class="imm-notice__body">
+      <h2>{{ imm.importantNotice.title }}</h2>
+      <p>{{ imm.importantNotice.summary }} Always confirm details through official sources before applying or travelling.</p>
+      <div class="imm-notice__links" aria-label="Official immigration links">
+        {% for link in imm.importantNotice.links %}
+        <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }} {% include icon.html name="external" %}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <section class="imm-quick" aria-labelledby="imm-quick-title">
+    <h2 id="imm-quick-title" class="section-heading">Quick access</h2>
+    <div class="imm-quick__grid">
+      {% for card in imm.quickAccessCards %}
+      <a class="imm-quick-card" href="#{{ card.targetSectionId }}">
+        <span class="imm-quick-card__icon">{% include icon.html name=card.icon %}</span>
+        <span class="imm-quick-card__body">
+          <span class="imm-quick-card__title">{{ card.title }}</span>
+          <span class="imm-quick-card__summary">{{ card.summary }}</span>
+        </span>
+        <span class="imm-quick-card__arrow">{% include icon.html name="arrow-right" %}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <div class="imm-top-grid">
+    <section class="imm-support" id="immigration-support" aria-labelledby="imm-support-title">
+      <h2 id="imm-support-title" class="section-heading">Immigration support</h2>
+      <ul class="imm-link-list">
+        {% for item in imm.immigrationSupport %}
+        <li>
+          <a href="{{ item.url }}" target="_blank" rel="noopener">
+            <span class="imm-link-list__icon">{% include icon.html name=item.icon %}</span>
+            <span class="imm-link-list__body">
+              <strong>{{ item.title }}</strong>
+              <small>{{ item.summary }}</small>
+            </span>
+            {% include icon.html name="arrow-right" %}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section class="imm-updates" aria-labelledby="imm-updates-title">
+      <h2 id="imm-updates-title" class="section-heading">Official updates</h2>
+      {% if imm.latestUpdates and imm.latestUpdates.size > 0 %}
+      <ul class="imm-link-list">
+        {% for update in imm.latestUpdates %}
+        <li>
+          <a href="{{ update.url }}" target="_blank" rel="noopener">
+            <span class="imm-link-list__icon">{% include icon.html name="megaphone" %}</span>
+            <span class="imm-link-list__body">
+              <strong>{{ update.title }}</strong>
+              {% if update.date %}<small>{{ update.date | date: "%B %-d, %Y" }}</small>{% endif %}
+            </span>
+            {% include icon.html name="arrow-right" %}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <div class="imm-official-panel">
+        <span class="imm-official-panel__icon">{% include icon.html name="megaphone" %}</span>
+        <div>
+          <h3>No dated updates are listed yet</h3>
+          <p>The safest route is to check IRCC notices directly before making immigration decisions.</p>
+          <a href="{{ imm.hero.secondaryCta.url }}" target="_blank" rel="noopener">{{ imm.hero.secondaryCta.label }} {% include icon.html name="external" %}</a>
+        </div>
+      </div>
+      {% endif %}
+    </section>
+  </div>
+
+  <section class="imm-directory" aria-labelledby="imm-directory-title">
+    <div class="imm-directory__intro">
+      <div>
+        <h2 id="imm-directory-title" class="section-heading">Resource directory</h2>
+        <p>Official University of Alberta, IRCC, Government of Canada, and CBSA resources grouped by primary student need. Each resource appears once to keep this page easier to scan.</p>
+      </div>
+      <a class="imm-directory__official" href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank" rel="noopener">Official IRCC site {% include icon.html name="external" %}</a>
+    </div>
+
+    {% for category in imm.categories %}
+    <section class="imm-resource-section" id="{{ category.id }}" aria-labelledby="{{ category.id }}-title">
+      <div class="imm-resource-section__head">
+        <h3 id="{{ category.id }}-title">{{ category.label }}</h3>
+        <p>{{ category.description }}</p>
+      </div>
+      <div class="imm-resource-grid">
+        {% for resource in imm.resources %}
+        {% if resource.categoryIds[0] == category.id %}
+        {% capture resource_token %}|{{ resource.id }}|{% endcapture %}
+        {% unless hidden_resource_ids contains resource_token %}
+        {% assign resource_url = resource.contact.websiteUrl %}
+        {% if resource_url == nil or resource_url == "" %}{% assign resource_url = resource.contact.bookingUrl %}{% endif %}
+        {% if resource_url == nil or resource_url == "" %}{% assign resource_url = resource.contact.contactFormUrl %}{% endif %}
+        <article class="imm-resource-card">
+          <div class="imm-resource-card__top">
+            <span class="imm-resource-card__provider">{{ resource.provider }}</span>
+            {% if resource.providerType == "ircc" %}
+            <span class="imm-resource-card__source">IRCC</span>
+            {% elsif resource.providerType == "government" %}
+            <span class="imm-resource-card__source">Government</span>
+            {% elsif resource.providerType == "cbsa" %}
+            <span class="imm-resource-card__source">CBSA</span>
+            {% else %}
+            <span class="imm-resource-card__source">UAlberta</span>
+            {% endif %}
+          </div>
+          <h4>{{ resource.name }}</h4>
+          <p>{{ resource.summary }}</p>
+
+          {% if resource_url %}
+          <a class="imm-card-link" href="{{ resource_url }}" target="_blank" rel="noopener">Open resource {% include icon.html name="external" %}</a>
+          {% endif %}
+        </article>
+        {% endunless %}
+        {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+    {% endfor %}
+  </section>
+
+  <section class="imm-checklists" aria-labelledby="imm-checklists-title">
+    <h2 id="imm-checklists-title" class="section-heading">Checklists</h2>
+    <div class="imm-checklist-grid">
+      {% for checklist in imm.checklists %}
+      <article class="imm-checklist">
+        <h3>{{ checklist.title }}</h3>
+        <p>{{ checklist.summary }}</p>
+        <ol>
+          {% for item in checklist.items %}
+          <li>
+            <a href="{{ item.sourceUrl }}" target="_blank" rel="noopener">{{ item.label }}</a>
+          </li>
+          {% endfor %}
+        </ol>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="imm-faq" aria-labelledby="imm-faq-title">
+    <h2 id="imm-faq-title" class="section-heading">Common questions</h2>
+    <div class="imm-faq__items">
+      {% for item in imm.faq %}
+      <details class="faq-item">
+        <summary class="faq-item__q">
+          <span class="faq-item__q-mark">Q</span>
+          <span class="faq-item__q-text">{{ item.question }}</span>
+          <span class="faq-item__chev">{% include icon.html name="chevron-down" %}</span>
+        </summary>
+        <div class="faq-item__a">
+          <p>{{ item.answer }}</p>
+          {% if item.sourceUrls %}
+          <div class="faq-item__sources">
+            <span class="faq-item__sources-label">Sources</span>
+            {% for url in item.sourceUrls %}
+            <a href="{{ url }}" target="_blank" rel="noopener">Official source {% include icon.html name="external" %}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </details>
+      {% endfor %}
+    </div>
+  </section>
+
+  <p class="imm-disclaimer">{{ imm.metadata.disclaimer }} Last verified: {{ imm.metadata.lastVerified | date: "%B %-d, %Y" }}.</p>
+
+  <a class="back-top" href="#main" aria-label="Back to top">
+    <span>Back to top</span>
+    {% include icon.html name="arrow-up" %}
+  </a>
+</section>

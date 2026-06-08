@@ -1,24 +1,17 @@
 <header class="site-header">
-  <div class="utility-bar">
-    <div class="container utility-bar__inner">
-      <nav class="utility-bar__links" aria-label="Utility">
-        <a href="{{ '/about/' | relative_url }}">About this project</a>
-        <a href="{{ '/feedback/' | relative_url }}">Give feedback</a>
-        <a href="{{ '/faq/' | relative_url }}">FAQ</a>
-        <a class="utility-bar__search" href="{{ '/search/' | relative_url }}">
-          {% include icon.html name="search" %}
-          <span>Search</span>
-        </a>
-      </nav>
-    </div>
-  </div>
-
-  <div class="brand-bar">
-    <div class="container brand-bar__inner">
-      <a class="brand" href="{{ '/' | relative_url }}">
-        <img class="brand__mark" src="{{ '/assets/img/logo-mark.png' | relative_url }}" alt="" width="40" height="40">
-        <span class="brand__text">International Student Hub</span>
+  <div class="container site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img class="brand__mark" src="{{ '/assets/img/logo-mark.png' | relative_url }}" alt="" width="40" height="40">
+      <span class="brand__text">International Student Hub</span>
+    </a>
+    <nav class="header-nav" aria-label="Site">
+      <a href="{{ '/about/' | relative_url }}">About this project</a>
+      <a href="{{ '/feedback/' | relative_url }}">Give feedback</a>
+      <a href="{{ '/faq/' | relative_url }}">FAQ</a>
+      <a class="header-nav__search" href="{{ '/search/' | relative_url }}">
+        {% include icon.html name="search" %}
+        <span>Search</span>
       </a>
-    </div>
+    </nav>
   </div>
 </header>

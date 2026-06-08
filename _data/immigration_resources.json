@@ -1,0 +1,3570 @@
+{
+  "metadata": {
+    "title": "Immigration",
+    "institution": "University of Alberta",
+    "audiencePrimary": [
+      "international_students",
+      "newly_admitted_students",
+      "current_students",
+      "graduate_students",
+      "undergraduate_students"
+    ],
+    "lastVerified": "2026-06-08",
+    "dataVersion": "1.0.0",
+    "language": "en",
+    "disclaimer": "This page is an informational directory only. Immigration rules can change. Always confirm details with IRCC and official University of Alberta immigration advisors.",
+    "sourcePolicy": "Official IRCC, Government of Canada, CBSA, and University of Alberta sources prioritized.",
+    "retrievalNotes": [
+      "Most www.ualberta.ca pages returned a JavaScript verification page when opened directly from this environment. Facts from those pages were verified from official search-crawled UAlberta content and should be manually rechecked in a normal browser session before publishing.",
+      "The attached DOCX was treated as a seed list only; rule-based claims were checked against official IRCC, Government of Canada, CBSA, and UAlberta sources."
+    ]
+  },
+  "hero": {
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Immigration",
+        "href": "/immigration"
+      }
+    ],
+    "title": "Immigration",
+    "subtitle": "Visas, permits, work authorization and immigration guidance.",
+    "primaryCta": {
+      "label": "Get Help Now",
+      "targetId": "immigration-support"
+    },
+    "secondaryCta": {
+      "label": "Check IRCC Updates",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices.html"
+    }
+  },
+  "importantNotice": {
+    "id": "official-updates-notice",
+    "title": "Important: Always check official IRCC and university updates.",
+    "summary": "Immigration rules and regulations can change.",
+    "icon": "globe-passport",
+    "links": [
+      {
+        "label": "IRCC Study Permit Information",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
+        "sourceType": "ircc"
+      },
+      {
+        "label": "UAlberta Immigration FAQ",
+        "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/immigration-faq.html",
+        "sourceType": "ualberta"
+      },
+      {
+        "label": "Contact ISVS",
+        "url": "https://www.ualberta.ca/en/international/about/contact-us/international-services-centre.html",
+        "sourceType": "ualberta"
+      }
+    ],
+    "needsReview": false
+  },
+  "quickAccessCards": [
+    {
+      "id": "study-permits",
+      "title": "Study Permits",
+      "summary": "Apply for or extend your study permit to study in Canada.",
+      "icon": "permit-document",
+      "targetSectionId": "study-permits",
+      "priority": 1
+    },
+    {
+      "id": "work-authorization",
+      "title": "Work Authorization",
+      "summary": "Check how to work on campus, off campus, or in placements.",
+      "icon": "briefcase",
+      "targetSectionId": "work-authorization",
+      "priority": 2
+    },
+    {
+      "id": "pgwp",
+      "title": "PGWP",
+      "summary": "Review Post-Graduation Work Permit information and eligibility.",
+      "icon": "graduation-cap",
+      "targetSectionId": "pgwp",
+      "priority": 3
+    },
+    {
+      "id": "travel-reentry",
+      "title": "Travel & Re-entry",
+      "summary": "Prepare documents for travel to Canada or returning after travel.",
+      "icon": "plane",
+      "targetSectionId": "travel-reentry",
+      "priority": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": "study-permits",
+      "label": "Study Permits",
+      "description": "Applying for a first study permit, extending status, and understanding required documents."
+    },
+    {
+      "id": "entry-documents",
+      "label": "Visas, eTA & Entry Documents",
+      "description": "Documents used to enter Canada, including TRV, eTA, passport, and port-of-entry documents."
+    },
+    {
+      "id": "work-authorization",
+      "label": "Work Authorization",
+      "description": "Working on campus, off campus, student work placements, and related work authorization."
+    },
+    {
+      "id": "pgwp",
+      "label": "Post-Graduation Work Permit",
+      "description": "PGWP eligibility, application timing, and post-graduation work planning."
+    },
+    {
+      "id": "travel-reentry",
+      "label": "Travel & Re-entry",
+      "description": "Travel outside Canada, re-entry documents, and arrival guidance."
+    },
+    {
+      "id": "family-members",
+      "label": "Family Members",
+      "description": "Information for spouses, common-law partners, dependent children, and visitors."
+    },
+    {
+      "id": "applications-portals",
+      "label": "Applications, Portals & Forms",
+      "description": "IRCC accounts, web forms, status checks, processing times, and university documents."
+    },
+    {
+      "id": "university-support",
+      "label": "University Support",
+      "description": "UAlberta immigration advising, workshops, contact options, and application support."
+    },
+    {
+      "id": "proof-finances",
+      "label": "Proof of Funds & Fees",
+      "description": "Tuition, fee estimates, financial documentation, and related application planning."
+    }
+  ],
+  "immigrationSupport": [
+    {
+      "id": "contact-isvs-advising",
+      "title": "Contact ISVS advising",
+      "summary": "Submit an inquiry, visit drop-in advising, or book online advising when appropriate.",
+      "icon": "message-circle",
+      "targetResourceId": "ualberta-international-service-centre",
+      "url": "https://www.ualberta.ca/en/international/international-student-services/contact-us/index.html",
+      "needsReview": true,
+      "reviewNotes": [
+        "Verify the current advising workflow from a normal browser session before publishing."
+      ]
+    },
+    {
+      "id": "immigration-webinars",
+      "title": "Immigration webinars",
+      "summary": "Find UAlberta webinars about study permits, work rules, visas, family support, and PR pathways.",
+      "icon": "users",
+      "targetResourceId": "ualberta-isvs-programs-events",
+      "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/immigration-webinars.html",
+      "needsReview": true,
+      "reviewNotes": [
+        "Event schedules change frequently; verify active webinars close to launch."
+      ]
+    },
+    {
+      "id": "ircc-web-form",
+      "title": "IRCC web form",
+      "summary": "Contact IRCC online about applications, documents, technical issues, or updates.",
+      "icon": "send",
+      "targetResourceId": "ircc-web-form",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+      "needsReview": false,
+      "reviewNotes": []
+    }
+  ],
+  "latestUpdates": [],
+  "latestUpdatesReview": {
+    "needsReview": true,
+    "reviewNotes": [
+      "No stable official, page-ready latest-updates feed was verified during this run. Use IRCC notices or UAlberta immigration pages only after manual date and relevance review."
+    ]
+  },
+  "resources": [
+    {
+      "id": "ualberta-international-student-services",
+      "name": "International Student + Visitor Services",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "university_support",
+      "categoryIds": [
+        "university-support"
+      ],
+      "priority": 1,
+      "summary": "Programs, services, events, and advising for UAlberta international students and visitors.",
+      "description": "International Student and Visitor Services provides programs, services, and events for UAlberta international students and academic visitors. Official UAlberta content says licensed immigration specialists and student advisors support students with adjustment and success.",
+      "bestFor": [
+        "student-support",
+        "orientation",
+        "immigration-navigation"
+      ],
+      "audiences": [
+        "international_students",
+        "newly_admitted_students",
+        "current_students",
+        "academic_visitors"
+      ],
+      "immigrationTopics": [
+        "study-permit",
+        "work-authorization",
+        "settlement"
+      ],
+      "eligibility": "UAlberta international students, academic visitors, and related campus community members.",
+      "actionType": "learn",
+      "urgency": "routine",
+      "timingGuidance": {
+        "summary": null,
+        "exactDeadline": null,
+        "sourceUrl": null,
+        "needsReview": false
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": "780-492-2692",
+        "email": null,
+        "contactFormUrl": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/international/international-student-services/index.html"
+      },
+      "accessModes": [
+        "online",
+        "in_person",
+        "appointment"
+      ],
+      "locations": [
+        {
+          "name": "International Education and Enrolment",
+          "campus": "North Campus",
+          "address": "142 TELUS Centre, Edmonton, Alberta, Canada T6G 2R3",
+          "room": null
+        }
+      ],
+      "relatedResources": [
+        "ualberta-international-service-centre",
+        "ualberta-immigration-resources"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/international/international-student-services/index.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/international/international-student-services/index.html",
+          "claim": "Verifies ISVS service scope, events, immigration resources link, TELUS Centre address, and phone.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct page retrieval returned JavaScript verification; facts came from official search-crawled content."
+      ]
+    },
+    {
+      "id": "ualberta-international-service-centre",
+      "name": "International Service Centre",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "university_support",
+      "categoryIds": [
+        "university-support",
+        "applications-portals"
+      ],
+      "priority": 2,
+      "summary": "Connect with ISVS advisors for study permits, work permits, visas, and student transition support.",
+      "description": "The International Service Centre is home to International Student and Visitor Services and Study Abroad. Official UAlberta content says licensed immigration consultants and student advisors assist with study permits, work permits, visas, emergency funding, health insurance, SIN information, orientation, settlement, and cultural adjustment.",
+      "bestFor": [
+        "ask-immigration-question",
+        "book-appointment",
+        "student-support"
+      ],
+      "audiences": [
+        "international_students",
+        "current_students",
+        "exchange_students",
+        "visiting_students"
+      ],
+      "immigrationTopics": [
+        "study-permit",
+        "work-permit",
+        "visa",
+        "sin"
+      ],
+      "eligibility": "UAlberta students and international exchange students; non-UAlberta applicants are directed to the Student Service Centre.",
+      "actionType": "contact",
+      "urgency": "routine",
+      "timingGuidance": {
+        "summary": "Advisor availability is posted by UAlberta and should be checked before visiting.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.ualberta.ca/en/international/about/contact-us/international-services-centre.html",
+        "needsReview": true
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": "780-492-2692",
+        "email": null,
+        "contactFormUrl": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/international/about/contact-us/international-services-centre.html"
+      },
+      "accessModes": [
+        "online",
+        "in_person",
+        "appointment"
+      ],
+      "locations": [
+        {
+          "name": "International Service Centre",
+          "campus": "North Campus",
+          "address": "142 TELUS Centre, Edmonton, Alberta, Canada T6G 2R3",
+          "room": null
+        }
+      ],
+      "relatedResources": [
+        "ualberta-international-student-services"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/international/about/contact-us/international-services-centre.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/international/about/contact-us/international-services-centre.html",
+          "claim": "Verifies ISC/ISVS advising scope, phone, and TELUS Centre location.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct page retrieval returned JavaScript verification; manually verify current hours and booking links."
+      ]
+    },
+    {
+      "id": "ualberta-immigration-resources",
+      "name": "UAlberta Immigration Resources",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "study-permits",
+        "entry-documents",
+        "work-authorization",
+        "pgwp",
+        "travel-reentry",
+        "family-members",
+        "university-support"
+      ],
+      "priority": 3,
+      "summary": "UAlberta hub for study permits, extensions, travel, work, PGWP, family support, and IRCC links.",
+      "description": "The UAlberta immigration hub organizes immigration topics for international students, including studying in Canada, travel, work in Canada, family support, and IRCC resources. It also states that ISVS does not offer one-on-one advising for permanent residency.",
+      "bestFor": [
+        "browse-topics",
+        "university-guidance",
+        "ircc-cross-links"
+      ],
+      "audiences": [
+        "international_students",
+        "newly_admitted_students",
+        "current_students"
+      ],
+      "immigrationTopics": [
+        "study-permit",
+        "trv",
+        "eta",
+        "work-authorization",
+        "pgwp",
+        "family-members"
+      ],
+      "eligibility": "General information for UAlberta international students.",
+      "actionType": "learn",
+      "urgency": "routine",
+      "timingGuidance": {
+        "summary": null,
+        "exactDeadline": null,
+        "sourceUrl": null,
+        "needsReview": false
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": "780-492-2692",
+        "email": null,
+        "contactFormUrl": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/index.html"
+      },
+      "accessModes": [
+        "online"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ualberta-international-service-centre",
+        "ircc-study-permit-main"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/international/international-student-services/immigration/index.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/index.html",
+          "claim": "Verifies immigration topic hierarchy and UAlberta/IRCC resource links.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct page retrieval returned JavaScript verification."
+      ]
+    },
+    {
+      "id": "ualberta-study-permit-outside-canada",
+      "name": "UAlberta Study Permit Guide",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "study-permits",
+        "applications-portals",
+        "proof-finances"
+      ],
+      "priority": 4,
+      "summary": "UAlberta guide for applying for a study permit from outside Canada.",
+      "description": "The UAlberta study permit guide explains when admitted students may need a study permit and points students to IRCC for the application. It includes UAlberta-specific context such as the DLI number, document preparation, and the reminder to consult an International Student Specialist for personal advice.",
+      "bestFor": [
+        "first-study-permit",
+        "newly-admitted-students",
+        "application-preparation"
+      ],
+      "audiences": [
+        "newly_admitted_students",
+        "undergraduate_students",
+        "graduate_students",
+        "exchange_students",
+        "visiting_students"
+      ],
+      "immigrationTopics": [
+        "study-permit",
+        "pal",
+        "proof-of-funds",
+        "biometrics",
+        "medical-exam"
+      ],
+      "eligibility": "Students admitted to UAlberta programs should check IRCC and UAlberta guidance to confirm whether their program requires a study permit.",
+      "actionType": "prepare-documents",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "UAlberta advises students to apply as soon as they receive their Offer of Admission and PAL, because processing times vary.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/studying-in-canada/study-permit.html",
+        "needsReview": true
+      },
+      "fees": [
+        {
+          "name": "Study permit application fee",
+          "amount": 150,
+          "currency": "CAD",
+          "sourceUrl": "https://www.ircc.canada.ca/english/information/fees/fees.asp",
+          "needsReview": false,
+          "reviewNotes": []
+        },
+        {
+          "name": "Biometrics fee, individual applicant",
+          "amount": 85,
+          "currency": "CAD",
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/campaigns/biometrics/how-to-give-biometrics.html",
+          "needsReview": false,
+          "reviewNotes": []
+        }
+      ],
+      "requiredDocuments": [
+        {
+          "name": "Letter of acceptance",
+          "requiredFor": [
+            "study-permit"
+          ],
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents.html",
+          "needsReview": false
+        },
+        {
+          "name": "Provincial attestation letter or territorial attestation letter, unless exempt",
+          "requiredFor": [
+            "study-permit"
+          ],
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/provincial-attestation-letter.html",
+          "needsReview": false
+        },
+        {
+          "name": "Proof of financial support",
+          "requiredFor": [
+            "study-permit"
+          ],
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+          "needsReview": false
+        }
+      ],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.ualberta.ca/en/international/about/contact-us/international-services-centre.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/studying-in-canada/study-permit.html"
+      },
+      "accessModes": [
+        "online",
+        "appointment"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-study-permit-apply",
+        "ircc-study-permit-documents",
+        "ualberta-borderpass"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/international/international-student-services/immigration/studying-in-canada/study-permit.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/studying-in-canada/study-permit.html",
+          "claim": "Verifies UAlberta study permit guide scope, DLI context, application timing language, and university-specific document guidance.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html",
+          "claim": "Verifies IRCC online application requirement and core document preparation links.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct UAlberta retrieval returned JavaScript verification; recheck before publishing."
+      ]
+    },
+    {
+      "id": "ualberta-borderpass",
+      "name": "BorderPass Study Permit Application Support",
+      "provider": "BorderPass",
+      "providerType": "borderpass",
+      "resourceType": "university_support",
+      "categoryIds": [
+        "study-permits",
+        "university-support"
+      ],
+      "priority": 5,
+      "summary": "UAlberta-linked BorderPass support for eligible newly admitted degree-seeking students.",
+      "description": "UAlberta official content references BorderPass as study permit application support for newly admitted students. Because BorderPass is not an IRCC source, students should treat it as support only and confirm final rules and requirements on IRCC and UAlberta pages.",
+      "bestFor": [
+        "first-study-permit",
+        "application-review",
+        "newly-admitted-students"
+      ],
+      "audiences": [
+        "newly_admitted_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "immigrationTopics": [
+        "study-permit"
+      ],
+      "eligibility": "Eligibility and access pathway depend on UAlberta's current BorderPass partnership instructions.",
+      "actionType": "prepare-documents",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": null,
+        "exactDeadline": null,
+        "sourceUrl": null,
+        "needsReview": true
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/applying-for-a-study-permit/borderpass.html"
+      },
+      "accessModes": [
+        "online"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ualberta-study-permit-outside-canada",
+        "ircc-study-permit-apply"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/international/international-student-services/immigration/applying-for-a-study-permit/borderpass.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/applying-for-a-study-permit/borderpass.html",
+          "claim": "Seed page and official UAlberta study permit guide verify UAlberta references BorderPass for application support.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct UAlberta retrieval returned JavaScript verification; verify current partnership, free access terms, and access route before publishing."
+      ]
+    },
+    {
+      "id": "ualberta-study-permit-extension",
+      "name": "UAlberta Study Permit Extension Guide",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "study-permits",
+        "applications-portals"
+      ],
+      "priority": 6,
+      "summary": "UAlberta guide for renewing a study permit while continuing studies in Canada.",
+      "description": "UAlberta's extension page gives university-specific guidance for students renewing a study permit, including PAL context for continuing in the same program. It should be used together with the official IRCC extension page because extension rules and timing can change.",
+      "bestFor": [
+        "study-permit-extension",
+        "status-extension",
+        "current-students"
+      ],
+      "audiences": [
+        "current_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "immigrationTopics": [
+        "study-permit-extension",
+        "maintained-status",
+        "pal"
+      ],
+      "eligibility": "Current UAlberta students whose study permit may expire before they finish should review this guide and IRCC requirements.",
+      "actionType": "apply",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "IRCC says to apply at least 30 days before a study permit expires; UAlberta students should review UAlberta's guide early.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/extend-study-permit/when-to-apply.html",
+        "needsReview": false
+      },
+      "fees": [
+        {
+          "name": "Study permit extension fee",
+          "amount": 150,
+          "currency": "CAD",
+          "sourceUrl": "https://www.ircc.canada.ca/english/information/fees/fees.asp",
+          "needsReview": false,
+          "reviewNotes": []
+        }
+      ],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.ualberta.ca/en/international/about/contact-us/international-services-centre.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/studying-in-canada/study-permit-extension.html"
+      },
+      "accessModes": [
+        "online",
+        "appointment"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-extend-study-permit",
+        "ircc-secure-account"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/international/international-student-services/immigration/studying-in-canada/study-permit-extension.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/extend-study-permit.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/studying-in-canada/study-permit-extension.html",
+          "claim": "Verifies UAlberta extension guide exists and includes PAL context for continuing students.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/extend-study-permit/when-to-apply.html",
+          "claim": "Verifies IRCC guidance to apply at least 30 days before expiry.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct UAlberta retrieval returned JavaScript verification; verify current UAlberta extension steps."
+      ]
+    },
+    {
+      "id": "ualberta-working-in-canada",
+      "name": "UAlberta Working in Canada",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "work-authorization",
+        "pgwp"
+      ],
+      "priority": 7,
+      "summary": "UAlberta overview of work while studying, SIN, on-campus, off-campus, co-op, and PGWP topics.",
+      "description": "UAlberta's Working in Canada page explains common work topics for international students and links to on-campus, off-campus, student placement, and PGWP resources. Work authorization is rule-sensitive, so students should confirm current conditions on IRCC before working.",
+      "bestFor": [
+        "work-eligibility",
+        "sin",
+        "work-while-studying"
+      ],
+      "audiences": [
+        "current_students",
+        "undergraduate_students",
+        "graduate_students",
+        "exchange_students",
+        "visiting_students"
+      ],
+      "immigrationTopics": [
+        "work-on-campus",
+        "work-off-campus",
+        "student-work-placement",
+        "pgwp",
+        "sin"
+      ],
+      "eligibility": "Work eligibility depends on study permit conditions, registration status, program type, and IRCC rules.",
+      "actionType": "learn",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "IRCC says students can only start work in Canada when their study program starts.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
+        "needsReview": false
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.ualberta.ca/en/international/about/contact-us/international-services-centre.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/working-in-canada/index.html"
+      },
+      "accessModes": [
+        "online"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-work-on-campus",
+        "ircc-work-off-campus",
+        "ircc-student-work-placement"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/international/international-student-services/immigration/working-in-canada/index.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/working-in-canada/index.html",
+          "claim": "Verifies UAlberta work topic overview and student-facing work categories.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work.html",
+          "claim": "Verifies IRCC work while studying, student work placement, and PGWP hierarchy.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct UAlberta retrieval returned JavaScript verification. Confirm UAlberta work-hour text against current IRCC pages before publishing."
+      ]
+    },
+    {
+      "id": "ualberta-coop-work-permit",
+      "name": "UAlberta Co-op Work Permit Guide",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "work-authorization",
+        "applications-portals"
+      ],
+      "priority": 8,
+      "summary": "UAlberta co-op work permit guide; verify against IRCC's 2026 student placement update.",
+      "description": "UAlberta's co-op page explains earlier co-op work permit steps for mandatory placements. Current IRCC content says that as of April 1, 2026, post-secondary international students do not need a co-op work permit for student work placements, so this UAlberta page must be reviewed before publication.",
+      "bestFor": [
+        "co-op",
+        "internship",
+        "student-work-placement"
+      ],
+      "audiences": [
+        "current_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "immigrationTopics": [
+        "co-op-work-permit",
+        "student-work-placement",
+        "medical-exam"
+      ],
+      "eligibility": "Needs review because UAlberta and current IRCC wording appear to differ for post-secondary placements.",
+      "actionType": "learn",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "IRCC states that post-secondary international students do not need a co-op work permit for student work placements as of April 1, 2026.",
+        "exactDeadline": "2026-04-01",
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work.html",
+        "needsReview": false
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.ualberta.ca/en/international/about/contact-us/international-services-centre.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/working-in-canada/coop-work-permit.html"
+      },
+      "accessModes": [
+        "online",
+        "appointment"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-student-work-placement",
+        "ualberta-working-in-canada"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/international/international-student-services/immigration/working-in-canada/coop-work-permit.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/intern.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/working-in-canada/coop-work-permit.html",
+          "claim": "Verifies UAlberta co-op guide still describes co-op work permit application steps.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work.html",
+          "claim": "Verifies IRCC's April 1, 2026 update for post-secondary student work placements.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Must verify with UAlberta ISVS before publishing due apparent mismatch between UAlberta co-op page and current IRCC post-secondary placement policy."
+      ]
+    },
+    {
+      "id": "ualberta-pgwp",
+      "name": "UAlberta Post-Graduation Work Permit Guide",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "pgwp",
+        "work-authorization",
+        "applications-portals"
+      ],
+      "priority": 9,
+      "summary": "UAlberta PGWP guide for completion letters, transcripts, application timing, and support.",
+      "description": "UAlberta's PGWP page explains post-graduation work permit planning and links students to university-specific documents such as official transcripts and completion letters. Students should confirm PGWP eligibility, document, language, and field-of-study requirements on IRCC before applying.",
+      "bestFor": [
+        "pgwp",
+        "after-graduation",
+        "completion-letter"
+      ],
+      "audiences": [
+        "current_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "immigrationTopics": [
+        "pgwp",
+        "work-after-graduation",
+        "completion-letter",
+        "official-transcript"
+      ],
+      "eligibility": "Eligibility depends on IRCC PGWP criteria and the student's program, status, and documents.",
+      "actionType": "prepare-documents",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "UAlberta and IRCC state PGWP timing rules are tied to program completion documents; verify exact timing on IRCC before applying.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html",
+        "needsReview": true
+      },
+      "fees": [
+        {
+          "name": "PGWP application fee",
+          "amount": 255,
+          "currency": "CAD",
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html",
+          "needsReview": false,
+          "reviewNotes": []
+        }
+      ],
+      "requiredDocuments": [
+        {
+          "name": "Proof of completion",
+          "requiredFor": [
+            "pgwp"
+          ],
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/get-documents.html",
+          "needsReview": false
+        },
+        {
+          "name": "Proof of full-time enrolment for a program that was 8 months or longer",
+          "requiredFor": [
+            "pgwp"
+          ],
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/get-documents.html",
+          "needsReview": false
+        }
+      ],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.ualberta.ca/en/international/about/contact-us/international-services-centre.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/working-in-canada/pgwp.html"
+      },
+      "accessModes": [
+        "online",
+        "appointment"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-pgwp",
+        "ualberta-verification-enrolment-mycreds"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/international/international-student-services/immigration/working-in-canada/pgwp.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/working-in-canada/pgwp.html",
+          "claim": "Verifies UAlberta PGWP guide, completion letter and transcript context, and advising referral.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html",
+          "claim": "Verifies official IRCC PGWP overview and fee.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct UAlberta retrieval returned JavaScript verification; PGWP requirements are highly rule-sensitive."
+      ]
+    },
+    {
+      "id": "ualberta-entering-canada",
+      "name": "UAlberta Entering Canada as a New Student",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "checklist",
+      "categoryIds": [
+        "travel-reentry",
+        "entry-documents",
+        "study-permits"
+      ],
+      "priority": 10,
+      "summary": "UAlberta arrival guidance for new students, carry-on documents, and study permit review.",
+      "description": "UAlberta's entering Canada guide explains that new students present their Letter of Introduction and Letter of Acceptance to CBSA. It reminds degree-seeking students to check study permit work authorization remarks before leaving the student processing area.",
+      "bestFor": [
+        "arrival",
+        "entering-canada",
+        "newly-admitted-students"
+      ],
+      "audiences": [
+        "newly_admitted_students",
+        "exchange_students",
+        "visiting_students"
+      ],
+      "immigrationTopics": [
+        "travel-reentry",
+        "study-permit",
+        "cbsa",
+        "work-remarks"
+      ],
+      "eligibility": "New UAlberta international students preparing to enter Canada.",
+      "actionType": "prepare-documents",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "UAlberta recommends arriving 2-3 weeks before classes begin to settle and attend orientation.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/entering-canada.html",
+        "needsReview": true
+      },
+      "fees": [],
+      "requiredDocuments": [
+        {
+          "name": "Port of Entry Letter of Introduction, if applicable",
+          "requiredFor": [
+            "entering-canada"
+          ],
+          "sourceUrl": "https://www.cbsa-asfc.gc.ca/publications/pub/international-students-etudiants-etrangers-eng.pdf",
+          "needsReview": false
+        },
+        {
+          "name": "Valid passport or travel document",
+          "requiredFor": [
+            "entering-canada"
+          ],
+          "sourceUrl": "https://www.cbsa-asfc.gc.ca/publications/pub/international-students-etudiants-etrangers-eng.pdf",
+          "needsReview": false
+        },
+        {
+          "name": "Letter of Acceptance",
+          "requiredFor": [
+            "entering-canada"
+          ],
+          "sourceUrl": "https://www.cbsa-asfc.gc.ca/publications/pub/international-students-etudiants-etrangers-eng.pdf",
+          "needsReview": false
+        }
+      ],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.ualberta.ca/en/international/about/contact-us/international-services-centre.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/entering-canada.html"
+      },
+      "accessModes": [
+        "online"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "cbsa-international-students",
+        "ircc-study-permit-apply"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/entering-canada.html",
+        "https://www.cbsa-asfc.gc.ca/publications/pub/international-students-etudiants-etrangers-eng.pdf"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/entering-canada.html",
+          "claim": "Verifies UAlberta arrival guidance, documents to carry, and permit remark check.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.cbsa-asfc.gc.ca/publications/pub/international-students-etudiants-etrangers-eng.pdf",
+          "claim": "Verifies CBSA document list and instruction to keep documents out of checked luggage.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct UAlberta retrieval returned JavaScript verification; CBSA PDF was directly reachable."
+      ]
+    },
+    {
+      "id": "ualberta-returning-students",
+      "name": "UAlberta Returning Students Travel Guidance",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "checklist",
+      "categoryIds": [
+        "travel-reentry",
+        "entry-documents"
+      ],
+      "priority": 11,
+      "summary": "Travel document checklist for current UAlberta students leaving and returning to Canada.",
+      "description": "UAlberta's returning students page is for current students who have completed at least one semester and plan temporary travel outside Canada. It advises students to make sure all documents will be valid on return before booking flights.",
+      "bestFor": [
+        "returning-to-canada",
+        "travel-reentry",
+        "current-students"
+      ],
+      "audiences": [
+        "current_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "immigrationTopics": [
+        "travel-reentry",
+        "trv",
+        "eta",
+        "study-permit"
+      ],
+      "eligibility": "Current UAlberta students with an issued study permit who will be temporarily outside Canada.",
+      "actionType": "prepare-documents",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "UAlberta says not to book a flight until all required documents will be valid upon return.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/returning-students.html",
+        "needsReview": true
+      },
+      "fees": [],
+      "requiredDocuments": [
+        {
+          "name": "Valid study permit",
+          "requiredFor": [
+            "re-entry"
+          ],
+          "sourceUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/returning-students.html",
+          "needsReview": true
+        },
+        {
+          "name": "Valid visa or eTA, as applicable",
+          "requiredFor": [
+            "re-entry"
+          ],
+          "sourceUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/returning-students.html",
+          "needsReview": true
+        },
+        {
+          "name": "Verification of Enrolment",
+          "requiredFor": [
+            "re-entry"
+          ],
+          "sourceUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/returning-students.html",
+          "needsReview": true
+        }
+      ],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.ualberta.ca/en/international/about/contact-us/international-services-centre.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/returning-students.html"
+      },
+      "accessModes": [
+        "online",
+        "appointment"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ualberta-trv",
+        "ualberta-eta",
+        "ualberta-verification-enrolment-mycreds"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/returning-students.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/returning-students.html",
+          "claim": "Verifies returning-student travel audience, document list, and flight-booking caution.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct UAlberta retrieval returned JavaScript verification; travel rules are time-sensitive."
+      ]
+    },
+    {
+      "id": "ualberta-trv",
+      "name": "UAlberta Temporary Resident Visa Guidance",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "entry-documents",
+        "travel-reentry"
+      ],
+      "priority": 12,
+      "summary": "UAlberta guidance for students who need a Temporary Resident Visa to enter Canada.",
+      "description": "UAlberta's TRV page explains that citizens of some countries require a Temporary Resident Visa in addition to a study permit. It directs students to Canada.ca for the most up-to-date immigration information.",
+      "bestFor": [
+        "trv",
+        "visa-renewal",
+        "travel-reentry"
+      ],
+      "audiences": [
+        "current_students",
+        "newly_admitted_students"
+      ],
+      "immigrationTopics": [
+        "trv",
+        "visitor-visa",
+        "re-entry"
+      ],
+      "eligibility": "Students from visa-required countries should confirm current travel document requirements with IRCC.",
+      "actionType": "learn",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": null,
+        "exactDeadline": null,
+        "sourceUrl": null,
+        "needsReview": true
+      },
+      "fees": [
+        {
+          "name": "Visitor visa processing fee, individual",
+          "amount": 100,
+          "currency": "CAD",
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html",
+          "needsReview": false,
+          "reviewNotes": []
+        }
+      ],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.ualberta.ca/en/international/about/contact-us/international-services-centre.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/trv.html"
+      },
+      "accessModes": [
+        "online"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-visitor-visa",
+        "ircc-secure-account"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/trv.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/trv.html",
+          "claim": "Verifies UAlberta TRV page scope and Canada.ca referral.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html",
+          "claim": "Verifies TRV definition, processing time variability, and fee.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct UAlberta retrieval returned JavaScript verification."
+      ]
+    },
+    {
+      "id": "ualberta-eta",
+      "name": "UAlberta Electronic Travel Authorization Guidance",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "entry-documents",
+        "travel-reentry"
+      ],
+      "priority": 13,
+      "summary": "UAlberta guidance for visa-exempt students who may need an eTA for air travel.",
+      "description": "UAlberta's eTA page explains that an electronic travel authorization is for visa-exempt foreign nationals entering Canada by air. Students should apply only through the official Government of Canada eTA page and confirm current requirements before travel.",
+      "bestFor": [
+        "eta",
+        "travel-reentry",
+        "visa-exempt-travelers"
+      ],
+      "audiences": [
+        "current_students",
+        "newly_admitted_students"
+      ],
+      "immigrationTopics": [
+        "eta",
+        "entry-document",
+        "air-travel"
+      ],
+      "eligibility": "Visa-exempt foreign nationals travelling to Canada by air may need an eTA; check IRCC for country-specific requirements.",
+      "actionType": "learn",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "IRCC says most eTA applications are approved within minutes, but some may require documents and take several days.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/facts.html",
+        "needsReview": false
+      },
+      "fees": [
+        {
+          "name": "Electronic Travel Authorization fee",
+          "amount": 7,
+          "currency": "CAD",
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/apply.html",
+          "needsReview": false,
+          "reviewNotes": []
+        }
+      ],
+      "requiredDocuments": [
+        {
+          "name": "Valid passport from a visa-exempt country",
+          "requiredFor": [
+            "eta"
+          ],
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/apply.html",
+          "needsReview": false
+        }
+      ],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/eta.html"
+      },
+      "accessModes": [
+        "online"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-eta"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/eta.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/apply.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/eta.html",
+          "claim": "Verifies UAlberta eTA guidance for visa-exempt foreign nationals travelling by air.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/apply.html",
+          "claim": "Verifies official eTA application page and fee.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct UAlberta retrieval returned JavaScript verification."
+      ]
+    },
+    {
+      "id": "ualberta-inviting-family-members",
+      "name": "UAlberta Immigration Support for Families",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "family-members",
+        "entry-documents",
+        "proof-finances"
+      ],
+      "priority": 14,
+      "summary": "UAlberta guidance for inviting spouses, partners, dependent children, and other family visitors.",
+      "description": "UAlberta's family immigration page gives examples of documents students and family members may prepare when family members visit or accompany them. It also states that the University does not issue invitation letters on behalf of students.",
+      "bestFor": [
+        "family-members",
+        "visitor-visa",
+        "spouse-partner",
+        "dependent-children"
+      ],
+      "audiences": [
+        "international_students",
+        "family_members",
+        "graduate_students",
+        "undergraduate_students"
+      ],
+      "immigrationTopics": [
+        "family-members",
+        "trv",
+        "visitor-visa",
+        "open-work-permit",
+        "study-permit"
+      ],
+      "eligibility": "Family member options depend on relationship, purpose of travel, country of citizenship, and current IRCC rules.",
+      "actionType": "prepare-documents",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "Compare processing times for different family-member applications before choosing an application type.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/inviting-family-members.html",
+        "needsReview": true
+      },
+      "fees": [],
+      "requiredDocuments": [
+        {
+          "name": "Proof of relationship",
+          "requiredFor": [
+            "family-visitor"
+          ],
+          "sourceUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/inviting-family-members.html",
+          "needsReview": true
+        },
+        {
+          "name": "Copy of student's immigration status document",
+          "requiredFor": [
+            "family-visitor"
+          ],
+          "sourceUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/inviting-family-members.html",
+          "needsReview": true
+        }
+      ],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.ualberta.ca/en/international/about/contact-us/international-services-centre.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/international/international-student-services/immigration/inviting-family-members.html"
+      },
+      "accessModes": [
+        "online",
+        "appointment"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-visitor-visa",
+        "ircc-eta",
+        "ircc-web-form"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/international/international-student-services/immigration/inviting-family-members.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/inviting-family-members.html",
+          "claim": "Verifies UAlberta family support page, document examples, and invitation-letter note.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Family-member work/study eligibility is rule-sensitive; verify against current IRCC before publishing."
+      ]
+    },
+    {
+      "id": "ualberta-isvs-programs-events",
+      "name": "ISVS Programs & Events",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "university_support",
+      "categoryIds": [
+        "university-support"
+      ],
+      "priority": 15,
+      "summary": "ISVS event page with immigration webinars and other international student programs.",
+      "description": "The ISVS Programs & Events page lists immigration webinars, informational sessions, and international student community programming. It should be checked near publication because event dates and registration links change often.",
+      "bestFor": [
+        "immigration-workshops",
+        "events",
+        "webinars"
+      ],
+      "audiences": [
+        "international_students",
+        "newly_admitted_students",
+        "current_students"
+      ],
+      "immigrationTopics": [
+        "immigration-workshops",
+        "study-permit-conditions",
+        "work-authorization",
+        "visa"
+      ],
+      "eligibility": "Official page states events are open to all UAlberta students unless event-specific details say otherwise.",
+      "actionType": "attend-workshop",
+      "urgency": "routine",
+      "timingGuidance": {
+        "summary": "Event dates and registration links should be checked immediately before publishing.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.ualberta.ca/en/international/international-student-services/events/index.html",
+        "needsReview": true
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": "uaipa@ualberta.ca",
+        "contactFormUrl": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/international/international-student-services/events/index.html"
+      },
+      "accessModes": [
+        "online",
+        "in_person"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ualberta-international-student-services"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/international/international-student-services/events/index.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/international/international-student-services/events/index.html",
+          "claim": "Verifies immigration webinars, general events, and event contact email.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Event listings are volatile; no dated workshop was included in latestUpdates."
+      ]
+    },
+    {
+      "id": "ualberta-student-service-centre",
+      "name": "Student Service Centre",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "university_support",
+      "categoryIds": [
+        "applications-portals",
+        "university-support"
+      ],
+      "priority": 16,
+      "summary": "Registrar and student service support for transcripts, enrolment verification, forms, and fees.",
+      "description": "The Student Service Centre supports prospective, current undergraduate, graduate, and continuing education students. It provides service options for transcripts, registration, financial support, form submissions, and student inquiries.",
+      "bestFor": [
+        "forms-and-letters",
+        "transcripts",
+        "enrolment-verification",
+        "student-service-portal"
+      ],
+      "audiences": [
+        "newly_admitted_students",
+        "current_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "immigrationTopics": [
+        "verification-of-enrolment",
+        "official-transcript",
+        "forms"
+      ],
+      "eligibility": "Prospective and current UAlberta students, including undergraduate, graduate, and continuing education students.",
+      "actionType": "contact",
+      "urgency": "routine",
+      "timingGuidance": {
+        "summary": "Form submission and contact wait times are posted by UAlberta and vary.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.ualberta.ca/en/services/student-service-centre/index.html",
+        "needsReview": true
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.ualberta.ca/en/services/student-service-centre/index.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/services/student-service-centre/index.html"
+      },
+      "accessModes": [
+        "online",
+        "in_person",
+        "phone"
+      ],
+      "locations": [
+        {
+          "name": "Student Service Centre",
+          "campus": "North Campus",
+          "address": "2-180 University Commons, Edmonton, Alberta, Canada T6G 2R3",
+          "room": "2-180"
+        }
+      ],
+      "relatedResources": [
+        "ualberta-verification-enrolment-mycreds"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/services/student-service-centre/index.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/services/student-service-centre/index.html",
+          "claim": "Verifies service scope, form submissions, Student Service Portal, and in-person location.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Search-crawled page showed stale wait-time examples; do not publish specific wait times without rechecking."
+      ]
+    },
+    {
+      "id": "ualberta-verification-enrolment-mycreds",
+      "name": "Verification of Enrolment and MyCreds",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "university_support",
+      "categoryIds": [
+        "applications-portals",
+        "proof-finances"
+      ],
+      "priority": 17,
+      "summary": "Official enrolment verification and transcript documents through Bear Tracks and MyCreds.",
+      "description": "UAlberta Registrar content explains that enrolment verification documents are requested through Bear Tracks and delivered through MyCreds. The Student Service Centre FAQ notes Verification of Enrolment may be shared with third parties including IRCC.",
+      "bestFor": [
+        "verification-of-enrolment",
+        "official-transcript",
+        "pgwp-documents",
+        "proof-of-student-status"
+      ],
+      "audiences": [
+        "current_students",
+        "undergraduate_students",
+        "graduate_students",
+        "former_students"
+      ],
+      "immigrationTopics": [
+        "verification-of-enrolment",
+        "official-transcript",
+        "pgwp",
+        "travel-reentry"
+      ],
+      "eligibility": "Current and former UAlberta students with access to Bear Tracks or Registrar support.",
+      "actionType": "prepare-documents",
+      "urgency": "routine",
+      "timingGuidance": {
+        "summary": "UAlberta says the Verification of Enrolment certificate is available 120 days before the applicable term and 120 days after the term ends.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.ualberta.ca/en/services/student-service-centre/faq.html",
+        "needsReview": true
+      },
+      "fees": [
+        {
+          "name": "MyCreds Verification of Enrolment share credit",
+          "amount": 10,
+          "currency": "CAD",
+          "sourceUrl": "https://www.ualberta.ca/en/services/student-service-centre/faq.html",
+          "needsReview": true,
+          "reviewNotes": [
+            "Verify current MyCreds fee before publishing."
+          ]
+        }
+      ],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.ualberta.ca/en/services/student-service-centre/index.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/registrar/records/my-creds.html"
+      },
+      "accessModes": [
+        "online",
+        "self_service"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ualberta-student-service-centre",
+        "ualberta-pgwp",
+        "ualberta-returning-students"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/registrar/records/my-creds.html",
+        "https://www.ualberta.ca/en/services/student-service-centre/faq.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/registrar/records/my-creds.html",
+          "claim": "Verifies MyCreds and enrolment verification document context.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.ualberta.ca/en/services/student-service-centre/faq.html",
+          "claim": "Verifies Verification of Enrolment availability, MyCreds share credit, and third-party sharing examples including IRCC.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Fee and availability windows should be manually rechecked before publishing."
+      ]
+    },
+    {
+      "id": "ualberta-graduate-tuition-fees",
+      "name": "Graduate Tuition and Fees",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "proof-finances"
+      ],
+      "priority": 18,
+      "summary": "Graduate tuition and fee information for financial planning and proof-of-funds preparation.",
+      "description": "UAlberta Graduate & Postdoctoral Studies provides tuition and fee information for graduate students. The page says students can view official fee assessments in Bear Tracks and that fee information can change.",
+      "bestFor": [
+        "graduate-tuition",
+        "proof-of-funds",
+        "fee-assessment"
+      ],
+      "audiences": [
+        "graduate_students",
+        "newly_admitted_students",
+        "current_students"
+      ],
+      "immigrationTopics": [
+        "proof-of-funds",
+        "tuition-fees"
+      ],
+      "eligibility": "Prospective and current graduate students.",
+      "actionType": "prepare-documents",
+      "urgency": "routine",
+      "timingGuidance": {
+        "summary": "For current students, official fee assessments are available on Bear Tracks; students are responsible for paying by fee deadlines.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/index.html",
+        "needsReview": true
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/index.html"
+      },
+      "accessModes": [
+        "online",
+        "self_service"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-proof-financial-support"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/index.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/graduate-studies/fees-funding/tuition-fees/index.html",
+          "claim": "Verifies graduate tuition, fee assessment, payment responsibility, and international tuition model notes.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Do not publish sample fee amounts without checking the current term and program."
+      ]
+    },
+    {
+      "id": "ualberta-undergraduate-tuition-estimates",
+      "name": "Undergraduate Tuition and Fees",
+      "provider": "University of Alberta",
+      "providerType": "ualberta",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "proof-finances"
+      ],
+      "priority": 19,
+      "summary": "Undergraduate tuition estimates and cost calculator for financial planning.",
+      "description": "UAlberta undergraduate admissions content provides estimated tuition and fee information and directs students to official cost-estimate tools. Students should use their admission letter, Bear Tracks, and official fee pages for current amounts.",
+      "bestFor": [
+        "undergraduate-tuition",
+        "proof-of-funds",
+        "cost-estimates"
+      ],
+      "audiences": [
+        "undergraduate_students",
+        "newly_admitted_students"
+      ],
+      "immigrationTopics": [
+        "proof-of-funds",
+        "tuition-fees"
+      ],
+      "eligibility": "Prospective and current undergraduate students.",
+      "actionType": "prepare-documents",
+      "urgency": "routine",
+      "timingGuidance": {
+        "summary": "Tuition fees are due by the fee deadline each semester; check current UAlberta dates.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/tuition-and-fees.html",
+        "needsReview": true
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/tuition-and-fees.html"
+      },
+      "accessModes": [
+        "online",
+        "self_service"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-proof-financial-support"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/tuition-and-fees.html",
+        "https://www.ualberta.ca/en/registrar/costs-tuition-fees/undergraduate-tuition/tuition-model.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/tuition-and-fees.html",
+          "claim": "Verifies undergraduate tuition estimate context and semester deadline language.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.ualberta.ca/en/registrar/costs-tuition-fees/undergraduate-tuition/tuition-model.html",
+          "claim": "Verifies program-based tuition model for incoming international students and admission-letter guarantee context.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "Do not publish sample cost amounts without checking the student's program and admission term."
+      ]
+    },
+    {
+      "id": "ircc-study-permit-main",
+      "name": "IRCC Study Permit",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "study-permits"
+      ],
+      "priority": 20,
+      "summary": "Official IRCC study permit hub for eligibility, documents, applying, arrival, and conditions.",
+      "description": "IRCC defines the study permit as the document that allows foreign nationals to study at designated learning institutions in Canada. This hub is the primary official source for study permit rules and should be checked before relying on university summaries.",
+      "bestFor": [
+        "study-permit",
+        "official-rules",
+        "conditions"
+      ],
+      "audiences": [
+        "international_students",
+        "newly_admitted_students",
+        "current_students"
+      ],
+      "immigrationTopics": [
+        "study-permit",
+        "study-permit-conditions",
+        "arrival"
+      ],
+      "eligibility": "Most foreign nationals need a study permit to study in Canada; students must confirm their own situation with IRCC.",
+      "actionType": "learn",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": null,
+        "exactDeadline": null,
+        "sourceUrl": null,
+        "needsReview": false
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html"
+      },
+      "accessModes": [
+        "online"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-study-permit-apply",
+        "ircc-study-permit-documents"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
+          "claim": "Verifies IRCC study permit hub and official study permit definition.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "ircc-study-permit-apply",
+      "name": "Study Permit: How to Apply",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "application_portal",
+      "categoryIds": [
+        "study-permits",
+        "applications-portals"
+      ],
+      "priority": 21,
+      "summary": "Official IRCC instructions for applying for a study permit online.",
+      "description": "IRCC says study permit applicants generally must apply before coming to Canada and must apply online unless they meet limited paper-application exceptions. The page explains document preparation, biometrics, fees, and how to use the online application flow.",
+      "bestFor": [
+        "first-study-permit",
+        "apply-online",
+        "official-application"
+      ],
+      "audiences": [
+        "newly_admitted_students",
+        "international_students"
+      ],
+      "immigrationTopics": [
+        "study-permit",
+        "biometrics",
+        "ircc-account"
+      ],
+      "eligibility": "Eligibility and application location depend on the applicant's situation; use IRCC's official questions and instructions.",
+      "actionType": "apply",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "IRCC says applicants should apply before coming to Canada in most cases.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html",
+        "needsReview": false
+      },
+      "fees": [
+        {
+          "name": "Study permit application fee",
+          "amount": 150,
+          "currency": "CAD",
+          "sourceUrl": "https://www.ircc.canada.ca/english/information/fees/fees.asp",
+          "needsReview": false,
+          "reviewNotes": []
+        }
+      ],
+      "requiredDocuments": [
+        {
+          "name": "Letter of acceptance from a DLI",
+          "requiredFor": [
+            "study-permit"
+          ],
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html",
+          "needsReview": false
+        },
+        {
+          "name": "PAL or TAL, unless exempt",
+          "requiredFor": [
+            "study-permit"
+          ],
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html",
+          "needsReview": false
+        }
+      ],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html"
+      },
+      "accessModes": [
+        "online",
+        "secure_account"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-secure-account",
+        "ircc-study-permit-documents",
+        "ircc-biometrics"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html",
+          "claim": "Verifies online application requirement, document preparation, biometrics process, and application flow.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "ircc-study-permit-documents",
+      "name": "Study Permit: Get the Right Documents",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "study-permits",
+        "proof-finances"
+      ],
+      "priority": 22,
+      "summary": "Official IRCC document guidance for study permit applications.",
+      "description": "IRCC lists documents that may be needed for a study permit, including letter of acceptance, PAL/TAL in most cases, proof of identity, proof of funds, letter of explanation, and medical exam where required. Students should use the official IRCC checklist for their own situation.",
+      "bestFor": [
+        "document-checklist",
+        "study-permit",
+        "proof-of-funds"
+      ],
+      "audiences": [
+        "newly_admitted_students",
+        "international_students"
+      ],
+      "immigrationTopics": [
+        "study-permit",
+        "required-documents",
+        "proof-of-funds",
+        "medical-exam"
+      ],
+      "eligibility": "Document requirements depend on the student's situation and country or region.",
+      "actionType": "prepare-documents",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": null,
+        "exactDeadline": null,
+        "sourceUrl": null,
+        "needsReview": false
+      },
+      "fees": [],
+      "requiredDocuments": [
+        {
+          "name": "Letter of acceptance",
+          "requiredFor": [
+            "study-permit"
+          ],
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents.html",
+          "needsReview": false
+        },
+        {
+          "name": "Proof of identity",
+          "requiredFor": [
+            "study-permit"
+          ],
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents.html",
+          "needsReview": false
+        },
+        {
+          "name": "Proof of funds",
+          "requiredFor": [
+            "study-permit"
+          ],
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents.html",
+          "needsReview": false
+        }
+      ],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents.html"
+      },
+      "accessModes": [
+        "online"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-proof-financial-support",
+        "ircc-medical-exams"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents.html",
+          "claim": "Verifies study permit document categories and required/recommended notes.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "ircc-proof-financial-support",
+      "name": "Study Permit Proof of Financial Support",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "proof-finances",
+        "study-permits"
+      ],
+      "priority": 23,
+      "summary": "Official IRCC proof-of-funds requirements and examples for study permits.",
+      "description": "IRCC says study permit applicants must prove they have enough money, without working in Canada, for tuition, living expenses, and transportation for themselves and accompanying family members. The page lists examples of proof and current minimum living-expense amounts.",
+      "bestFor": [
+        "proof-of-funds",
+        "financial-documents",
+        "study-permit"
+      ],
+      "audiences": [
+        "newly_admitted_students",
+        "international_students",
+        "family_members"
+      ],
+      "immigrationTopics": [
+        "proof-of-funds",
+        "study-permit",
+        "tuition-fees"
+      ],
+      "eligibility": "Applies to study permit applicants who must show financial support.",
+      "actionType": "prepare-documents",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "IRCC has different minimum living-expense tables based on application date; check the current table before publishing amounts.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+        "needsReview": false
+      },
+      "fees": [],
+      "requiredDocuments": [
+        {
+          "name": "Proof of tuition, living expenses, and return transportation funds",
+          "requiredFor": [
+            "study-permit"
+          ],
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+          "needsReview": false
+        }
+      ],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html"
+      },
+      "accessModes": [
+        "online"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ualberta-graduate-tuition-fees",
+        "ualberta-undergraduate-tuition-estimates"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+          "claim": "Verifies proof-of-funds purpose, examples, and date-based living-expense table.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": [
+        "Minimum amounts change; recheck before launch if publishing exact figures."
+      ]
+    },
+    {
+      "id": "ircc-secure-account",
+      "name": "IRCC Secure Account",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "application_portal",
+      "categoryIds": [
+        "applications-portals",
+        "study-permits"
+      ],
+      "priority": 24,
+      "summary": "Official IRCC account used for many study, work, visitor, and status applications.",
+      "description": "IRCC says the secure account is used for work permits, extending work and study permits, visitor records, changing schools where applicable, and some study permits depending on the situation. Students should follow the specific application page to choose the correct account or portal.",
+      "bestFor": [
+        "ircc-account",
+        "secure-account",
+        "application-status"
+      ],
+      "audiences": [
+        "international_students",
+        "newly_admitted_students",
+        "current_students"
+      ],
+      "immigrationTopics": [
+        "ircc-account",
+        "study-permit",
+        "extension",
+        "visitor-record",
+        "work-permit"
+      ],
+      "eligibility": "Use depends on application type and IRCC instructions.",
+      "actionType": "apply",
+      "urgency": "routine",
+      "timingGuidance": {
+        "summary": null,
+        "exactDeadline": null,
+        "sourceUrl": null,
+        "needsReview": false
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/account.html"
+      },
+      "accessModes": [
+        "online",
+        "secure_account"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-study-permit-apply",
+        "ircc-application-status"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/account.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/account.html",
+          "claim": "Verifies application types and status-checking tasks supported by the IRCC secure account.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "ircc-web-form",
+      "name": "IRCC Web Form",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "official_government_tool",
+      "categoryIds": [
+        "applications-portals"
+      ],
+      "priority": 25,
+      "summary": "Official IRCC online contact tool for applications, updates, technical issues, and questions.",
+      "description": "IRCC says the web form can help with general questions, application or case questions, status checks, and finding website information. IRCC also says it cannot choose a program for you, speed up normal processing, or make a decision through the web form.",
+      "bestFor": [
+        "contact-ircc",
+        "case-specific-enquiry",
+        "technical-problem",
+        "update-application"
+      ],
+      "audiences": [
+        "international_students",
+        "newly_admitted_students",
+        "current_students"
+      ],
+      "immigrationTopics": [
+        "ircc-web-form",
+        "application-update",
+        "contact-ircc"
+      ],
+      "eligibility": "Anyone contacting IRCC online should follow the web form prompts for their application type.",
+      "actionType": "contact",
+      "urgency": "routine",
+      "timingGuidance": {
+        "summary": "IRCC says submitting another web form will not speed processing if the application is still being processed.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "needsReview": false
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html"
+      },
+      "accessModes": [
+        "online",
+        "web_form"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-application-status",
+        "ircc-processing-times"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+          "claim": "Verifies web form uses, limitations, temporary residence category guidance, and page update date.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "ircc-extend-study-permit",
+      "name": "Extend Your Study Permit or Restore Your Status",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "application_portal",
+      "categoryIds": [
+        "study-permits",
+        "applications-portals"
+      ],
+      "priority": 26,
+      "summary": "Official IRCC guidance for extending a study permit or restoring student status.",
+      "description": "IRCC says students who want to keep studying in Canada need to apply for a study permit extension. The when-to-apply page says students should apply at least 30 days before the permit expires if they want to keep studying.",
+      "bestFor": [
+        "study-permit-extension",
+        "restore-status",
+        "maintained-status"
+      ],
+      "audiences": [
+        "current_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "immigrationTopics": [
+        "study-permit-extension",
+        "restoration",
+        "maintained-status"
+      ],
+      "eligibility": "Students who need to continue studying beyond their current permit expiry should check IRCC extension eligibility.",
+      "actionType": "apply",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "Apply at least 30 days before the study permit expires if you want to keep studying.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/extend-study-permit/when-to-apply.html",
+        "needsReview": false
+      },
+      "fees": [
+        {
+          "name": "Study permit extension fee",
+          "amount": 150,
+          "currency": "CAD",
+          "sourceUrl": "https://www.ircc.canada.ca/english/information/fees/fees.asp",
+          "needsReview": false,
+          "reviewNotes": []
+        }
+      ],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/extend-study-permit.html"
+      },
+      "accessModes": [
+        "online",
+        "secure_account"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-secure-account",
+        "ualberta-study-permit-extension"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/extend-study-permit.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/extend-study-permit/when-to-apply.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/extend-study-permit.html",
+          "claim": "Verifies extension purpose and fee summary.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/extend-study-permit/when-to-apply.html",
+          "claim": "Verifies 30-day application timing guidance and maintained-study condition while in Canada.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "ircc-work-on-campus",
+      "name": "Work On Campus as an International Student",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "work-authorization"
+      ],
+      "priority": 27,
+      "summary": "Official IRCC rules for on-campus work while studying in Canada.",
+      "description": "IRCC says students can only start working in Canada when their study program starts. The on-campus work page explains study permit conditions, SIN, who can work, where on-campus work can happen, and when students must stop working.",
+      "bestFor": [
+        "work-on-campus",
+        "sin",
+        "work-eligibility"
+      ],
+      "audiences": [
+        "current_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "immigrationTopics": [
+        "work-on-campus",
+        "sin",
+        "study-permit-conditions"
+      ],
+      "eligibility": "Eligibility depends on full-time student status, DLI enrolment, valid study permit or timely extension application, work conditions on the permit, and SIN.",
+      "actionType": "learn",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "Students cannot work before their study program starts.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-on-campus.html",
+        "needsReview": false
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-on-campus.html"
+      },
+      "accessModes": [
+        "online"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-work-off-campus",
+        "ualberta-working-in-canada"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-on-campus.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-on-campus.html",
+          "claim": "Verifies on-campus work eligibility, SIN requirements, work locations, and no limit on on-campus hours if eligible.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "ircc-work-off-campus",
+      "name": "Work Off Campus as an International Student",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "work-authorization"
+      ],
+      "priority": 28,
+      "summary": "Official IRCC rules for off-campus work while studying in Canada.",
+      "description": "IRCC explains who can work off campus without a work permit and how many hours students may work during regular terms and scheduled breaks. Students and employers must ensure the student meets all current requirements before work begins.",
+      "bestFor": [
+        "work-off-campus",
+        "work-hours",
+        "sin"
+      ],
+      "audiences": [
+        "current_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "immigrationTopics": [
+        "work-off-campus",
+        "work-hours",
+        "study-permit-conditions",
+        "sin"
+      ],
+      "eligibility": "Eligibility depends on full-time DLI enrolment, program type and length, valid study permit or timely extension application, work conditions, and SIN.",
+      "actionType": "learn",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "IRCC says students can only start working in Canada when their study program starts.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
+        "needsReview": false
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html"
+      },
+      "accessModes": [
+        "online"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-work-on-campus",
+        "ualberta-working-in-canada"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
+          "claim": "Verifies off-campus work eligibility, SIN condition, 24-hour regular-term limit, and scheduled-break language.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": [
+        "Work-hour limits are high-change content; recheck immediately before publishing."
+      ]
+    },
+    {
+      "id": "ircc-student-work-placement",
+      "name": "Work in a Student Work Placement",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "work-authorization"
+      ],
+      "priority": 29,
+      "summary": "Official IRCC student work placement guidance, including 2026 co-op permit changes.",
+      "description": "IRCC says post-secondary international students do not need a co-op work permit for student work placements as of April 1, 2026. The page also explains placement locations, medical exam considerations, and the continuing co-op permit requirement for international secondary school students.",
+      "bestFor": [
+        "student-work-placement",
+        "co-op",
+        "internship"
+      ],
+      "audiences": [
+        "current_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "immigrationTopics": [
+        "student-work-placement",
+        "co-op-work-permit",
+        "medical-exam"
+      ],
+      "eligibility": "Post-secondary student placement rules differ from secondary school co-op work permit rules; check the IRCC page for the current situation.",
+      "actionType": "learn",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "As of April 1, 2026, post-secondary international students do not need a co-op work permit for student work placements.",
+        "exactDeadline": "2026-04-01",
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work.html",
+        "needsReview": false
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/intern.html"
+      },
+      "accessModes": [
+        "online"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ualberta-coop-work-permit",
+        "ircc-medical-exams"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/intern.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work.html",
+          "claim": "Verifies April 1, 2026 post-secondary co-op work permit change.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/intern.html",
+          "claim": "Verifies detailed student work placement guidance and secondary-school co-op permit content.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "ircc-pgwp",
+      "name": "Post-Graduation Work Permit",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "application_portal",
+      "categoryIds": [
+        "pgwp",
+        "work-authorization"
+      ],
+      "priority": 30,
+      "summary": "Official IRCC PGWP information for working in Canada after graduation.",
+      "description": "IRCC says graduates of certain designated learning institutions may be eligible for a Post-Graduation Work Permit. The official pages explain eligibility, required documents, how to apply, and working while IRCC processes the application.",
+      "bestFor": [
+        "pgwp",
+        "work-after-graduation",
+        "official-application"
+      ],
+      "audiences": [
+        "current_students",
+        "undergraduate_students",
+        "graduate_students"
+      ],
+      "immigrationTopics": [
+        "pgwp",
+        "work-after-graduation",
+        "official-transcript",
+        "completion-letter"
+      ],
+      "eligibility": "Eligibility depends on IRCC PGWP requirements, DLI/program eligibility, documents, language and field-of-study rules where applicable.",
+      "actionType": "apply",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "Application timing and work authorization while waiting depend on IRCC PGWP rules and the student's status.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html",
+        "needsReview": true
+      },
+      "fees": [
+        {
+          "name": "PGWP fee",
+          "amount": 255,
+          "currency": "CAD",
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html",
+          "needsReview": false,
+          "reviewNotes": []
+        }
+      ],
+      "requiredDocuments": [
+        {
+          "name": "Proof that you completed your studies",
+          "requiredFor": [
+            "pgwp"
+          ],
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/get-documents.html",
+          "needsReview": false
+        },
+        {
+          "name": "Proof of full-time studies for a program 8 months or longer",
+          "requiredFor": [
+            "pgwp"
+          ],
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/get-documents.html",
+          "needsReview": false
+        }
+      ],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html"
+      },
+      "accessModes": [
+        "online",
+        "secure_account"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ualberta-pgwp",
+        "ircc-fee-list"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/get-documents.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html",
+          "claim": "Verifies official PGWP overview, sections, processing-times link, and fee.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/get-documents.html",
+          "claim": "Verifies PGWP required document categories.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": [
+        "PGWP rules change frequently; recheck before publication."
+      ]
+    },
+    {
+      "id": "ircc-visitor-visa",
+      "name": "Visitor Visa (Temporary Resident Visa)",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "application_portal",
+      "categoryIds": [
+        "entry-documents",
+        "travel-reentry",
+        "family-members"
+      ],
+      "priority": 31,
+      "summary": "Official IRCC visitor visa information for people who need a TRV to travel to Canada.",
+      "description": "IRCC defines a visitor visa, also called a Temporary Resident Visa, as an official document placed in a passport to show the person meets requirements to travel to Canada. Processing times vary by country and the fee starts from CAD 100 for an individual application.",
+      "bestFor": [
+        "trv",
+        "visitor-visa",
+        "family-visits",
+        "travel-reentry"
+      ],
+      "audiences": [
+        "international_students",
+        "family_members",
+        "current_students"
+      ],
+      "immigrationTopics": [
+        "trv",
+        "visitor-visa",
+        "entry-document"
+      ],
+      "eligibility": "Travellers should check whether they need a visitor visa based on citizenship, travel document, and travel purpose.",
+      "actionType": "apply",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "Processing times vary by country and application factors; use the IRCC processing-times tool.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html",
+        "needsReview": false
+      },
+      "fees": [
+        {
+          "name": "Visitor visa processing fee, individual",
+          "amount": 100,
+          "currency": "CAD",
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html",
+          "needsReview": false,
+          "reviewNotes": []
+        }
+      ],
+      "requiredDocuments": [
+        {
+          "name": "Valid passport or travel document",
+          "requiredFor": [
+            "visitor-visa"
+          ],
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html",
+          "needsReview": false
+        }
+      ],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html"
+      },
+      "accessModes": [
+        "online",
+        "secure_account"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ualberta-trv",
+        "ircc-processing-times"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/visitor-visa.html",
+          "claim": "Verifies TRV definition, processing-time variability, and fee.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html",
+          "claim": "Verifies visitor visa application documents and online application pathways.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "ircc-eta",
+      "name": "Electronic Travel Authorization",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "application_portal",
+      "categoryIds": [
+        "entry-documents",
+        "travel-reentry"
+      ],
+      "priority": 32,
+      "summary": "Official Government of Canada eTA page for visa-exempt air travellers.",
+      "description": "IRCC says the eTA is an entry requirement for visa-exempt foreign nationals travelling to Canada by air and is electronically linked to the passport. The official application costs CAD 7 and should only be completed through the Government of Canada site.",
+      "bestFor": [
+        "eta",
+        "visa-exempt-travelers",
+        "air-travel"
+      ],
+      "audiences": [
+        "international_students",
+        "family_members",
+        "current_students"
+      ],
+      "immigrationTopics": [
+        "eta",
+        "entry-document",
+        "travel-reentry"
+      ],
+      "eligibility": "Visa-exempt foreign nationals travelling to or transiting through Canada by air may need an eTA; confirm current requirements on IRCC.",
+      "actionType": "apply",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "IRCC says most applications are approved within minutes, but some can take several days if documents are requested.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/facts.html",
+        "needsReview": false
+      },
+      "fees": [
+        {
+          "name": "Electronic Travel Authorization fee",
+          "amount": 7,
+          "currency": "CAD",
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/apply.html",
+          "needsReview": false,
+          "reviewNotes": []
+        }
+      ],
+      "requiredDocuments": [
+        {
+          "name": "Valid passport",
+          "requiredFor": [
+            "eta"
+          ],
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/apply.html",
+          "needsReview": false
+        }
+      ],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/apply.html"
+      },
+      "accessModes": [
+        "online",
+        "self_service"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ualberta-eta"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/apply.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/facts.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/apply.html",
+          "claim": "Verifies official eTA application page, application requirements, and fee.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta/facts.html",
+          "claim": "Verifies eTA definition, validity concept, and entry-not-guaranteed caution.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "ircc-biometrics",
+      "name": "Biometrics: How to Give Fingerprints and Photo",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "official_government_tool",
+      "categoryIds": [
+        "applications-portals",
+        "study-permits"
+      ],
+      "priority": 33,
+      "summary": "Official IRCC biometrics steps, fees, instruction letters, and collection-site guidance.",
+      "description": "IRCC explains how to give biometrics when required: pay the biometrics fee, receive a biometric instruction letter, and go to an official collection site. IRCC says paying the fee when applying helps avoid delays.",
+      "bestFor": [
+        "biometrics",
+        "study-permit",
+        "visitor-visa",
+        "work-permit"
+      ],
+      "audiences": [
+        "international_students",
+        "newly_admitted_students",
+        "current_students",
+        "family_members"
+      ],
+      "immigrationTopics": [
+        "biometrics",
+        "bil",
+        "study-permit"
+      ],
+      "eligibility": "Biometrics requirements depend on application type, age, status, and exemptions; check IRCC's biometrics tool.",
+      "actionType": "prepare-documents",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "IRCC says to book a biometrics appointment as soon as the biometric instruction letter is received; the BIL generally gives 30 days.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/biometrics/where-to-give.html",
+        "needsReview": false
+      },
+      "fees": [
+        {
+          "name": "Biometrics fee, individual applicant",
+          "amount": 85,
+          "currency": "CAD",
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/campaigns/biometrics/how-to-give-biometrics.html",
+          "needsReview": false,
+          "reviewNotes": []
+        },
+        {
+          "name": "Biometrics fee, family maximum",
+          "amount": 170,
+          "currency": "CAD",
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/campaigns/biometrics/how-to-give-biometrics.html",
+          "needsReview": false,
+          "reviewNotes": []
+        }
+      ],
+      "requiredDocuments": [
+        {
+          "name": "Biometric Instruction Letter",
+          "requiredFor": [
+            "biometrics"
+          ],
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/campaigns/biometrics/how-to-give-biometrics.html",
+          "needsReview": false
+        }
+      ],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/campaigns/biometrics/how-to-give-biometrics.html"
+      },
+      "accessModes": [
+        "online",
+        "appointment"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-study-permit-apply",
+        "ircc-web-form"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/campaigns/biometrics/how-to-give-biometrics.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/biometrics/where-to-give.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/campaigns/biometrics/how-to-give-biometrics.html",
+          "claim": "Verifies biometrics process and fees.",
+          "fetchedAt": "2026-06-08"
+        },
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/biometrics/where-to-give.html",
+          "claim": "Verifies appointment and 30-day BIL timing guidance.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "ircc-processing-times",
+      "name": "Check Current IRCC Processing Times",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "official_government_tool",
+      "categoryIds": [
+        "applications-portals"
+      ],
+      "priority": 34,
+      "summary": "Official IRCC tool for current application processing-time estimates.",
+      "description": "IRCC says processing times vary by application type, completeness, application volume, verification needs, response time, and other factors. The tool requires JavaScript and estimates are not maximums or guarantees.",
+      "bestFor": [
+        "processing-times",
+        "application-planning",
+        "status-check"
+      ],
+      "audiences": [
+        "international_students",
+        "newly_admitted_students",
+        "current_students",
+        "family_members"
+      ],
+      "immigrationTopics": [
+        "processing-times",
+        "study-permit",
+        "visitor-visa",
+        "work-permit",
+        "pgwp"
+      ],
+      "eligibility": "Anyone checking processing estimates for an IRCC application type.",
+      "actionType": "check-status",
+      "urgency": "routine",
+      "timingGuidance": {
+        "summary": "IRCC processing times are estimates and may change.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html",
+        "needsReview": false
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html"
+      },
+      "accessModes": [
+        "online",
+        "self_service"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-application-status",
+        "ircc-web-form"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html",
+          "claim": "Verifies processing-times tool, JavaScript requirement, factors affecting times, and non-guarantee language.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "ircc-application-status",
+      "name": "Check the Status of Your IRCC Application",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "official_government_tool",
+      "categoryIds": [
+        "applications-portals"
+      ],
+      "priority": 35,
+      "summary": "Official IRCC status-check guidance for study permits, TRVs, eTAs, and other applications.",
+      "description": "IRCC explains how to check application status based on application type and how the application was submitted. For study permits, IRCC notes the application status tracker may be used for some applications, while extensions or condition changes are checked in the account.",
+      "bestFor": [
+        "application-status",
+        "tracker",
+        "ircc-account"
+      ],
+      "audiences": [
+        "international_students",
+        "newly_admitted_students",
+        "current_students",
+        "family_members"
+      ],
+      "immigrationTopics": [
+        "application-status",
+        "study-permit",
+        "visitor-visa",
+        "eta",
+        "pgwp"
+      ],
+      "eligibility": "Status options depend on application type and submission method.",
+      "actionType": "check-status",
+      "urgency": "routine",
+      "timingGuidance": {
+        "summary": "IRCC Client Support Centre agents do not have more information about a study permit application than what is in the applicant's account.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-status.html",
+        "needsReview": false
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-status.html"
+      },
+      "accessModes": [
+        "online",
+        "self_service",
+        "secure_account"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-secure-account",
+        "ircc-processing-times"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-status.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-status.html",
+          "claim": "Verifies status-check options for visitor visas, study permits, eTA, and account/tracker requirements.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "ircc-fee-list",
+      "name": "Citizenship and Immigration Application Fees",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "official_government_tool",
+      "categoryIds": [
+        "applications-portals",
+        "proof-finances"
+      ],
+      "priority": 36,
+      "summary": "Official IRCC fee list for study permits, visitor visas, eTAs, biometrics, and more.",
+      "description": "The IRCC fee list is the official place to verify current application fees. Because immigration fees can change, public-facing pages should link to this source and avoid stale hardcoded fee copy.",
+      "bestFor": [
+        "fees",
+        "study-permit-fee",
+        "biometrics-fee",
+        "visitor-visa-fee"
+      ],
+      "audiences": [
+        "international_students",
+        "newly_admitted_students",
+        "current_students",
+        "family_members"
+      ],
+      "immigrationTopics": [
+        "fees",
+        "study-permit",
+        "visitor-visa",
+        "eta",
+        "biometrics"
+      ],
+      "eligibility": "Anyone preparing to pay IRCC application fees.",
+      "actionType": "learn",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "Check the fee list immediately before paying or publishing fee amounts.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.ircc.canada.ca/english/information/fees/fees.asp",
+        "needsReview": false
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": null,
+        "websiteUrl": "https://www.ircc.canada.ca/english/information/fees/fees.asp"
+      },
+      "accessModes": [
+        "online",
+        "self_service"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-study-permit-apply",
+        "ircc-biometrics",
+        "ircc-visitor-visa"
+      ],
+      "sourceUrls": [
+        "https://www.ircc.canada.ca/english/information/fees/fees.asp"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.ircc.canada.ca/english/information/fees/fees.asp",
+          "claim": "Verifies temporary residence fee list including eTA, study permit, restoration, and biometrics values.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "ircc-medical-exams",
+      "name": "Medical Exams for Immigration",
+      "provider": "Immigration, Refugees and Citizenship Canada",
+      "providerType": "ircc",
+      "resourceType": "information_page",
+      "categoryIds": [
+        "applications-portals",
+        "study-permits"
+      ],
+      "priority": 37,
+      "summary": "Official IRCC medical exam information and panel physician requirement.",
+      "description": "IRCC says some applicants may need a medical exam to come to Canada and that only approved panel physicians can do immigration medical exams. A temporary public policy exempts certain in-Canada foreign nationals from another medical exam if they meet all listed conditions.",
+      "bestFor": [
+        "medical-exam",
+        "study-permit-documents",
+        "work-placement"
+      ],
+      "audiences": [
+        "international_students",
+        "newly_admitted_students",
+        "current_students",
+        "family_members"
+      ],
+      "immigrationTopics": [
+        "medical-exam",
+        "study-permit",
+        "student-work-placement"
+      ],
+      "eligibility": "Whether a medical exam is required depends on the applicant's situation and IRCC requirements.",
+      "actionType": "prepare-documents",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "Only an IRCC-approved panel physician can complete an immigration medical exam.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/medical-police/medical-exams.html",
+        "needsReview": false
+      },
+      "fees": [],
+      "requiredDocuments": [],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html",
+        "bookingUrl": "https://secure.cic.gc.ca/pp-md/pp-list.aspx",
+        "websiteUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/medical-police/medical-exams.html"
+      },
+      "accessModes": [
+        "online",
+        "appointment"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ircc-study-permit-documents",
+        "ircc-student-work-placement"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/medical-police/medical-exams.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/medical-police/medical-exams.html",
+          "claim": "Verifies medical exam purpose, panel physician requirement, and in-Canada temporary public policy note.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "cbsa-international-students",
+      "name": "CBSA Information for International Students",
+      "provider": "Canada Border Services Agency",
+      "providerType": "cbsa",
+      "resourceType": "checklist",
+      "categoryIds": [
+        "travel-reentry",
+        "entry-documents",
+        "study-permits"
+      ],
+      "priority": 38,
+      "summary": "CBSA arrival checklist for international students preparing to travel to Canada.",
+      "description": "CBSA's international student PDF lists documents students should have before travelling and says they should not put these documents in checked luggage. It also tells students to review the study permit for errors before leaving the student processing desk.",
+      "bestFor": [
+        "arrival",
+        "cbsa",
+        "carry-on-documents",
+        "study-permit-review"
+      ],
+      "audiences": [
+        "newly_admitted_students",
+        "current_students",
+        "international_students"
+      ],
+      "immigrationTopics": [
+        "cbsa",
+        "entering-canada",
+        "study-permit",
+        "travel-document",
+        "proof-of-funds"
+      ],
+      "eligibility": "International students preparing to enter Canada.",
+      "actionType": "prepare-documents",
+      "urgency": "time_sensitive",
+      "timingGuidance": {
+        "summary": "CBSA encourages travel as early as possible after documents are received to avoid busy late August, early September, and early January periods.",
+        "exactDeadline": null,
+        "sourceUrl": "https://www.cbsa-asfc.gc.ca/publications/pub/international-students-etudiants-etrangers-eng.pdf",
+        "needsReview": false
+      },
+      "fees": [],
+      "requiredDocuments": [
+        {
+          "name": "Valid travel document, such as a passport",
+          "requiredFor": [
+            "entering-canada"
+          ],
+          "sourceUrl": "https://www.cbsa-asfc.gc.ca/publications/pub/international-students-etudiants-etrangers-eng.pdf",
+          "needsReview": false
+        },
+        {
+          "name": "Port of Entry Letter of Introduction or valid study permit",
+          "requiredFor": [
+            "entering-canada"
+          ],
+          "sourceUrl": "https://www.cbsa-asfc.gc.ca/publications/pub/international-students-etudiants-etrangers-eng.pdf",
+          "needsReview": false
+        },
+        {
+          "name": "Copy of valid letter of acceptance",
+          "requiredFor": [
+            "entering-canada"
+          ],
+          "sourceUrl": "https://www.cbsa-asfc.gc.ca/publications/pub/international-students-etudiants-etrangers-eng.pdf",
+          "needsReview": false
+        },
+        {
+          "name": "Valid eTA, visa, green card or another valid travel document, as applicable",
+          "requiredFor": [
+            "entering-canada"
+          ],
+          "sourceUrl": "https://www.cbsa-asfc.gc.ca/publications/pub/international-students-etudiants-etrangers-eng.pdf",
+          "needsReview": false
+        },
+        {
+          "name": "Proof of funds to support your stay",
+          "requiredFor": [
+            "entering-canada"
+          ],
+          "sourceUrl": "https://www.cbsa-asfc.gc.ca/publications/pub/international-students-etudiants-etrangers-eng.pdf",
+          "needsReview": false
+        }
+      ],
+      "contact": {
+        "phone": null,
+        "email": null,
+        "contactFormUrl": null,
+        "bookingUrl": null,
+        "websiteUrl": "https://www.cbsa-asfc.gc.ca/publications/pub/international-students-etudiants-etrangers-eng.pdf"
+      },
+      "accessModes": [
+        "online"
+      ],
+      "locations": [],
+      "relatedResources": [
+        "ualberta-entering-canada",
+        "ircc-study-permit-apply"
+      ],
+      "sourceUrls": [
+        "https://www.cbsa-asfc.gc.ca/publications/pub/international-students-etudiants-etrangers-eng.pdf"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.cbsa-asfc.gc.ca/publications/pub/international-students-etudiants-etrangers-eng.pdf",
+          "claim": "Verifies entry document checklist, carry-on instruction, border-processing expectations, and study permit review advice.",
+          "fetchedAt": "2026-06-08"
+        }
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": [
+        "PDF was updated May 2023; check for newer CBSA guidance before publication."
+      ]
+    }
+  ],
+  "checklists": [
+    {
+      "id": "study-permit-application-checklist",
+      "title": "Study Permit Application Checklist",
+      "categoryIds": [
+        "study-permits"
+      ],
+      "audience": [
+        "newly_admitted_students"
+      ],
+      "summary": "A source-backed checklist for preparing a study permit application.",
+      "items": [
+        {
+          "id": "confirm-need-study-permit",
+          "label": "Confirm whether your program and situation require a study permit.",
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/study-permit-tool.html",
+          "needsReview": false
+        },
+        {
+          "id": "collect-ircc-documents",
+          "label": "Collect required and situation-specific documents listed by IRCC.",
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents.html",
+          "needsReview": false
+        },
+        {
+          "id": "check-proof-funds",
+          "label": "Prepare proof of funds for tuition, living expenses, and transportation.",
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+          "needsReview": false
+        },
+        {
+          "id": "create-ircc-account",
+          "label": "Create or sign in to the correct IRCC account or portal for your application.",
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/account.html",
+          "needsReview": false
+        },
+        {
+          "id": "check-biometrics",
+          "label": "Check whether you need biometrics and follow IRCC's biometric instruction letter.",
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/campaigns/biometrics/how-to-give-biometrics.html",
+          "needsReview": false
+        }
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/apply.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents.html"
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "travel-to-canada-checklist",
+      "title": "Travel to Canada Checklist",
+      "categoryIds": [
+        "travel-reentry",
+        "entry-documents"
+      ],
+      "audience": [
+        "newly_admitted_students",
+        "current_students"
+      ],
+      "summary": "A CBSA-backed checklist for documents to carry when travelling to Canada.",
+      "items": [
+        {
+          "id": "carry-documents",
+          "label": "Keep essential immigration and travel documents in your carry-on luggage.",
+          "sourceUrl": "https://www.cbsa-asfc.gc.ca/publications/pub/international-students-etudiants-etrangers-eng.pdf",
+          "needsReview": false
+        },
+        {
+          "id": "review-permit-errors",
+          "label": "Review your study permit for errors before leaving the student processing desk.",
+          "sourceUrl": "https://www.cbsa-asfc.gc.ca/publications/pub/international-students-etudiants-etrangers-eng.pdf",
+          "needsReview": false
+        },
+        {
+          "id": "check-entry-document",
+          "label": "Confirm whether you need a valid TRV, eTA, or other travel document.",
+          "sourceUrl": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+          "needsReview": false
+        }
+      ],
+      "sourceUrls": [
+        "https://www.cbsa-asfc.gc.ca/publications/pub/international-students-etudiants-etrangers-eng.pdf",
+        "https://www.ualberta.ca/en/international/international-student-services/immigration/travel-to-canada/entering-canada.html"
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true,
+      "reviewNotes": [
+        "UAlberta arrival page should be rechecked in a normal browser session."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "id": "study-permit-vs-visa",
+      "question": "Is a study permit the same as a visa?",
+      "answer": "No. IRCC says a study permit allows foreign nationals to study at designated learning institutions in Canada. A visitor visa or eTA is an entry document used to travel to Canada, depending on the traveller's passport or travel document.",
+      "categoryIds": [
+        "study-permits",
+        "entry-documents"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/study-permit-tool.html"
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false
+    },
+    {
+      "id": "can-i-work-before-classes",
+      "question": "Can I work before my classes start?",
+      "answer": "IRCC says international students can only start working in Canada when their study program starts. Always confirm the current rule and your study permit conditions before working.",
+      "categoryIds": [
+        "work-authorization"
+      ],
+      "sourceUrls": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-on-campus.html"
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": false
+    },
+    {
+      "id": "where-to-get-help",
+      "question": "Where can UAlberta students get immigration help?",
+      "answer": "UAlberta International Student and Visitor Services has licensed immigration consultants and student advisors. For case-specific government application questions or updates, use the official IRCC web form.",
+      "categoryIds": [
+        "university-support",
+        "applications-portals"
+      ],
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/international/about/contact-us/international-services-centre.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc/web-form.html"
+      ],
+      "lastVerified": "2026-06-08",
+      "needsReview": true
+    }
+  ],
+  "navigation": {
+    "primary": [
+      {
+        "label": "Study Permits",
+        "targetSectionId": "study-permits"
+      },
+      {
+        "label": "Work Authorization",
+        "targetSectionId": "work-authorization"
+      },
+      {
+        "label": "PGWP",
+        "targetSectionId": "pgwp"
+      },
+      {
+        "label": "Travel & Re-entry",
+        "targetSectionId": "travel-reentry"
+      },
+      {
+        "label": "Ask a Question",
+        "targetSectionId": "immigration-support"
+      }
+    ],
+    "footer": [
+      {
+        "label": "Official IRCC",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship.html"
+      },
+      {
+        "label": "UAlberta International Student Services",
+        "url": "https://www.ualberta.ca/en/international/international-student-services/index.html"
+      },
+      {
+        "label": "Immigration FAQ",
+        "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/immigration-faq.html"
+      }
+    ]
+  }
+}
