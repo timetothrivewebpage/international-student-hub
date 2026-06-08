@@ -25,26 +25,31 @@ permalink: /feedback/
     <div class="feedback-intro">
       <h2>Your feedback matters</h2>
       <p>This form is for reviewing the International Student Hub prototype and understanding whether it helps students find support more easily.</p>
-      <p>Please do not submit urgent requests, medical details, immigration case details, or anything you would not want reviewed by the research team.</p>
+      <p>Name and CCID are optional. Please do not submit urgent requests, medical details, immigration case details, student ID numbers, or anything you would not want reviewed by the research team.</p>
       <a class="info-link" href="{{ '/privacy/' | relative_url }}">Read the privacy notice {% include icon.html name="arrow-right" %}</a>
     </div>
 
-    <form class="feedback-form" method="post" action="" data-feedback-form>
+    <form class="feedback-form" method="post" action="{{ site.feedback_form_endpoint }}" data-feedback-form>
+      <input type="hidden" name="_subject" value="International Student Hub feedback">
+      <label class="visually-hidden" for="feedback-website">Leave this field blank</label>
+      <input class="visually-hidden" id="feedback-website" name="_gotcha" type="text" tabindex="-1" autocomplete="off">
+
       <fieldset>
         <legend>About you</legend>
 
         <label class="form-field" for="feedback-name">
-          <span>Name</span>
-          <input id="feedback-name" name="name" type="text" autocomplete="name" required>
+          <span>Name <small>Optional</small></span>
+          <input id="feedback-name" name="name" type="text" autocomplete="name">
         </label>
 
         <label class="form-field" for="feedback-ccid">
-          <span>University CCID</span>
-          <input id="feedback-ccid" name="ccid" type="text" autocomplete="username" required>
+          <span>University CCID <small>Optional</small></span>
+          <input id="feedback-ccid" name="ccid" type="text" autocomplete="username" aria-describedby="feedback-ccid-help">
+          <small id="feedback-ccid-help">Used only to understand whether feedback is from a UAlberta community member.</small>
         </label>
 
         <label class="form-field" for="feedback-department">
-          <span>Department or faculty</span>
+          <span>Department or faculty <small>Optional</small></span>
           <input id="feedback-department" name="department" type="text" autocomplete="organization">
         </label>
 
@@ -63,8 +68,8 @@ permalink: /feedback/
         </label>
 
         <label class="form-field" for="feedback-origin">
-          <span>Country of origin</span>
-          <input id="feedback-origin" name="country_of_origin" type="text" autocomplete="country-name" required>
+          <span>Country of origin <small>Optional</small></span>
+          <input id="feedback-origin" name="country_of_origin" type="text" autocomplete="country-name" placeholder="Optional">
         </label>
 
         <label class="form-field" for="feedback-status">

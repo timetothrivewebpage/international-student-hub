@@ -8,6 +8,11 @@ description: Simplifying university information for international students so yo
 baseurl: "/international-student-hub"
 url: ""
 
+# Feedback form endpoint.
+# Create a free Formspree form and paste its endpoint here, for example:
+# feedback_form_endpoint: "https://formspree.io/f/abcdwxyz"
+feedback_form_endpoint: "https://formspree.io/f/mvznaepn"
+
 # --- Build settings ---
 markdown: kramdown
 permalink: pretty
