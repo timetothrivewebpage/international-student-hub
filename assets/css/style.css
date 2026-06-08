@@ -1197,6 +1197,13 @@ ul { list-style: none; padding: 0; }
 .site-footer__links { display: flex; flex-wrap: wrap; gap: 20px; }
 .site-footer__links a { text-decoration: none; font-size: 14.5px; }
 .site-footer__links a:hover { color: var(--green); }
+.site-footer__credit {
+  flex-basis: 100%;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+  text-align: right;
+}
 
 /* =========================================================
    Responsive
@@ -1277,6 +1284,11 @@ ul { list-style: none; padding: 0; }
     margin: 0 auto;
   }
   .site-footer__links a { padding: 2px 0; }
+  .site-footer__credit {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
 
   .faq-controls { position: static; }
   .faq-help-now {
