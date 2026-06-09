@@ -1,0 +1,29 @@
+<section class="hero hero--inner">
+  <div class="hero__art" aria-hidden="true">
+    <img src="{{ '/assets/img/campus-skyline.svg' | relative_url }}" alt="">
+  </div>
+  <div class="container hero__inner">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <span aria-hidden="true">&rsaquo;</span>
+      <span aria-current="page">{{ page.status_title | default: page.title }}</span>
+    </nav>
+    <h1 class="hero__title hero__title--inner">{{ page.status_title | default: page.title }}</h1>
+    <p class="hero__subtitle">{{ page.status_summary }}</p>
+  </div>
+</section>
+
+<section class="container status-page">
+  <div class="status-panel">
+    <span class="status-panel__icon">{% include icon.html name=page.status_icon %}</span>
+    <div class="status-panel__body">
+      <span class="status-panel__eyebrow">Coming soon</span>
+      <h2>{{ page.status_summary }}</h2>
+      <p>{{ page.status_body }}</p>
+      <div class="status-panel__actions">
+        <a class="status-panel__primary" href="{{ '/feedback/' | relative_url }}">Send feedback {% include icon.html name="arrow-right" %}</a>
+        <a class="status-panel__secondary" href="{{ '/' | relative_url }}">Back to Home</a>
+      </div>
+    </div>
+  </div>
+</section>

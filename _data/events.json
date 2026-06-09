@@ -6,7 +6,7 @@
     "date": "Fri, May 15, 2026",
     "time": "2:00 PM - 3:30 PM",
     "location": "Online",
-    "url": "#"
+    "url": "/events/"
   },
   {
     "month": "MAY",
@@ -15,7 +15,7 @@
     "date": "Fri, May 22, 2026",
     "time": "11:00 AM - 3:00 PM",
     "location": "Students’ Union Building",
-    "url": "#"
+    "url": "/events/"
   },
   {
     "month": "MAY",
@@ -24,6 +24,6 @@
     "date": "Fri, May 29, 2026",
     "time": "4:00 PM - 5:00 PM",
     "location": "Telus Centre",
-    "url": "#"
+    "url": "/events/"
   }
 ]

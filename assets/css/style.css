@@ -30,6 +30,7 @@ body {
   background: var(--bg);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 img { max-width: 100%; display: block; }
@@ -672,6 +673,14 @@ ul { list-style: none; padding: 0; }
   border-radius: 10px;
   background: #f1f5ef;
 }
+.mh-reassurance > div,
+.mh-emergency__header > div,
+.mh-quick-card__body,
+.mh-link-list span,
+.mh-resource-card,
+.mh-urgent-card {
+  min-width: 0;
+}
 .mh-reassurance__icon {
   display: grid;
   place-items: center;
@@ -749,7 +758,7 @@ ul { list-style: none; padding: 0; }
 }
 .mh-urgent-card__level { color: #b3261e; }
 .mh-urgent-card h3 { font-size: 18px; line-height: 1.25; }
-.mh-urgent-card p { color: #3a4038; font-size: 14.5px; line-height: 1.5; }
+.mh-urgent-card p { color: #3a4038; font-size: 14.5px; line-height: 1.5; overflow-wrap: anywhere; }
 .mh-urgent-card__contact { margin-top: auto; }
 .mh-urgent-card__contact span { color: var(--muted); font-weight: 700; }
 .mh-urgent-card__contact strong {
@@ -771,6 +780,7 @@ ul { list-style: none; padding: 0; }
   font-size: 18px;
   font-weight: 800;
   text-decoration: none;
+  overflow-wrap: anywhere;
 }
 .mh-urgent-card__phone:hover { text-decoration: underline; }
 
@@ -834,7 +844,7 @@ ul { list-style: none; padding: 0; }
 .mh-link-list a:hover { background: var(--cream); }
 .mh-link-list span { display: flex; flex-direction: column; gap: 4px; }
 .mh-link-list strong { font-size: 15.5px; }
-.mh-link-list small { color: var(--muted); font-size: 13.5px; line-height: 1.35; }
+.mh-link-list small { color: var(--muted); font-size: 13.5px; line-height: 1.35; overflow-wrap: anywhere; }
 .mh-link-list .icon { color: var(--green); }
 
 .mh-directory__intro {
@@ -908,11 +918,13 @@ ul { list-style: none; padding: 0; }
   font-size: 18px;
   font-weight: 800;
   line-height: 1.3;
+  overflow-wrap: anywhere;
 }
 .mh-resource-card > p {
   color: #3a4038;
   font-size: 14.5px;
   line-height: 1.55;
+  overflow-wrap: anywhere;
 }
 .mh-resource-meta {
   display: flex;
@@ -941,6 +953,8 @@ ul { list-style: none; padding: 0; }
   color: #30362f;
   font-size: 13.5px;
   line-height: 1.45;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 .mh-resource-meta dd span {
   display: block;
@@ -956,12 +970,15 @@ ul { list-style: none; padding: 0; }
   gap: 6px;
   width: max-content;
   max-width: 100%;
+  min-width: 0;
   margin-top: auto;
   color: var(--green-dark);
   font-weight: 800;
   text-decoration: none;
 }
 .mh-card-link .icon { width: 15px; height: 15px; }
+.mh-card-link span,
+.mh-card-link { overflow-wrap: anywhere; }
 .mh-card-link:hover { text-decoration: underline; }
 
 .mh-disclaimer {
@@ -1421,6 +1438,91 @@ ul { list-style: none; padding: 0; }
 .info-link:hover { text-decoration: underline; }
 
 /* =========================================================
+   Status / coming-soon pages
+   ========================================================= */
+.status-page {
+  padding: 38px 24px 72px;
+  max-width: 980px;
+}
+.status-panel {
+  display: grid;
+  grid-template-columns: 74px 1fr;
+  gap: 22px;
+  align-items: start;
+  padding: 28px;
+  border: 2px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: #f6f8f3;
+  box-shadow: var(--shadow-card);
+}
+.status-panel__icon {
+  display: grid;
+  place-items: center;
+  width: 74px;
+  height: 74px;
+  border-radius: 18px;
+  color: var(--green-dark);
+  background: #fff;
+  border: 1px solid #c9d3c2;
+}
+.status-panel__icon .icon {
+  width: 36px;
+  height: 36px;
+}
+.status-panel__body { min-width: 0; }
+.status-panel__eyebrow {
+  display: inline-flex;
+  color: var(--green-dark);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.status-panel h2 {
+  margin-top: 8px;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 1.15;
+}
+.status-panel p {
+  max-width: 660px;
+  margin-top: 10px;
+  color: #3a4038;
+  font-size: 16px;
+  line-height: 1.65;
+}
+.status-panel__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+.status-panel__primary,
+.status-panel__secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 44px;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  font-weight: 800;
+  text-decoration: none;
+}
+.status-panel__primary {
+  border: 1.5px solid var(--green-dark);
+  background: var(--green);
+  color: #fff;
+}
+.status-panel__secondary {
+  border: 1.5px solid var(--line-strong);
+  background: #fff;
+  color: var(--ink);
+}
+.status-panel__primary:hover { background: var(--green-dark); }
+.status-panel__secondary:hover { background: var(--cream); }
+
+/* =========================================================
    Feedback form
    ========================================================= */
 .feedback-page {
@@ -1777,6 +1879,10 @@ ul { list-style: none; padding: 0; }
   .mh-reassurance__icon { width: 58px; height: 58px; }
   .mh-reassurance__icon .icon { width: 34px; height: 34px; }
   .mh-emergency__header { align-items: flex-start; padding: 18px; }
+  .mh-emergency {
+    border-width: 1.5px;
+    border-radius: var(--radius);
+  }
   .mh-emergency__grid,
   .mh-quick__grid,
   .mh-link-list {
@@ -1793,6 +1899,13 @@ ul { list-style: none; padding: 0; }
     grid-template-columns: 38px 1fr 20px;
     min-height: 112px;
     padding: 16px;
+  }
+  .mh-urgent-card {
+    min-height: 0;
+    padding: 16px;
+  }
+  .mh-urgent-card__contact strong {
+    font-size: 24px;
   }
   .mh-resource-meta div {
     grid-template-columns: 1fr;
@@ -1853,4 +1966,22 @@ ul { list-style: none; padding: 0; }
   }
   .form-status { margin: 0 18px; }
   .form-submit { margin: 0 18px 18px; }
+  .status-page { padding: 28px 18px 56px; }
+  .status-panel {
+    grid-template-columns: 1fr;
+    padding: 22px;
+  }
+  .status-panel__icon {
+    width: 58px;
+    height: 58px;
+    border-radius: 14px;
+  }
+  .status-panel__icon .icon {
+    width: 30px;
+    height: 30px;
+  }
+  .status-panel h2 { font-size: 23px; }
+  .status-panel__actions { flex-direction: column; }
+  .status-panel__primary,
+  .status-panel__secondary { width: 100%; }
 }
