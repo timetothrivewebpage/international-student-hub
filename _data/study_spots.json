@@ -1,0 +1,1518 @@
+{
+  "metadata": {
+    "title": "Find a Study Spot on Campus",
+    "institution": "University of Alberta",
+    "intendedPageUrl": "https://timetothrivewebpage.github.io/international-student-hub/study-spots/",
+    "audiencePrimary": [
+      "international_students",
+      "undergraduate_students",
+      "graduate_students"
+    ],
+    "lastVerified": "2026-06-12",
+    "dataVersion": "1.0.0",
+    "language": "en",
+    "disclaimer": "This dataset is an informational guide for finding study, quiet, calm, and reflection spaces. Hours, access rules, room availability, and bookings can change. Confirm live details with the University of Alberta Library, campus maps, LibCal, or the owning unit before publishing.",
+    "sourcePolicy": "Official University of Alberta Library and University of Alberta pages were prioritized. Where direct UAlberta pages were blocked by JavaScript verification, the attached Campus Maps.docx was treated as a seed source and those entries are marked for manual browser review.",
+    "retrievalNotes": [
+      "The attached Campus Maps.docx was used to extract campus map, calm space, study area, and prayer/reflection links.",
+      "The University of Alberta Library study area directory was fully retrievable and is the primary source for library noise zones.",
+      "Several www.ualberta.ca pages returned JavaScript verification or 403 pages in this environment; those entries are retained only when they appeared in the provided document and are marked needsReview."
+    ]
+  },
+  "pageModel": {
+    "hero": {
+      "eyebrow": "Study Spots",
+      "title": "Find a study spot on campus",
+      "subtitle": "Quiet zones, silent spaces, discussion areas, bookable rooms, and calm places to reset.",
+      "primaryCta": {
+        "label": "Find Quiet Spaces",
+        "targetId": "quiet-silent"
+      },
+      "secondaryCta": {
+        "label": "Find Group Spaces",
+        "targetId": "discussion-group"
+      }
+    },
+    "suggestedFilters": [
+      {
+        "id": "campus",
+        "label": "Campus",
+        "options": [
+          "north-campus",
+          "campus-saint-jean",
+          "augustana-campus",
+          "calgary-campus",
+          "enterprise-square"
+        ]
+      },
+      {
+        "id": "noise",
+        "label": "Noise Level",
+        "options": [
+          "silent",
+          "quiet",
+          "discussion",
+          "calm",
+          "specialized"
+        ]
+      },
+      {
+        "id": "access",
+        "label": "Access",
+        "options": [
+          "drop-in",
+          "bookable",
+          "onecard",
+          "registration-required",
+          "staff-students-only"
+        ]
+      },
+      {
+        "id": "features",
+        "label": "Features",
+        "options": [
+          "power",
+          "computers",
+          "group-rooms",
+          "24-7",
+          "family-friendly",
+          "reflection",
+          "creative-tech"
+        ]
+      }
+    ],
+    "quickRecommendations": [
+      {
+        "id": "quiet-silent",
+        "title": "Quiet or silent study",
+        "summary": "Best options for focused solo study with limited or no talking.",
+        "spaceIds": [
+          "cameron-library",
+          "rutherford-library-north",
+          "rutherford-library-south",
+          "sperber-library",
+          "augustana-library",
+          "bibliotheque-saint-jean"
+        ]
+      },
+      {
+        "id": "discussion-group",
+        "title": "Discussion and group work",
+        "summary": "Spaces where normal conversation or group work is allowed.",
+        "spaceIds": [
+          "cameron-library",
+          "rutherford-library-north",
+          "rutherford-library-south",
+          "sperber-library",
+          "augustana-library",
+          "bibliotheque-saint-jean",
+          "library-bookable-study-rooms"
+        ]
+      },
+      {
+        "id": "late-night-24-7",
+        "title": "Late-night or 24/7 study",
+        "summary": "Spaces with official 24/7 or after-hours study access.",
+        "spaceIds": [
+          "cameron-library",
+          "augustana-library"
+        ]
+      },
+      {
+        "id": "reset-reflect",
+        "title": "Calm, prayer, and reflection",
+        "summary": "Not general study rooms, but useful for a quiet reset between classes.",
+        "spaceIds": [
+          "cameron-listening-space",
+          "corbett-hall-calm-room",
+          "hub-172-multifaith-space",
+          "sub-302-multifaith-space",
+          "echa-2407-prayer-space"
+        ]
+      }
+    ]
+  },
+  "noiseZoneGuide": [
+    {
+      "id": "silent",
+      "label": "Silent Study Zone",
+      "plainLanguage": "No talking. Phones should be silent.",
+      "bestFor": [
+        "deep reading",
+        "exam prep",
+        "writing",
+        "focused individual work"
+      ],
+      "sourceUrls": [
+        "https://www.library.ualberta.ca/services/study-area-directory"
+      ]
+    },
+    {
+      "id": "quiet",
+      "label": "Quiet Study Zone",
+      "plainLanguage": "Whisper only. Phones should be on vibrate.",
+      "bestFor": [
+        "solo study",
+        "light laptop work",
+        "low-noise review"
+      ],
+      "sourceUrls": [
+        "https://www.library.ualberta.ca/services/study-area-directory"
+      ]
+    },
+    {
+      "id": "discussion",
+      "label": "Discussion Zone",
+      "plainLanguage": "Normal conversation and group work are allowed.",
+      "bestFor": [
+        "group projects",
+        "peer study",
+        "collaborative work"
+      ],
+      "sourceUrls": [
+        "https://www.library.ualberta.ca/services/study-area-directory"
+      ]
+    }
+  ],
+  "spaces": [
+    {
+      "id": "cameron-library",
+      "name": "Cameron Library",
+      "campus": "north-campus",
+      "campusLabel": "North Campus",
+      "building": "Cameron Library",
+      "address": "11231 Saskatchewan Drive, University of Alberta, Edmonton, AB T6G 2J8",
+      "roomOrArea": "Main floor, basement, 2nd floor common area, and 3rd floor",
+      "spotType": "library-study",
+      "noiseLevels": [
+        "silent",
+        "quiet",
+        "discussion"
+      ],
+      "zones": [
+        {
+          "noiseLevel": "discussion",
+          "areas": [
+            "Main Floor",
+            "2nd Floor Common Area"
+          ]
+        },
+        {
+          "noiseLevel": "quiet",
+          "areas": [
+            "Knowledge Common and Study Hall, Basement"
+          ]
+        },
+        {
+          "noiseLevel": "silent",
+          "areas": [
+            "3rd Floor"
+          ]
+        }
+      ],
+      "summary": "Science and engineering library with discussion areas, quiet basement study, a silent 3rd floor, bookable rooms, extensive computing, and 24/7 access to the basement Knowledge Common and Study Hall for staff and students.",
+      "bestFor": [
+        "science-engineering-study",
+        "late-night-study",
+        "computer-work",
+        "group-study",
+        "silent-study"
+      ],
+      "amenities": [
+        "18 bookable study rooms on the main floor and basement",
+        "Over 400 Windows computing workstations listed on the Cameron location page",
+        "Table seating with plug-ins",
+        "Individual and group workstations",
+        "Quiet study carrels",
+        "Bookable group study and presentation preparation rooms with computers and LCD displays",
+        "Comfortable soft seating"
+      ],
+      "access": {
+        "mode": "drop-in-and-bookable",
+        "accessNotes": "General areas are drop-in during library hours. The basement Knowledge Common and Study Hall are listed as 24/7 for staff and students only with ONEcard required for entry.",
+        "requiresOneCard": true,
+        "bookingRequired": false,
+        "bookingUrl": "https://ualberta.libcal.com/reserve/cameron"
+      },
+      "sourceUrls": [
+        "https://www.library.ualberta.ca/services/study-area-directory",
+        "https://www.library.ualberta.ca/locations/cameron",
+        "https://www.library.ualberta.ca/services/book-study-space"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.library.ualberta.ca/services/study-area-directory",
+          "claim": "Verifies Cameron discussion, quiet, and silent zone locations and general study amenities."
+        },
+        {
+          "url": "https://www.library.ualberta.ca/locations/cameron",
+          "claim": "Verifies address, 18 bookable rooms, 24/7 basement study access, and over 400 Windows computing workstations."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "cameron-listening-space",
+      "name": "Cameron Library Listening Space",
+      "campus": "north-campus",
+      "campusLabel": "North Campus",
+      "building": "Cameron Library",
+      "address": "11231 Saskatchewan Drive, University of Alberta, Edmonton, AB T6G 2J8",
+      "roomOrArea": "Cameron 1-40",
+      "spotType": "calm-space",
+      "noiseLevels": [
+        "calm"
+      ],
+      "zones": [],
+      "summary": "A therapeutic space on the first floor of Cameron Library using natural and hybrid soundscapes intended to support mindful calm and wellbeing while students relax, study, or socialize.",
+      "bestFor": [
+        "calm-reset",
+        "wellbeing-break",
+        "low-pressure-study",
+        "social-reset"
+      ],
+      "amenities": [
+        "Adaptive soundscape environment",
+        "Wellbeing-oriented study or relaxation space"
+      ],
+      "access": {
+        "mode": "drop-in",
+        "accessNotes": "Use during Cameron Library access hours unless local signage says otherwise.",
+        "requiresOneCard": null,
+        "bookingRequired": false,
+        "bookingUrl": null
+      },
+      "sourceUrls": [
+        "https://www.library.ualberta.ca/locations/cameron/listening-space",
+        "https://www.library.ualberta.ca/locations/cameron"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.library.ualberta.ca/locations/cameron/listening-space",
+          "claim": "Verifies Cameron 1-40, first-floor location, intended use, and wellbeing purpose."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "rutherford-library-north",
+      "name": "Rutherford Library North",
+      "campus": "north-campus",
+      "campusLabel": "North Campus",
+      "building": "Rutherford Library North",
+      "address": "University of Alberta, 11208 89 Avenue, Edmonton, AB T6G 2J8",
+      "roomOrArea": "Main floor through 5th floor",
+      "spotType": "library-study",
+      "noiseLevels": [
+        "silent",
+        "quiet",
+        "discussion"
+      ],
+      "zones": [
+        {
+          "noiseLevel": "discussion",
+          "areas": [
+            "Main Floor",
+            "2nd Floor",
+            "4th Floor"
+          ]
+        },
+        {
+          "noiseLevel": "quiet",
+          "areas": [
+            "3rd Floor"
+          ]
+        },
+        {
+          "noiseLevel": "silent",
+          "areas": [
+            "5th Floor",
+            "Room 3-112 on the 3rd Floor"
+          ]
+        }
+      ],
+      "summary": "Large humanities, social sciences, and education library with over 700 study spaces across five floors, plus discussion, quiet, and silent areas.",
+      "bestFor": [
+        "humanities-social-sciences-study",
+        "education-study",
+        "silent-study",
+        "large-library-study",
+        "computer-work"
+      ],
+      "amenities": [
+        "Over 700 study spaces on 5 floors",
+        "30 laptop stations",
+        "110 computing workstations",
+        "Group study rooms",
+        "4 ONEcard printers"
+      ],
+      "access": {
+        "mode": "drop-in-and-bookable",
+        "accessNotes": "General study spaces are drop-in during library hours. Study rooms are bookable.",
+        "requiresOneCard": null,
+        "bookingRequired": false,
+        "bookingUrl": "https://ualberta.libcal.com/reserve/rutherford"
+      },
+      "sourceUrls": [
+        "https://www.library.ualberta.ca/services/study-area-directory",
+        "https://www.library.ualberta.ca/locations/rutherford",
+        "https://www.library.ualberta.ca/services/book-study-space"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.library.ualberta.ca/services/study-area-directory",
+          "claim": "Verifies Rutherford North discussion, quiet, silent zones and studying/computing counts."
+        },
+        {
+          "url": "https://www.library.ualberta.ca/locations/rutherford",
+          "claim": "Verifies address, library profile, computer workstation availability, and bookable study rooms."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "rutherford-library-south",
+      "name": "Rutherford Library South",
+      "campus": "north-campus",
+      "campusLabel": "North Campus",
+      "building": "Rutherford Library South",
+      "address": "University of Alberta, 11208 89 Avenue, Edmonton, AB T6G 2J8",
+      "roomOrArea": "2nd Floor foyer and reading room",
+      "spotType": "library-study",
+      "noiseLevels": [
+        "quiet",
+        "discussion"
+      ],
+      "zones": [
+        {
+          "noiseLevel": "discussion",
+          "areas": [
+            "2nd Floor Foyer"
+          ]
+        },
+        {
+          "noiseLevel": "quiet",
+          "areas": [
+            "2nd Floor Reading Room"
+          ]
+        }
+      ],
+      "summary": "Rutherford South provides a quieter reading room and discussion foyer, plus nearly 500 study spaces and IST computer labs.",
+      "bestFor": [
+        "quiet-reading",
+        "discussion-before-class",
+        "computer-lab-access"
+      ],
+      "amenities": [
+        "Just under 500 study spaces",
+        "IST computer lab 2-03 with 35 workstations",
+        "IST computer lab 2-05a with 15 workstations"
+      ],
+      "access": {
+        "mode": "drop-in",
+        "accessNotes": "Use during Rutherford Library hours.",
+        "requiresOneCard": null,
+        "bookingRequired": false,
+        "bookingUrl": null
+      },
+      "sourceUrls": [
+        "https://www.library.ualberta.ca/services/study-area-directory",
+        "https://www.library.ualberta.ca/locations/rutherford"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.library.ualberta.ca/services/study-area-directory",
+          "claim": "Verifies Rutherford South discussion and quiet zones, study space count, and computer labs."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "rutherford-family-corner",
+      "name": "Rutherford Library Family Corner",
+      "campus": "north-campus",
+      "campusLabel": "North Campus",
+      "building": "Rutherford Library North",
+      "address": "University of Alberta, 11208 89 Avenue, Edmonton, AB T6G 2J8",
+      "roomOrArea": "Room 3-114",
+      "spotType": "family-study",
+      "noiseLevels": [
+        "specialized"
+      ],
+      "zones": [],
+      "summary": "A registered-access, child-friendly space for students and employees who parent or care for children, with study stations, computers, a conference table, lactation space, stroller parking, and child-friendly supplies.",
+      "bestFor": [
+        "student-parents",
+        "caregivers",
+        "family-friendly-study",
+        "lactation-space"
+      ],
+      "amenities": [
+        "Study stations with computers and study equipment",
+        "Conference table and chairs",
+        "Toys and books",
+        "Small kitchen area with sink, kettle, bottle warmers, and equipment",
+        "Private lactation and breastfeeding space",
+        "Stroller parking",
+        "Changing tables in both washrooms"
+      ],
+      "access": {
+        "mode": "registration-required",
+        "accessNotes": "Registration with Student Success and Experience is required. Approved users access the room with ONEcard and must supervise children at all times.",
+        "requiresOneCard": true,
+        "bookingRequired": false,
+        "bookingUrl": null
+      },
+      "sourceUrls": [
+        "https://www.library.ualberta.ca/locations/rutherford/family-corner"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.library.ualberta.ca/locations/rutherford/family-corner",
+          "claim": "Verifies Rutherford Room 3-114, registration and ONEcard access, and family study amenities."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "sperber-library",
+      "name": "Geoffrey and Robyn Sperber Health Sciences Library",
+      "campus": "north-campus",
+      "campusLabel": "North Campus",
+      "building": "Dianne and Irving Kipnes Health Research Academy",
+      "address": "1-120 Dianne and Irving Kipnes Health Research Academy, 11405 87 Avenue NW, Edmonton, AB T6G 1C9",
+      "roomOrArea": "Level 1 and Lower Level",
+      "spotType": "library-study",
+      "noiseLevels": [
+        "silent",
+        "quiet",
+        "discussion"
+      ],
+      "zones": [
+        {
+          "noiseLevel": "discussion",
+          "areas": [
+            "Level 1 east side outside the Teaching and Learning and Maker Labs",
+            "Teaching and Learning Lab if available",
+            "Maker Lab if available",
+            "Entrance area by service desk and stairs"
+          ]
+        },
+        {
+          "noiseLevel": "quiet",
+          "areas": [
+            "Level 1 west side by the Indigenous Learning Space and Indigenous Healing Collection",
+            "Lower Level around the stairs leading to silent study space"
+          ]
+        },
+        {
+          "noiseLevel": "silent",
+          "areas": [
+            "Lower Level back half starting at the RC 424.7 book stacks and study room L1-152A",
+            "South end long hall"
+          ]
+        }
+      ],
+      "summary": "Health sciences library with clearly separated discussion, quiet, and silent zones plus 22 bookable study rooms on the main and lower levels.",
+      "bestFor": [
+        "health-sciences-study",
+        "silent-study",
+        "group-study",
+        "individual-bookable-room",
+        "study-near-echa"
+      ],
+      "amenities": [
+        "22 bookable study rooms on the main and lower levels",
+        "12 group study rooms and 10 individual study rooms listed on the booking page",
+        "Table seating with electrical outlets",
+        "Group study rooms with monitors for laptop connection",
+        "Windows computing workstations on the main floor"
+      ],
+      "access": {
+        "mode": "drop-in-and-bookable",
+        "accessNotes": "General areas are drop-in during library hours. Group and individual rooms can be booked.",
+        "requiresOneCard": null,
+        "bookingRequired": false,
+        "bookingUrl": "https://ualberta.libcal.com/reserve/spaces/health"
+      },
+      "sourceUrls": [
+        "https://www.library.ualberta.ca/services/study-area-directory",
+        "https://www.library.ualberta.ca/locations/sperber",
+        "https://www.library.ualberta.ca/services/book-study-space"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.library.ualberta.ca/services/study-area-directory",
+          "claim": "Verifies Sperber discussion, quiet, silent zones and study room features."
+        },
+        {
+          "url": "https://www.library.ualberta.ca/locations/sperber",
+          "claim": "Verifies address, 22 bookable rooms, Indigenous Learning Space, and computing."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "augustana-library",
+      "name": "Augustana Library",
+      "campus": "augustana-campus",
+      "campusLabel": "Augustana Campus",
+      "building": "Augustana Library",
+      "address": "4901 46 Avenue, Camrose, AB T4V 2R3",
+      "roomOrArea": "Main floor and lower level",
+      "spotType": "library-study",
+      "noiseLevels": [
+        "quiet",
+        "discussion"
+      ],
+      "zones": [
+        {
+          "noiseLevel": "discussion",
+          "areas": [
+            "Main Floor"
+          ]
+        },
+        {
+          "noiseLevel": "quiet",
+          "areas": [
+            "Lower Level"
+          ]
+        }
+      ],
+      "summary": "Augustana Library has discussion study on the main floor, quiet study on the lower level, bookable study rooms and booths, computer workstations, and a 24/7 study space with after-hours entrance access.",
+      "bestFor": [
+        "augustana-campus",
+        "quiet-study",
+        "group-study",
+        "24-7-study",
+        "computer-work"
+      ],
+      "amenities": [
+        "7 bookable study rooms",
+        "3 bookable study booths",
+        "Over 40 Windows computing workstations",
+        "Tables, chairs, and soft seating near power outlets",
+        "UWS wireless service",
+        "Treadmill desk listed on the Augustana location page"
+      ],
+      "access": {
+        "mode": "drop-in-and-bookable",
+        "accessNotes": "The 24/7 study space is accessible through the south Forum entrance after hours, but is closed for statutory holidays and during summer months.",
+        "requiresOneCard": null,
+        "bookingRequired": false,
+        "bookingUrl": "https://ualberta.libcal.com/reserve/augustana"
+      },
+      "sourceUrls": [
+        "https://www.library.ualberta.ca/services/study-area-directory",
+        "https://www.library.ualberta.ca/locations/augustana",
+        "https://www.library.ualberta.ca/services/book-study-space"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.library.ualberta.ca/services/study-area-directory",
+          "claim": "Verifies Augustana discussion and quiet zones plus general amenities."
+        },
+        {
+          "url": "https://www.library.ualberta.ca/locations/augustana",
+          "claim": "Verifies address, bookable rooms and booths, 24/7 study access notes, and computing."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "bibliotheque-saint-jean",
+      "name": "Bibliotheque Saint-Jean",
+      "campus": "campus-saint-jean",
+      "campusLabel": "Campus Saint-Jean",
+      "building": "Pavillon McMahon",
+      "address": "8406 rue Marie-Anne Gaboury, Edmonton, AB T6C 4G9",
+      "roomOrArea": "Main floor service areas, study carrels, tables, and group study rooms",
+      "spotType": "library-study",
+      "noiseLevels": [
+        "silent",
+        "quiet",
+        "discussion"
+      ],
+      "zones": [
+        {
+          "noiseLevel": "discussion",
+          "areas": [
+            "Main floor service areas near the welcome desk and printer"
+          ]
+        },
+        {
+          "noiseLevel": "quiet",
+          "areas": [
+            "Main floor study carrels and tables in the general and education collections"
+          ]
+        },
+        {
+          "noiseLevel": "silent",
+          "areas": [
+            "Silent study room"
+          ]
+        }
+      ],
+      "summary": "Campus Saint-Jean library with quiet carrels and tables, discussion areas near service points, five bookable group study rooms, and one silent study room.",
+      "bestFor": [
+        "campus-saint-jean",
+        "french-language-campus",
+        "quiet-study",
+        "group-study",
+        "silent-study"
+      ],
+      "amenities": [
+        "48 study carrels, including 2 with adjustable desks",
+        "5 group study rooms for 2 to 6 people",
+        "Rooms 1-12F and 1-12H have wall-mounted LCD screens",
+        "6 Windows computers listed in the study area directory",
+        "Advanced booking required for group rooms"
+      ],
+      "access": {
+        "mode": "drop-in-and-bookable",
+        "accessNotes": "Check current hours before visiting. The library hours page listed a spring/summer closure notice when checked.",
+        "requiresOneCard": null,
+        "bookingRequired": false,
+        "bookingUrl": "https://ualberta.libcal.com/reserve/bsj"
+      },
+      "sourceUrls": [
+        "https://www.library.ualberta.ca/services/study-area-directory",
+        "https://www.library.ualberta.ca/locations/bsj",
+        "https://www.library.ualberta.ca/services/book-study-space"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.library.ualberta.ca/services/study-area-directory",
+          "claim": "Verifies BSJ discussion and quiet zones, carrels, group rooms, screens, and silent study room."
+        },
+        {
+          "url": "https://www.library.ualberta.ca/locations/bsj",
+          "claim": "Verifies address and 5 bookable study rooms."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": false,
+      "reviewNotes": [
+        "Verify current semester hours before publishing because the library hours page displayed a closure note for spring/summer."
+      ]
+    },
+    {
+      "id": "library-bookable-study-rooms",
+      "name": "Library Bookable Study Rooms",
+      "campus": "multiple",
+      "campusLabel": "Multiple Campuses",
+      "building": "University of Alberta Libraries",
+      "address": null,
+      "roomOrArea": "Bookable rooms and booths across participating libraries",
+      "spotType": "bookable-study-room",
+      "noiseLevels": [
+        "discussion",
+        "quiet"
+      ],
+      "zones": [],
+      "summary": "Central booking option for study rooms across Cameron, Augustana, Bibliotheque Saint-Jean, Rutherford, Sperber, and Weir Library.",
+      "bestFor": [
+        "group-study",
+        "presentation-prep",
+        "scheduled-study",
+        "study-room-booking"
+      ],
+      "amenities": [
+        "Cameron Library: 18 rooms",
+        "Augustana Library: 7 study rooms and 3 study booths",
+        "Bibliotheque Saint-Jean: 5 rooms",
+        "Rutherford Library: 7 rooms on the booking page; Rutherford location page separately says 5 rooms on the second, fourth, and fifth levels",
+        "Sperber Library: 12 group study rooms and 10 individual study rooms",
+        "Weir Library: booking/policies routed to Faculty of Law information"
+      ],
+      "access": {
+        "mode": "bookable",
+        "accessNotes": "Study rooms are available for booking during library hours by U of A students and staff only. Rooms may be booked up to seven days in advance. Regular term bookings are up to 2 hours per day; exam period bookings are up to 4 hours per day.",
+        "requiresOneCard": null,
+        "bookingRequired": true,
+        "bookingUrl": "https://www.library.ualberta.ca/services/book-study-space"
+      },
+      "sourceUrls": [
+        "https://www.library.ualberta.ca/services/book-study-space",
+        "https://www.library.ualberta.ca/services/book-study-spaces"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.library.ualberta.ca/services/book-study-space",
+          "claim": "Verifies participating libraries, counts, booking rules, booking window, daily limits, and room-use policies."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": false,
+      "reviewNotes": [
+        "There is a count discrepancy for Rutherford: the central booking page lists 7 rooms while the Rutherford location page says 5 bookable rooms. Confirm in LibCal before publishing room counts prominently."
+      ]
+    },
+    {
+      "id": "digital-scholarship-centre",
+      "name": "Digital Scholarship Centre",
+      "campus": "north-campus",
+      "campusLabel": "North Campus",
+      "building": "Cameron Library",
+      "address": "Cameron Library, 11231 Saskatchewan Dr NW #2-20, Edmonton, AB T6G 2J8",
+      "roomOrArea": "Second floor of Cameron Library",
+      "spotType": "specialized-workspace",
+      "noiseLevels": [
+        "specialized"
+      ],
+      "zones": [],
+      "summary": "Research and training facility with makerspace, studio space, high-performance computers, digital technology, workshops, and consultations.",
+      "bestFor": [
+        "digital-projects",
+        "media-production",
+        "makerspace",
+        "research-technology",
+        "consultation"
+      ],
+      "amenities": [
+        "Makerspace tools",
+        "Studio spaces for digitization, gaming, virtual reality, audio, photography, or videography",
+        "High-performance computers and specialized software",
+        "Free workshops",
+        "Bookable consultations and certification practice sessions"
+      ],
+      "access": {
+        "mode": "bookable-specialized",
+        "accessNotes": "Many DSC tools and spaces require certification, consultation, or booking. Check DSC pages before visiting for project work.",
+        "requiresOneCard": null,
+        "bookingRequired": true,
+        "bookingUrl": "https://www.library.ualberta.ca/dsc"
+      },
+      "sourceUrls": [
+        "https://www.library.ualberta.ca/locations/dsc",
+        "https://www.library.ualberta.ca/dsc"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.library.ualberta.ca/locations/dsc",
+          "claim": "Verifies location and creative spaces including makerspaces, studio space, and high-performance computers."
+        },
+        {
+          "url": "https://www.library.ualberta.ca/dsc",
+          "claim": "Verifies DSC purpose, consultations, workshops, technology, and making."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": false,
+      "reviewNotes": []
+    },
+    {
+      "id": "weir-law-library",
+      "name": "Weir Law Library",
+      "campus": "north-campus",
+      "campusLabel": "North Campus",
+      "building": "Law Centre",
+      "address": null,
+      "roomOrArea": "Law Library",
+      "spotType": "library-study",
+      "noiseLevels": [
+        "quiet",
+        "discussion"
+      ],
+      "zones": [],
+      "summary": "Law Library study space managed by the Faculty of Law. The library hours page says the space is open to all U of A students and staff during Law Centre hours with ONEcard access.",
+      "bestFor": [
+        "law-centre-study",
+        "onecard-access-study",
+        "north-campus"
+      ],
+      "amenities": [
+        "15 rooms listed on one version of the library booking page",
+        "Study room policies routed to Faculty of Law information on another version of the booking page"
+      ],
+      "access": {
+        "mode": "onecard",
+        "accessNotes": "Tap ONEcard for access during Law Centre hours. Confirm Faculty of Law room booking policies before relying on bookable room availability.",
+        "requiresOneCard": true,
+        "bookingRequired": null,
+        "bookingUrl": "https://www.ualberta.ca/en/law/student-services/weir-library.html"
+      },
+      "sourceUrls": [
+        "https://www.library.ualberta.ca/hours-locations",
+        "https://www.library.ualberta.ca/services/book-study-space",
+        "https://www.ualberta.ca/en/law/student-services/weir-library.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "https://www.library.ualberta.ca/hours-locations",
+          "claim": "Verifies Weir Library access is via ONEcard and open to all U of A students and staff during Law Centre hours."
+        },
+        {
+          "url": "https://www.library.ualberta.ca/services/book-study-space",
+          "claim": "One retrieved version listed 15 Weir Library study rooms; another version routes users to the Weir webpage for policy details."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": true,
+      "reviewNotes": [
+        "The direct Weir Library UAlberta page returned a JavaScript verification page in this environment.",
+        "Confirm current room counts and booking rules in a normal browser before publishing detailed Weir room information."
+      ]
+    },
+    {
+      "id": "corbett-hall-calm-room",
+      "name": "Student Calm Room, Corbett Hall",
+      "campus": "north-campus",
+      "campusLabel": "North Campus",
+      "building": "Corbett Hall",
+      "address": null,
+      "roomOrArea": "Room 1-79",
+      "spotType": "calm-space",
+      "noiseLevels": [
+        "calm"
+      ],
+      "zones": [],
+      "summary": "Calm room listed in the provided Campus Maps.docx. Treat as a wellbeing/reset space rather than a general study room until details are manually verified.",
+      "bestFor": [
+        "calm-reset",
+        "sensory-break",
+        "low-stimulation-break"
+      ],
+      "amenities": [],
+      "access": {
+        "mode": "unknown",
+        "accessNotes": "Manual review required for eligibility, hours, and access instructions.",
+        "requiresOneCard": null,
+        "bookingRequired": null,
+        "bookingUrl": null
+      },
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/occupational-therapy/resources/student-calm-room.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "Campus Maps.docx",
+          "claim": "Provided document lists Corbett Hall 1-79 as a North Campus calm space."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct UAlberta calm room page returned a JavaScript verification page in this environment.",
+        "Confirm room details, eligibility, and hours manually before publishing."
+      ]
+    },
+    {
+      "id": "triffo-hall-graduate-calm-room",
+      "name": "Graduate Student Calm Room, Triffo Hall",
+      "campus": "north-campus",
+      "campusLabel": "North Campus",
+      "building": "Triffo Hall",
+      "address": null,
+      "roomOrArea": null,
+      "spotType": "calm-space",
+      "noiseLevels": [
+        "calm"
+      ],
+      "zones": [],
+      "summary": "Graduate student calm room listed in the provided Campus Maps.docx. Treat as a wellbeing/reset space until access details are manually verified.",
+      "bestFor": [
+        "graduate-students",
+        "calm-reset",
+        "low-stimulation-break"
+      ],
+      "amenities": [],
+      "access": {
+        "mode": "unknown",
+        "accessNotes": "Manual review required for room number, eligibility, hours, and access instructions.",
+        "requiresOneCard": null,
+        "bookingRequired": null,
+        "bookingUrl": null
+      },
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/occupational-therapy/resources/student-calm-room.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "Campus Maps.docx",
+          "claim": "Provided document lists Triffo Hall as a graduate-student calm space."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct UAlberta calm room page returned a JavaScript verification page in this environment.",
+        "Confirm exact room, eligibility, and hours manually before publishing."
+      ]
+    },
+    {
+      "id": "dtc-030-calgary-calm-room",
+      "name": "Student Calm Room, Calgary Campus",
+      "campus": "calgary-campus",
+      "campusLabel": "Calgary Campus",
+      "building": "DTC",
+      "address": null,
+      "roomOrArea": "Room 030",
+      "spotType": "calm-space",
+      "noiseLevels": [
+        "calm"
+      ],
+      "zones": [],
+      "summary": "Calgary Campus calm room listed in the provided Campus Maps.docx.",
+      "bestFor": [
+        "calgary-campus",
+        "calm-reset",
+        "low-stimulation-break"
+      ],
+      "amenities": [],
+      "access": {
+        "mode": "unknown",
+        "accessNotes": "Manual review required for eligibility, hours, and access instructions.",
+        "requiresOneCard": null,
+        "bookingRequired": null,
+        "bookingUrl": null
+      },
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/occupational-therapy/resources/student-calm-room.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "Campus Maps.docx",
+          "claim": "Provided document lists DTC 030 as a Calgary Campus calm space."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct UAlberta calm room page returned a JavaScript verification page in this environment.",
+        "Confirm campus/building naming, eligibility, and hours manually before publishing."
+      ]
+    },
+    {
+      "id": "sub-basement-090-quiet-room",
+      "name": "SUB Basement Quiet Room",
+      "campus": "north-campus",
+      "campusLabel": "North Campus",
+      "building": "Students' Union Building",
+      "address": null,
+      "roomOrArea": "Basement 0-90",
+      "spotType": "building-quiet-room",
+      "noiseLevels": [
+        "quiet"
+      ],
+      "zones": [],
+      "summary": "Quiet room listed in the provided Campus Maps.docx. Good candidate for a non-library quiet option, pending manual confirmation.",
+      "bestFor": [
+        "quiet-break",
+        "central-campus",
+        "between-class-study"
+      ],
+      "amenities": [],
+      "access": {
+        "mode": "unknown",
+        "accessNotes": "Manual review required for current access and appropriate use.",
+        "requiresOneCard": null,
+        "bookingRequired": null,
+        "bookingUrl": null
+      },
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/maps.html?l=53.522898,-113.525575&z=15&campus=north_campus"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "Campus Maps.docx",
+          "claim": "Provided document lists SUB Basement 0-90 as a quiet room."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": true,
+      "reviewNotes": [
+        "Confirm current room use, access, and whether studying is permitted before publishing as a study spot."
+      ]
+    },
+    {
+      "id": "dice-8th-floor-quiet-room",
+      "name": "DICE 8th Floor Quiet Room",
+      "campus": "north-campus",
+      "campusLabel": "North Campus",
+      "building": "DICE",
+      "address": null,
+      "roomOrArea": "8th floor",
+      "spotType": "building-quiet-room",
+      "noiseLevels": [
+        "quiet"
+      ],
+      "zones": [],
+      "summary": "Quiet room listed in the provided Campus Maps.docx. Potential North Campus quiet option pending manual confirmation.",
+      "bestFor": [
+        "quiet-break",
+        "engineering-area",
+        "solo-study"
+      ],
+      "amenities": [],
+      "access": {
+        "mode": "unknown",
+        "accessNotes": "Manual review required for current access and appropriate use.",
+        "requiresOneCard": null,
+        "bookingRequired": null,
+        "bookingUrl": null
+      },
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/maps.html?l=53.522898,-113.525575&z=15&campus=north_campus"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "Campus Maps.docx",
+          "claim": "Provided document lists DICE 8th floor as a quiet room."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": true,
+      "reviewNotes": [
+        "Confirm current room use, access, and whether studying is permitted before publishing as a study spot."
+      ]
+    },
+    {
+      "id": "fine-arts-lower-level-quiet-room",
+      "name": "Fine Arts Building Lower Level Quiet Room",
+      "campus": "north-campus",
+      "campusLabel": "North Campus",
+      "building": "Fine Arts Building",
+      "address": null,
+      "roomOrArea": "Lower Level",
+      "spotType": "building-quiet-room",
+      "noiseLevels": [
+        "quiet"
+      ],
+      "zones": [],
+      "summary": "Quiet room listed in the provided Campus Maps.docx. Potential arts-area quiet option pending manual confirmation.",
+      "bestFor": [
+        "quiet-break",
+        "arts-area",
+        "solo-study"
+      ],
+      "amenities": [],
+      "access": {
+        "mode": "unknown",
+        "accessNotes": "Manual review required for current access and appropriate use.",
+        "requiresOneCard": null,
+        "bookingRequired": null,
+        "bookingUrl": null
+      },
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/maps.html?l=53.522898,-113.525575&z=15&campus=north_campus"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "Campus Maps.docx",
+          "claim": "Provided document lists the Fine Arts Building lower level as a quiet room."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": true,
+      "reviewNotes": [
+        "Confirm current room use, access, and whether studying is permitted before publishing as a study spot."
+      ]
+    },
+    {
+      "id": "hub-172-multifaith-space",
+      "name": "Multi-faith Prayer and Meditation Space, HUB Mall",
+      "campus": "north-campus",
+      "campusLabel": "North Campus",
+      "building": "HUB Mall",
+      "address": null,
+      "roomOrArea": "Room 172",
+      "spotType": "reflection-space",
+      "noiseLevels": [
+        "calm"
+      ],
+      "zones": [],
+      "summary": "Prayer and meditation space listed in the provided Campus Maps.docx. Include as a reflection/reset option, not a general study room.",
+      "bestFor": [
+        "prayer",
+        "meditation",
+        "reflection",
+        "quiet-reset"
+      ],
+      "amenities": [],
+      "access": {
+        "mode": "unknown",
+        "accessNotes": "Manual review required for current access, etiquette, and hours.",
+        "requiresOneCard": null,
+        "bookingRequired": null,
+        "bookingUrl": null
+      },
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/current-students/interfaith-chaplains/multi-faith-spaces.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "Campus Maps.docx",
+          "claim": "Provided document lists Multi-faith Prayer and Meditation Space - 172 HUB Mall."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct multi-faith spaces page returned 403 in this environment.",
+        "Confirm current access and intended use before publishing."
+      ]
+    },
+    {
+      "id": "sub-302-multifaith-space",
+      "name": "Multi-faith Prayer and Meditation Space, SUB",
+      "campus": "north-campus",
+      "campusLabel": "North Campus",
+      "building": "Students' Union Building",
+      "address": null,
+      "roomOrArea": "Room 302",
+      "spotType": "reflection-space",
+      "noiseLevels": [
+        "calm"
+      ],
+      "zones": [],
+      "summary": "Prayer and meditation space listed in the provided Campus Maps.docx. Include as a reflection/reset option, not a general study room.",
+      "bestFor": [
+        "prayer",
+        "meditation",
+        "reflection",
+        "quiet-reset"
+      ],
+      "amenities": [],
+      "access": {
+        "mode": "unknown",
+        "accessNotes": "Manual review required for current access, etiquette, and hours.",
+        "requiresOneCard": null,
+        "bookingRequired": null,
+        "bookingUrl": null
+      },
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/current-students/interfaith-chaplains/multi-faith-spaces.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "Campus Maps.docx",
+          "claim": "Provided document lists Multi-faith Prayer and Meditation Space - 302 SUB."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct multi-faith spaces page returned 403 in this environment.",
+        "Confirm current access and intended use before publishing."
+      ]
+    },
+    {
+      "id": "echa-2407-prayer-space",
+      "name": "Prayer Space, ECHA",
+      "campus": "north-campus",
+      "campusLabel": "North Campus",
+      "building": "Edmonton Clinic Health Academy",
+      "address": null,
+      "roomOrArea": "Room 2-407",
+      "spotType": "reflection-space",
+      "noiseLevels": [
+        "calm"
+      ],
+      "zones": [],
+      "summary": "Prayer space listed in the provided Campus Maps.docx. Include as a reflection/reset option, not a general study room.",
+      "bestFor": [
+        "prayer",
+        "reflection",
+        "quiet-reset",
+        "health-sciences-area"
+      ],
+      "amenities": [],
+      "access": {
+        "mode": "unknown",
+        "accessNotes": "Manual review required for current access, etiquette, and hours.",
+        "requiresOneCard": null,
+        "bookingRequired": null,
+        "bookingUrl": null
+      },
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/current-students/interfaith-chaplains/multi-faith-spaces.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "Campus Maps.docx",
+          "claim": "Provided document lists Prayer Space - 2-407 ECHA."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct multi-faith spaces page returned 403 in this environment.",
+        "Confirm current access and intended use before publishing."
+      ]
+    },
+    {
+      "id": "hub-169-chaplains-centre",
+      "name": "Chaplains' Centre",
+      "campus": "north-campus",
+      "campusLabel": "North Campus",
+      "building": "HUB Mall",
+      "address": null,
+      "roomOrArea": "Room 169",
+      "spotType": "reflection-space",
+      "noiseLevels": [
+        "calm"
+      ],
+      "zones": [],
+      "summary": "Chaplains' Centre listed in the provided Campus Maps.docx. Useful as a spiritual support/reflection resource rather than a study area.",
+      "bestFor": [
+        "spiritual-support",
+        "reflection",
+        "chaplaincy"
+      ],
+      "amenities": [],
+      "access": {
+        "mode": "unknown",
+        "accessNotes": "Manual review required for current access, services, and hours.",
+        "requiresOneCard": null,
+        "bookingRequired": null,
+        "bookingUrl": null
+      },
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/current-students/interfaith-chaplains/multi-faith-spaces.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "Campus Maps.docx",
+          "claim": "Provided document lists Chaplains' Centre - 169 HUB Mall."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct multi-faith spaces page returned 403 in this environment.",
+        "Confirm current access and intended use before publishing."
+      ]
+    },
+    {
+      "id": "enterprise-square-l330-reflection-room",
+      "name": "Enterprise Square Reflection or Prayer Space",
+      "campus": "enterprise-square",
+      "campusLabel": "Enterprise Square",
+      "building": "Enterprise Square",
+      "address": null,
+      "roomOrArea": "Room L-330",
+      "spotType": "reflection-space",
+      "noiseLevels": [
+        "calm"
+      ],
+      "zones": [],
+      "summary": "Enterprise Square Room L-330 is listed in the provided Campus Maps.docx under prayer and reflection spaces.",
+      "bestFor": [
+        "enterprise-square",
+        "prayer",
+        "reflection",
+        "quiet-reset"
+      ],
+      "amenities": [],
+      "access": {
+        "mode": "unknown",
+        "accessNotes": "Manual review required for current access, etiquette, and hours.",
+        "requiresOneCard": null,
+        "bookingRequired": null,
+        "bookingUrl": null
+      },
+      "sourceUrls": [
+        "https://www.ualberta.ca/en/current-students/interfaith-chaplains/multi-faith-spaces.html"
+      ],
+      "sourceEvidence": [
+        {
+          "url": "Campus Maps.docx",
+          "claim": "Provided document lists Enterprise Square - Room L-330 under prayer and reflection spaces."
+        }
+      ],
+      "lastVerified": "2026-06-12",
+      "needsReview": true,
+      "reviewNotes": [
+        "Direct multi-faith spaces page returned 403 in this environment.",
+        "Confirm current access and intended use before publishing."
+      ]
+    }
+  ],
+  "sourceLinksFromCampusMapsDoc": [
+    {
+      "label": "North Campus Map",
+      "url": "https://www.ualberta.ca/en/maps.html?l=53.522898,-113.525575&z=15&campus=north_campus"
+    },
+    {
+      "label": "Pedways in the North Campus",
+      "url": "https://www.ualberta.ca/en/youalberta/2024/03/pedways-101-a-guide-to-using-campus-pedways.html"
+    },
+    {
+      "label": "Student Calm Room",
+      "url": "https://www.ualberta.ca/en/occupational-therapy/resources/student-calm-room.html"
+    },
+    {
+      "label": "Cameron Library Listening Space",
+      "url": "https://www.library.ualberta.ca/locations/cameron/listening-space"
+    },
+    {
+      "label": "Orientation Accessibility and Inclusion",
+      "url": "https://www.ualberta.ca/en/current-students/orientation/orientation-accessibility-inclusion.html"
+    },
+    {
+      "label": "Study Area Directory and Noise Zones",
+      "url": "https://www.library.ualberta.ca/services/study-area-directory"
+    },
+    {
+      "label": "Prayer and Reflection Spaces",
+      "url": "https://www.ualberta.ca/en/current-students/interfaith-chaplains/multi-faith-spaces.html"
+    }
+  ],
+  "primarySources": [
+    {
+      "id": "ualberta-library-study-area-directory",
+      "title": "Study Area Directory and Noise Zones",
+      "url": "https://www.library.ualberta.ca/services/study-area-directory",
+      "status": "retrieved",
+      "usedFor": [
+        "noise zone definitions",
+        "library-by-library silent, quiet, and discussion zones",
+        "library study amenities"
+      ]
+    },
+    {
+      "id": "ualberta-library-book-study-space",
+      "title": "Book Study Space",
+      "url": "https://www.library.ualberta.ca/services/book-study-space",
+      "status": "retrieved",
+      "usedFor": [
+        "bookable room counts",
+        "booking rules",
+        "participating libraries"
+      ]
+    },
+    {
+      "id": "ualberta-library-hours-locations",
+      "title": "Hours and Locations",
+      "url": "https://www.library.ualberta.ca/hours-locations",
+      "status": "retrieved",
+      "usedFor": [
+        "library locations by campus",
+        "Weir Library access summary",
+        "current closure notes"
+      ]
+    },
+    {
+      "id": "ualberta-library-cameron",
+      "title": "Cameron Library",
+      "url": "https://www.library.ualberta.ca/locations/cameron",
+      "status": "retrieved",
+      "usedFor": [
+        "Cameron address",
+        "24/7 study space",
+        "study room and computing details",
+        "Listening Space cross-check"
+      ]
+    },
+    {
+      "id": "ualberta-library-rutherford",
+      "title": "Rutherford Library",
+      "url": "https://www.library.ualberta.ca/locations/rutherford",
+      "status": "retrieved",
+      "usedFor": [
+        "Rutherford address",
+        "study room and computing details",
+        "Family Corner cross-check"
+      ]
+    },
+    {
+      "id": "ualberta-library-sperber",
+      "title": "Sperber Library",
+      "url": "https://www.library.ualberta.ca/locations/sperber",
+      "status": "retrieved",
+      "usedFor": [
+        "Sperber address",
+        "bookable study rooms",
+        "computing and special spaces"
+      ]
+    },
+    {
+      "id": "ualberta-library-augustana",
+      "title": "Augustana Library",
+      "url": "https://www.library.ualberta.ca/locations/augustana",
+      "status": "retrieved",
+      "usedFor": [
+        "Augustana address",
+        "24/7 study space",
+        "bookable rooms and booths",
+        "computing details"
+      ]
+    },
+    {
+      "id": "ualberta-library-bsj",
+      "title": "Bibliotheque Saint-Jean",
+      "url": "https://www.library.ualberta.ca/locations/bsj",
+      "status": "retrieved",
+      "usedFor": [
+        "BSJ address",
+        "bookable rooms",
+        "closure notice needing review"
+      ]
+    },
+    {
+      "id": "ualberta-library-listening-space",
+      "title": "Cameron Library Listening Space",
+      "url": "https://www.library.ualberta.ca/locations/cameron/listening-space",
+      "status": "retrieved",
+      "usedFor": [
+        "Listening Space room number",
+        "purpose",
+        "wellbeing/study use"
+      ]
+    },
+    {
+      "id": "ualberta-library-family-corner",
+      "title": "Rutherford Family Corner",
+      "url": "https://www.library.ualberta.ca/locations/rutherford/family-corner",
+      "status": "retrieved",
+      "usedFor": [
+        "family study space details",
+        "registration and ONEcard access",
+        "amenities"
+      ]
+    },
+    {
+      "id": "ualberta-library-dsc",
+      "title": "Digital Scholarship Centre",
+      "url": "https://www.library.ualberta.ca/dsc",
+      "status": "retrieved",
+      "usedFor": [
+        "specialized creative and research spaces",
+        "makerspace, studios, high-performance computers, workshops, consultations"
+      ]
+    },
+    {
+      "id": "ualberta-calm-room",
+      "title": "Student Calm Room",
+      "url": "https://www.ualberta.ca/en/occupational-therapy/resources/student-calm-room.html",
+      "status": "blocked-js-verification",
+      "usedFor": [
+        "seed URL only"
+      ]
+    },
+    {
+      "id": "ualberta-multifaith-spaces",
+      "title": "Multi-faith Spaces",
+      "url": "https://www.ualberta.ca/en/current-students/interfaith-chaplains/multi-faith-spaces.html",
+      "status": "blocked-403",
+      "usedFor": [
+        "seed URL only"
+      ]
+    }
+  ]
+}

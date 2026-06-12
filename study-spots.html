@@ -1,12 +1,257 @@
 ---
 layout: default
 title: Find a Study Spot
-description: Study spot resources are being organized for the International Student Hub.
+description: Quiet zones, group work areas, bookable rooms, calm spaces, and reflection rooms across University of Alberta campuses.
 permalink: /study-spots/
-status_icon: map-pin
-status_title: Find a Study Spot
-status_summary: This page is being organized.
-status_body: We are preparing a useful study spot guide for quiet areas, group work, libraries, and campus spaces.
 ---
 
-{% include status-page.html %}
+{% assign study = site.data.study_spots %}
+
+<section class="hero hero--inner">
+  <div class="hero__art" aria-hidden="true">
+    <img src="{{ '/assets/img/campus-skyline.svg' | relative_url }}" alt="">
+  </div>
+  <div class="container hero__inner">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <span aria-hidden="true">&rsaquo;</span>
+      <span aria-current="page">Study Spots</span>
+    </nav>
+    <h1 class="hero__title hero__title--inner">{{ study.pageModel.hero.title }}</h1>
+    <p class="hero__subtitle">{{ study.pageModel.hero.subtitle }}</p>
+  </div>
+</section>
+
+<section class="container study-spots-page">
+  <div class="study-brief">
+    <span class="study-brief__icon">{% include icon.html name="map-pin" %}</span>
+    <div class="study-brief__body">
+      <span class="study-eyebrow">{{ study.pageModel.hero.eyebrow }}</span>
+      <h2>Choose a space by noise level, access, and the kind of work you need to do.</h2>
+      <p>The guide below brings together library study zones, bookable rooms, calm rooms, and reflection spaces. Use the directory filters when you already know whether you need silence, group conversation, late-night access, or a quiet reset.</p>
+    </div>
+    <div class="study-brief__stats" aria-label="Study spot summary">
+      <span><strong>{{ study.spaces.size }}</strong> spaces</span>
+      <span><strong>{{ study.noiseZoneGuide.size }}</strong> library zones</span>
+      <span><strong>{{ study.pageModel.quickRecommendations.size }}</strong> quick picks</span>
+    </div>
+  </div>
+
+  <section class="study-quick" aria-labelledby="study-quick-title">
+    <h2 id="study-quick-title" class="section-heading">Start with a study need</h2>
+    <div class="study-quick__grid">
+      {% for card in study.pageModel.quickRecommendations %}
+      <article class="study-quick-card" id="{{ card.id }}">
+        <div class="study-quick-card__top">
+          <span class="study-quick-card__icon">
+            {% if card.id == "quiet-silent" %}
+            {% include icon.html name="book" %}
+            {% elsif card.id == "discussion-group" %}
+            {% include icon.html name="users" %}
+            {% elsif card.id == "late-night-24-7" %}
+            {% include icon.html name="clock" %}
+            {% else %}
+            {% include icon.html name="heart" %}
+            {% endif %}
+          </span>
+          <span class="study-quick-card__count">{{ card.spaceIds.size }} options</span>
+        </div>
+        <h3>{{ card.title }}</h3>
+        <p>{{ card.summary }}</p>
+        <ul>
+          {% for spot_id in card.spaceIds limit: 4 %}
+          {% assign matched_spot = study.spaces | where: "id", spot_id | first %}
+          {% if matched_spot %}
+          <li>{{ matched_spot.name }}</li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+        <a href="#study-directory" class="study-quick-card__link" data-study-preset="{{ card.id }}">View matches {% include icon.html name="arrow-right" %}</a>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="study-zone-guide" aria-labelledby="study-zone-guide-title">
+    <div class="study-zone-guide__intro">
+      <span class="study-eyebrow">Noise guide</span>
+      <h2 id="study-zone-guide-title" class="section-heading">Library zone language, translated</h2>
+    </div>
+    <div class="study-zone-guide__grid">
+      {% for zone in study.noiseZoneGuide %}
+      <article class="study-zone-card study-zone-card--{{ zone.id }}">
+        <h3>{{ zone.label }}</h3>
+        <p>{{ zone.plainLanguage }}</p>
+        <div class="study-zone-card__best">
+          <span>Best for</span>
+          <ul>
+            {% for item in zone.bestFor %}
+            <li>{{ item | replace: "-", " " }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="study-directory" id="study-directory" aria-labelledby="study-directory-title" data-study-directory>
+    <div class="study-directory__head">
+      <div>
+        <span class="study-eyebrow">Directory</span>
+        <h2 id="study-directory-title" class="section-heading">Find the right spot</h2>
+        <p>Search by building, room, campus, access rule, amenity, or study style.</p>
+      </div>
+      <a class="study-directory__official" href="https://www.library.ualberta.ca/services/study-area-directory" target="_blank" rel="noopener">Official library study areas {% include icon.html name="external" %}</a>
+    </div>
+
+    <div class="study-controls">
+      <form class="searchbar" role="search" onsubmit="return false;">
+        <label class="visually-hidden" for="study-search">Search study spots</label>
+        {% include icon.html name="search" %}
+        <input id="study-search" type="search" data-study-search placeholder="Search spaces, buildings, amenities...">
+        <button type="submit" class="searchbar__btn" aria-label="Search">{% include icon.html name="search" %}</button>
+      </form>
+
+      <div class="study-filter-row">
+        <span class="study-filter-row__label">Campus</span>
+        <div class="filter-pills" role="tablist" aria-label="Filter study spots by campus">
+          <button class="pill is-active" data-study-filter="campus" data-filter-value="all" role="tab" aria-selected="true">All</button>
+          <button class="pill" data-study-filter="campus" data-filter-value="north-campus" role="tab" aria-selected="false">North</button>
+          <button class="pill" data-study-filter="campus" data-filter-value="campus-saint-jean" role="tab" aria-selected="false">Saint-Jean</button>
+          <button class="pill" data-study-filter="campus" data-filter-value="augustana-campus" role="tab" aria-selected="false">Augustana</button>
+          <button class="pill" data-study-filter="campus" data-filter-value="calgary-campus" role="tab" aria-selected="false">Calgary</button>
+          <button class="pill" data-study-filter="campus" data-filter-value="enterprise-square" role="tab" aria-selected="false">Enterprise Square</button>
+        </div>
+      </div>
+
+      <div class="study-filter-row">
+        <span class="study-filter-row__label">Noise</span>
+        <div class="filter-pills" role="tablist" aria-label="Filter study spots by noise level">
+          <button class="pill is-active" data-study-filter="noise" data-filter-value="all" role="tab" aria-selected="true">All</button>
+          <button class="pill" data-study-filter="noise" data-filter-value="silent" role="tab" aria-selected="false">Silent</button>
+          <button class="pill" data-study-filter="noise" data-filter-value="quiet" role="tab" aria-selected="false">Quiet</button>
+          <button class="pill" data-study-filter="noise" data-filter-value="discussion" role="tab" aria-selected="false">Discussion</button>
+          <button class="pill" data-study-filter="noise" data-filter-value="calm" role="tab" aria-selected="false">Calm</button>
+          <button class="pill" data-study-filter="noise" data-filter-value="specialized" role="tab" aria-selected="false">Specialized</button>
+        </div>
+      </div>
+
+      <div class="study-filter-row study-filter-row--compact">
+        <label class="study-select-label" for="study-access">Access</label>
+        <select id="study-access" data-study-access>
+          <option value="all">All access types</option>
+          <option value="drop-in">Drop-in</option>
+          <option value="drop-in-and-bookable">Drop-in and bookable</option>
+          <option value="bookable">Bookable</option>
+          <option value="bookable-specialized">Specialized booking</option>
+          <option value="registration-required">Registration required</option>
+          <option value="onecard">ONEcard</option>
+          <option value="unknown">Confirm access</option>
+        </select>
+        <button class="study-reset" type="button" data-study-reset>Clear filters</button>
+      </div>
+
+      <p class="study-result-count" data-study-count>{{ study.spaces.size }} spaces</p>
+    </div>
+
+    <div class="study-card-grid" data-study-list>
+      {% for spot in study.spaces %}
+      {% assign noise_text = spot.noiseLevels | join: " " %}
+      {% assign amenities_text = spot.amenities | join: " " %}
+      {% assign best_for_text = spot.bestFor | join: " " %}
+      <article class="study-spot-card"
+          data-study-card
+          data-campus="{{ spot.campus }}"
+          data-noise="{{ noise_text }}"
+          data-access="{{ spot.access.mode }}"
+          data-search="{{ spot.name | append: ' ' | append: spot.campusLabel | append: ' ' | append: spot.building | append: ' ' | append: spot.roomOrArea | append: ' ' | append: spot.summary | append: ' ' | append: amenities_text | append: ' ' | append: best_for_text | downcase | escape }}">
+        <div class="study-spot-card__top">
+          <span class="study-spot-card__campus">{{ spot.campusLabel }}</span>
+          {% if spot.needsReview %}
+          <span class="study-review-note">Confirm details</span>
+          {% endif %}
+        </div>
+
+        <h3>{{ spot.name }}</h3>
+        <p>{{ spot.summary }}</p>
+
+        <div class="study-tags" aria-label="Noise levels">
+          {% for level in spot.noiseLevels %}
+          <span class="study-tag study-tag--{{ level }}">{{ level | replace: "-", " " | capitalize }}</span>
+          {% endfor %}
+        </div>
+
+        <dl class="study-spot-meta">
+          {% if spot.building %}
+          <div>
+            <dt>{% include icon.html name="home" %}<span>Building</span></dt>
+            <dd>{{ spot.building }}</dd>
+          </div>
+          {% endif %}
+          {% if spot.roomOrArea %}
+          <div>
+            <dt>{% include icon.html name="map-pin" %}<span>Area</span></dt>
+            <dd>{{ spot.roomOrArea }}</dd>
+          </div>
+          {% endif %}
+          <div>
+            <dt>{% include icon.html name="lock" %}<span>Access</span></dt>
+            <dd>
+              {{ spot.access.mode | replace: "-", " " | capitalize }}
+              {% if spot.access.requiresOneCard == true %}<span>ONEcard required</span>{% endif %}
+            </dd>
+          </div>
+        </dl>
+
+        {% if spot.zones and spot.zones.size > 0 %}
+        <details class="study-zone-details">
+          <summary>View zone locations</summary>
+          <ul>
+            {% for zone in spot.zones %}
+            <li><strong>{{ zone.noiseLevel | capitalize }}:</strong> {{ zone.areas | join: ", " }}</li>
+            {% endfor %}
+          </ul>
+        </details>
+        {% endif %}
+
+        {% if spot.amenities and spot.amenities.size > 0 %}
+        <div class="study-amenities">
+          <span>Amenities</span>
+          <ul>
+            {% for amenity in spot.amenities limit: 4 %}
+            <li>{{ amenity }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+
+        {% if spot.access.accessNotes %}
+        <p class="study-access-note">{{ spot.access.accessNotes }}</p>
+        {% endif %}
+
+        <div class="study-spot-card__actions">
+          {% if spot.access.bookingUrl %}
+          <a href="{{ spot.access.bookingUrl }}" target="_blank" rel="noopener">Book space {% include icon.html name="external" %}</a>
+          {% endif %}
+          {% assign first_source = spot.sourceUrls | first %}
+          {% if first_source %}
+          <a href="{{ first_source }}" target="_blank" rel="noopener">Official details {% include icon.html name="external" %}</a>
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+
+    <p class="study-empty" data-study-empty hidden>No study spots match those filters.</p>
+  </section>
+
+  <p class="study-disclaimer">{{ study.metadata.disclaimer }} Last verified: {{ study.metadata.lastVerified | date: "%B %-d, %Y" }}.</p>
+
+  <a class="back-top" href="#main" aria-label="Back to top">
+    <span>Back to top</span>
+    {% include icon.html name="arrow-up" %}
+  </a>
+</section>
+
+<script src="{{ '/assets/js/study-spots.js' | relative_url }}" defer></script>
