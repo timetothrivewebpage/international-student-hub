@@ -1,8 +1,11 @@
 <header class="site-header">
   <div class="container site-header__inner">
     <a class="brand" href="{{ '/' | relative_url }}">
-      <img class="brand__mark" src="{{ '/assets/img/logo-mark.png' | relative_url }}" alt="" width="40" height="40">
-      <span class="brand__text">International Student Hub</span>
+      <img class="brand__mark" src="{{ '/assets/img/logo-mark.png' | relative_url }}" alt="" width="52" height="52" aria-hidden="true">
+      <span class="brand__text">
+        <span>International</span>
+        <span>Student Hub</span>
+      </span>
     </a>
     <nav class="header-nav" aria-label="Site">
       <a href="{{ '/about/' | relative_url }}">About this project</a>
