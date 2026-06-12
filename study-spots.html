@@ -168,9 +168,6 @@ permalink: /study-spots/
           data-search="{{ spot.name | append: ' ' | append: spot.campusLabel | append: ' ' | append: spot.building | append: ' ' | append: spot.roomOrArea | append: ' ' | append: spot.summary | append: ' ' | append: amenities_text | append: ' ' | append: best_for_text | downcase | escape }}">
         <div class="study-spot-card__top">
           <span class="study-spot-card__campus">{{ spot.campusLabel }}</span>
-          {% if spot.needsReview %}
-          <span class="study-review-note">Confirm details</span>
-          {% endif %}
         </div>
 
         <h3>{{ spot.name }}</h3>

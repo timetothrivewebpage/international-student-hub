@@ -1739,8 +1739,7 @@ ul { list-style: none; padding: 0; }
   gap: 8px;
   align-items: center;
 }
-.study-spot-card__campus,
-.study-review-note {
+.study-spot-card__campus {
   display: inline-flex;
   align-items: center;
   width: max-content;
@@ -1751,15 +1750,6 @@ ul { list-style: none; padding: 0; }
   text-transform: uppercase;
 }
 .study-spot-card__campus { color: var(--green-dark); }
-.study-review-note {
-  padding: 3px 8px;
-  border: 1px solid #eadb8b;
-  border-radius: 999px;
-  color: #6f5b00;
-  letter-spacing: 0.02em;
-  text-transform: none;
-  background: #fff7cc;
-}
 .study-spot-card h3 {
   font-size: 19px;
   font-weight: 800;
