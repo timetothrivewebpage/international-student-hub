@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Academic Success Centre Workshops",
+    "blurb": "Academic skills, study strategies, writing, and exam-prep workshops. Most run on CampusBridge and need registration.",
+    "icon": "book",
+    "tags": ["academic-skills", "workshops", "registration-required"],
+    "url": "https://www.ualberta.ca/en/current-students/academic-success-centre/index.html",
+    "linkLabel": "View live calendar"
+  },
+  {
+    "name": "Career Centre Events & Employer Sessions",
+    "blurb": "Resume and interview prep, employer info sessions, networking, and career fairs posted on campusBRIDGE.",
+    "icon": "briefcase",
+    "tags": ["career", "networking", "registration-required"],
+    "url": "https://www.ualberta.ca/en/career-centre/index.html",
+    "linkLabel": "View live calendar"
+  },
+  {
+    "name": "campusBRIDGE Student Events",
+    "blurb": "The university's central platform for experiential learning, workshops, and student event registration.",
+    "icon": "calendar-check",
+    "tags": ["workshops", "career", "registration-required"],
+    "url": "https://www.ualberta.ca/en/career-centre/resources/campusbridge.html",
+    "linkLabel": "Open campusBRIDGE"
+  },
+  {
+    "name": "UAlberta Events Calendar",
+    "blurb": "The university-wide events listing across faculties, departments, and campus units.",
+    "icon": "globe",
+    "tags": ["university-wide"],
+    "url": "https://www.ualberta.ca/en/events/index.html",
+    "linkLabel": "View live calendar"
+  }
+]

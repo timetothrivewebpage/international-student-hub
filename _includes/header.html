@@ -7,7 +7,7 @@
         <span>Student Hub</span>
       </span>
     </a>
-    <nav class="header-nav" aria-label="Site">
+    <nav class="header-nav header-nav--desktop" aria-label="Site">
       <a href="{{ '/about/' | relative_url }}">About this project</a>
       <a href="{{ '/feedback/' | relative_url }}">Give feedback</a>
       <a href="{{ '/faq/' | relative_url }}">FAQ</a>
@@ -16,5 +16,18 @@
         <span>Search</span>
       </a>
     </nav>
+    <button class="mobile-menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-mobile-menu-toggle>
+      <span>Menu</span>
+      {% include icon.html name="menu" %}
+    </button>
   </div>
+
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile site" data-mobile-menu hidden>
+    <div class="container mobile-menu__inner">
+      <a href="{{ '/faq/' | relative_url }}">FAQ</a>
+      <a href="{{ '/about/' | relative_url }}">About this project</a>
+      <a href="{{ '/search/' | relative_url }}">Search</a>
+      <a class="mobile-menu__cta" href="{{ '/feedback/' | relative_url }}">Give feedback</a>
+    </div>
+  </nav>
 </header>

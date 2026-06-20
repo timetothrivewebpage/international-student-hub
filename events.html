@@ -1,12 +1,150 @@
 ---
 layout: default
 title: Events & Workshops
-description: Events and workshops resources are being organized for the International Student Hub.
+description: Upcoming University of Alberta events and workshops for international students, plus live calendars for career, academic, and campus event sources.
 permalink: /events/
-status_icon: calendar
-status_title: Events & Workshops
-status_summary: This page is being organized.
-status_body: Upcoming events are shown on the Home page for now. A fuller events and workshops page is being prepared.
 ---
 
-{% include status-page.html %}
+{% assign ev = site.data.events_workshops %}
+
+<section class="hero hero--inner">
+  <div class="hero__art" aria-hidden="true">
+    <img src="{{ '/assets/img/campus-skyline.svg' | relative_url }}" alt="">
+  </div>
+  <div class="container hero__inner">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <span aria-hidden="true">&rsaquo;</span>
+      <span aria-current="page">Events &amp; Workshops</span>
+    </nav>
+    <h1 class="hero__title hero__title--inner">Events &amp; Workshops</h1>
+    <p class="hero__subtitle">Find orientation, workshops, career sessions, and social events — then jump to live calendars for sources that update often.</p>
+  </div>
+</section>
+
+<section class="container events-page">
+  <div class="study-brief">
+    <span class="study-brief__icon">{% include icon.html name="calendar" %}</span>
+    <div class="study-brief__body">
+      <span class="study-eyebrow">Events &amp; Workshops</span>
+      <h2>One hub for what's coming up, and where to look when a calendar lives elsewhere.</h2>
+      <p>The directory below brings together events from the Students' Union, International Student &amp; Visitor Services (ISVS), the Graduate Students' Association, and the Library. For sources that change often or aren't available as a feed — like the Career Centre and campusBRIDGE — use the live calendar cards further down.</p>
+    </div>
+    <div class="study-brief__stats" aria-label="Events summary">
+      <span><strong>{{ ev.events.size }}</strong> upcoming</span>
+      <span><strong>{{ site.data.event_sources.size }}</strong> live calendars</span>
+    </div>
+  </div>
+
+  <!-- Searchable events directory -->
+  <section class="events-directory" id="events-directory" aria-labelledby="events-directory-title" data-events-directory>
+    <div class="study-directory__head">
+      <div>
+        <span class="study-eyebrow">Directory</span>
+        <h2 id="events-directory-title" class="section-heading">Upcoming events</h2>
+        <p>Search by title, host, or location, then narrow by topic or format.</p>
+      </div>
+    </div>
+
+    <div class="study-controls">
+      <form class="searchbar" role="search" onsubmit="return false;">
+        <label class="visually-hidden" for="events-search">Search events</label>
+        {% include icon.html name="search" %}
+        <input id="events-search" type="search" data-events-search placeholder="Search events, hosts, locations…" autocomplete="off">
+        <button type="submit" class="searchbar__btn" aria-label="Search">{% include icon.html name="search" %}</button>
+      </form>
+
+      <div class="study-filter-row">
+        <span class="study-filter-row__label">Topic</span>
+        <div class="filter-pills" role="tablist" aria-label="Filter events by topic">
+          <button class="pill is-active" data-events-filter="category" data-filter-value="all" role="tab" aria-selected="true">All</button>
+          <button class="pill" data-events-filter="category" data-filter-value="orientation" role="tab" aria-selected="false">Orientation</button>
+          <button class="pill" data-events-filter="category" data-filter-value="workshop" role="tab" aria-selected="false">Workshops</button>
+          <button class="pill" data-events-filter="category" data-filter-value="career" role="tab" aria-selected="false">Career</button>
+          <button class="pill" data-events-filter="category" data-filter-value="wellness" role="tab" aria-selected="false">Wellness</button>
+          <button class="pill" data-events-filter="category" data-filter-value="social" role="tab" aria-selected="false">Social</button>
+          <button class="pill" data-events-filter="category" data-filter-value="graduate" role="tab" aria-selected="false">Graduate</button>
+          <button class="pill" data-events-filter="category" data-filter-value="arts" role="tab" aria-selected="false">Arts</button>
+        </div>
+      </div>
+
+      <div class="study-filter-row study-filter-row--compact">
+        <span class="study-filter-row__label">Format</span>
+        <div class="filter-pills" role="tablist" aria-label="Filter events by format">
+          <button class="pill is-active" data-events-filter="format" data-filter-value="all" role="tab" aria-selected="true">All</button>
+          <button class="pill" data-events-filter="format" data-filter-value="in-person" role="tab" aria-selected="false">In person</button>
+          <button class="pill" data-events-filter="format" data-filter-value="online" role="tab" aria-selected="false">Online</button>
+        </div>
+        <button class="study-reset" type="button" data-events-reset>Clear filters</button>
+      </div>
+
+      <p class="study-result-count" data-events-count>{{ ev.events.size }} events</p>
+    </div>
+
+    <ul class="events-list" data-events-list>
+      {% for e in ev.events %}
+      <li class="event-card"
+          data-events-card
+          data-category="{{ e.category }}"
+          data-format="{{ e.format }}"
+          data-search="{{ e.title | append: ' ' | append: e.providerFull | append: ' ' | append: e.location | append: ' ' | append: e.categoryLabel | downcase | escape }}">
+        <div class="event-card__date" aria-hidden="true">
+          <span class="event-card__month">{{ e.month }}</span>
+          <span class="event-card__day">{{ e.day }}</span>
+        </div>
+        <div class="event-card__body">
+          <div class="event-card__tags">
+            <span class="event-tag event-tag--{{ e.category }}">{{ e.categoryLabel }}</span>
+            <span class="event-format event-format--{{ e.format }}">
+              {% if e.format == "online" %}{% include icon.html name="globe" %}Online{% else %}{% include icon.html name="map-pin" %}In person{% endif %}
+            </span>
+            {% if e.registration %}<span class="event-reg">{% include icon.html name="clipboard-check" %}Registration</span>{% endif %}
+          </div>
+          <h3 class="event-card__title">
+            {% if e.url %}<a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }} {% include icon.html name="external" %}</a>{% else %}{{ e.title }}{% endif %}
+          </h3>
+          <dl class="event-card__meta">
+            <div><dt>{% include icon.html name="calendar" %}<span>Date</span></dt><dd>{{ e.dateLabel }}</dd></div>
+            <div><dt>{% include icon.html name="clock" %}<span>Time</span></dt><dd>{{ e.time }} MT</dd></div>
+            {% if e.location and e.location != "" %}<div><dt>{% include icon.html name="map-pin" %}<span>Location</span></dt><dd>{{ e.location }}</dd></div>{% endif %}
+            <div><dt>{% include icon.html name="users" %}<span>Host</span></dt><dd>{{ e.provider }}</dd></div>
+          </dl>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <p class="study-empty" data-events-empty hidden>No events match those filters. Try clearing the search or filters.</p>
+  </section>
+
+  <!-- Live calendar source cards -->
+  <section class="events-sources" aria-labelledby="events-sources-title">
+    <div class="events-sources__intro">
+      <span class="study-eyebrow">Live calendars</span>
+      <h2 id="events-sources-title" class="section-heading">More events, updated at the source</h2>
+      <p>Some hosts publish events on their own platforms that update too often to mirror here. Open these directly for the latest sessions and to register.</p>
+    </div>
+    <div class="events-sources__grid">
+      {% for s in site.data.event_sources %}
+      <article class="event-source-card">
+        <span class="event-source-card__icon">{% include icon.html name=s.icon %}</span>
+        <h3>{{ s.name }}</h3>
+        <p>{{ s.blurb }}</p>
+        <div class="event-source-card__tags">
+          {% for t in s.tags %}<span>{{ t | replace: "-", " " }}</span>{% endfor %}
+        </div>
+        <a class="event-source-card__link" href="{{ s.url }}" target="_blank" rel="noopener">{{ s.linkLabel }} {% include icon.html name="external" %}</a>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <p class="study-disclaimer">{{ ev.metadata.disclaimer }} Last verified: {{ ev.metadata.lastVerified | date: "%B %-d, %Y" }}. Times shown in Edmonton local time (MT).</p>
+
+  <a class="back-top" href="#main" aria-label="Back to top">
+    <span>Back to top</span>
+    {% include icon.html name="arrow-up" %}
+  </a>
+</section>
+
+<script src="{{ '/assets/js/events.js' | relative_url }}" defer></script>

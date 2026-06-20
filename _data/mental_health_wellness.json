@@ -560,7 +560,7 @@
         "identity-culture"
       ],
       "priority": 7,
-      "summary": "University units that help people affected by SGBV understand their available options.",
+      "summary": "University units that help people affected by Sexual and Gender-Based Violence (SGBV) understand their available options.",
       "description": "The Options Navigation Network is a group of University units with enhanced training to act as system navigators for people who have been subjected to sexual and gender-based violence and are seeking information on options through the University.",
       "bestFor": [
         "sexual-gender-based-violence",
@@ -1188,7 +1188,7 @@
         "professional-support"
       ],
       "priority": 15,
-      "summary": "Physician-based mental-health support, referral, and free RSW access through the UHC.",
+      "summary": "Physician-based mental-health support, referral, and free Registered Social Worker (RSW) access through the University Health Centre.",
       "description": "The University Health Centre offers physician support for mental health, including discussion, diagnosis, referrals, and medication where appropriate. UHC patients can also be referred to a registered mental health social worker through the Edmonton O-day'min Primary Care Network.",
       "bestFor": [
         "medical-care",

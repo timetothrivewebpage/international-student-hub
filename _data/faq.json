@@ -1,6 +1,6 @@
 {
-  "last_reviewed": "May 9, 2026",
-  "intro": "The questions international students most often ask in their first weeks at the University of Alberta, each routed to the office, plan, or external authority that can answer it. This is a routing and information reference — not legal, medical, immigration, or financial advice. Where official rules apply, the linked source pages are authoritative. For individual immigration questions, contact ISVS.",
+  "last_reviewed": "June 20, 2026",
+  "intro": "The questions international students most often ask in their first weeks at the University of Alberta, each routed to the office, plan, or external authority that can answer it. This is a routing and information reference — not legal, medical, immigration, or financial advice. Where official rules apply, the linked source pages are authoritative. For individual immigration questions, contact International Student and Visitor Services (ISVS).",
   "emergency_contacts": [
     { "need": "Immediate danger / ambulance / police / fire", "contact": "Call 911", "url": "" },
     { "need": "Non-emergency health advice in Alberta", "contact": "Call Health Link 811", "url": "" },
@@ -30,7 +30,7 @@
           ]
         },
         {
-          "q": "How do I contact ISVS?",
+          "q": "How do I contact International Student and Visitor Services (ISVS)?",
           "a": "Use the official ISVS contact page and the student service portal. Generally use your @ualberta.ca email and include your student ID when asking about your file. ISVS also advertises in-person support, but availability can change by term, so check the contact page before going in person.",
           "sources": [
             { "label": "Contact ISVS", "url": "https://www.ualberta.ca/en/international/about/international-services-centre.html" }
@@ -45,7 +45,7 @@
         },
         {
           "q": "Should I ask UASU, GSA, ISA, my faculty, or ISVS?",
-          "a": "Quick routing rule: ISVS for international-student immigration and settlement questions; SSC for records, registration, fees, and general student-service routing; UASU for undergraduate advocacy, student services, health/dental plan info, Safewalk, and student groups; GSA for graduate representation, graduate services, health/dental plan info, and GSAP; ISA for international student advocacy and community; your faculty/department for program-specific academic rules.",
+          "a": "Quick routing rule: International Student and Visitor Services (ISVS) for international-student immigration and settlement questions; the Student Service Centre (SSC) for records, registration, fees, and general student-service routing; the University of Alberta Students' Union (UASU) for undergraduate advocacy, student services, health/dental plan information, Safewalk, and student groups; the Graduate Students' Association (GSA) for graduate representation, graduate services, health/dental plan information, and the Graduate Student Assistance Program (GSAP); the International Students Association (ISA) for international student advocacy and community; your faculty or department for program-specific academic rules.",
           "sources": [
             { "label": "ISVS home", "url": "https://www.ualberta.ca/en/international/index.html" },
             { "label": "UASU", "url": "https://www.su.ualberta.ca/" },
@@ -54,7 +54,7 @@
         },
         {
           "q": "Is this FAQ immigration advice?",
-          "a": "No. This is an information and routing guide. Immigration rules change and individual circumstances matter. For UAlberta-specific support, contact ISVS. For official legal requirements and applications, use IRCC pages. Do not rely only on friends, social media, or outdated blog posts for immigration decisions.",
+          "a": "No. This is an information and routing guide. Immigration rules change and individual circumstances matter. For UAlberta-specific support, contact International Student and Visitor Services (ISVS). For official legal requirements and applications, use Immigration, Refugees and Citizenship Canada (IRCC) pages. Do not rely only on friends, social media, or outdated blog posts for immigration decisions.",
           "sources": [
             { "label": "Immigration resources - UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/index.html" },
             { "label": "Study permit extension - IRCC", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/extend-study-permit.html" }
@@ -105,8 +105,15 @@
           ]
         },
         {
+          "q": "How do I get a Canadian phone number or cell plan?",
+          "a": "If your phone is unlocked, you can usually start with a Canadian SIM card or eSIM from a major or discount provider. Compare plans by monthly cost, data, Canada-wide calling, contract length, setup fees, and whether you must bring your own device. Student promotions often appear around August and September, so bring government photo ID, your study permit, and your ONEcard if a provider asks for student proof.",
+          "sources": [
+            { "label": "Prepare for UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/prepare-for-ualberta/index.html" }
+          ]
+        },
+        {
           "q": "What should I buy first for Edmonton winter?",
-          "a": "Do not panic-buy everything before you arrive. Focus first on a warm winter jacket, gloves, hat, scarf, thermal layers, winter boots with grip, and a way to protect your phone battery in the cold. ISVS orientation and settlement sessions often cover winter preparation, and local students can help you avoid overpriced or unsuitable items.",
+          "a": "Do not panic-buy everything before you arrive. Focus first on a warm winter jacket, gloves, hat, scarf, thermal layers, winter boots with grip, and a way to protect your phone battery in the cold. Weather apps may show both the actual temperature and a “feels like” wind-chill temperature; dress for the wind chill, especially on windy days. ISVS orientation and settlement sessions often cover winter preparation, and local students can help you avoid overpriced or unsuitable items.",
           "sources": [
             { "label": "Prepare for UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/prepare-for-ualberta/index.html" }
           ]
@@ -120,7 +127,7 @@
       "items": [
         {
           "q": "Where do I apply for my first study permit?",
-          "a": "Apply through IRCC using official instructions. UAlberta provides study-permit information and may provide tools or supports for admitted degree-seeking students, but the application itself is an IRCC process. Always check current IRCC requirements for your country and program level.",
+          "a": "Apply through Immigration, Refugees and Citizenship Canada (IRCC) using official instructions. UAlberta provides study-permit information and may provide tools or supports for admitted degree-seeking students, but the application itself is an IRCC process. Always check current IRCC requirements for your country and program level.",
           "sources": [
             { "label": "Immigration resources - UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/index.html" }
           ]
@@ -131,6 +138,14 @@
           "sources": [
             { "label": "ISVS home", "url": "https://www.ualberta.ca/en/international/index.html" },
             { "label": "Contact ISVS", "url": "https://www.ualberta.ca/en/international/about/international-services-centre.html" }
+          ]
+        },
+        {
+          "q": "What phone or text scams commonly target international students?",
+          "a": "Be suspicious of calls, texts, emails, or social media messages claiming to be from Immigration, Refugees and Citizenship Canada (IRCC), the Canada Revenue Agency, police, a delivery company, or a bank if they threaten arrest, deportation, account closure, or immediate penalties. Real government offices do not demand urgent payment by cryptocurrency, gift cards, wire transfer, or casual e-transfer. Hang up, do not click links, and contact International Student and Visitor Services (ISVS), UAlberta Protective Services, your bank, or the official agency contact page if you are unsure.",
+          "sources": [
+            { "label": "Immigration fraud and scams - IRCC", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/protect-fraud.html" },
+            { "label": "CRA scams and fraud", "url": "https://www.canada.ca/en/revenue-agency/campaigns/fraud-scams.html" }
           ]
         },
         {
@@ -174,6 +189,14 @@
           "a": "No. A study permit authorizes study in Canada. A temporary resident visa or electronic travel authorization (eTA) is a travel document that helps you enter Canada. Some students need both a valid study permit and a valid entry document. Check IRCC rules for your passport country before leaving Canada and before re-entering.",
           "sources": [
             { "label": "Immigration resources - UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/index.html" }
+          ]
+        },
+        {
+          "q": "What if I am bringing a spouse, common-law partner, or children?",
+          "a": "Start planning early because family members may need their own visitor, study, or work documents, and you may need additional proof of funds, relationship documents, housing planning, school or childcare planning, and health-insurance planning. Some spouses or common-law partners of international students may be eligible for an open work permit, but eligibility is limited by current IRCC rules and your program type, so check IRCC and speak with ISVS before making work or travel assumptions.",
+          "sources": [
+            { "label": "Family support - UAlberta", "url": "https://www.ualberta.ca/en/international/international-student-services/immigration/family-support.html" },
+            { "label": "Spouse or common-law partner work permit - IRCC", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/help-your-spouse-common-law-partner-work-canada.html" }
           ]
         },
         {
@@ -307,9 +330,18 @@
         },
         {
           "q": "Where can I see a doctor on or near campus?",
-          "a": "The University Health Centre can serve as a primary care provider for students and offers health services to UAlberta students, employees, and eligible family members. For urgent or emergency care, use 911, Health Link 811, a walk-in clinic, or a hospital emergency department depending on severity.",
+          "a": "The University Health Centre can serve as a primary care provider for students and offers health services to UAlberta students, employees, and eligible family members. For non-emergency needs such as checkups, minor illness, prescription refills, or referrals, use the University Health Centre, a family doctor, or a walk-in clinic. Hospital emergency departments are for severe, urgent, or life-threatening problems. For immediate danger call 911; for non-emergency health advice in Alberta, call Health Link at 811.",
           "sources": [
             { "label": "University Health Centre", "url": "https://www.ualberta.ca/en/services/health-centre/index.html" }
+          ]
+        },
+        {
+          "q": "How do prescriptions and pharmacy coverage work?",
+          "a": "A doctor, nurse practitioner, or other authorized prescriber writes the prescription, and you take it to a pharmacy. The Campus Pharmacy in Students' Union Building is one convenient option, but you can use other pharmacies too. Basic provincial or UAHIP coverage may not cover every prescription; the UASU or GSA Health and Dental Plan may cover part of eligible prescription costs. Check your plan details and use your pay-direct or benefits card when available so the pharmacy can bill the insurer directly.",
+          "sources": [
+            { "label": "University Health Centre", "url": "https://www.ualberta.ca/en/services/health-centre/index.html" },
+            { "label": "UASU Health and Dental Plan", "url": "https://www.su.ualberta.ca/services/healthplan/" },
+            { "label": "GSA Health and Dental Plan", "url": "https://www.gsa.ualberta.ca/services/health-and-dental-plan/" }
           ]
         },
         {
@@ -380,6 +412,21 @@
           ]
         },
         {
+          "q": "What is the campus pedway system?",
+          "a": "Pedways are indoor, heated walkways, tunnels, and bridges that connect parts of North Campus. They are useful in winter because you can move between some major buildings with less outdoor exposure. Learn the routes around your own classes first, and use campus maps or signage when planning a new route because not every building is connected indoors.",
+          "sources": [
+            { "label": "Getting around - ISVS", "url": "https://www.ualberta.ca/en/international/international-student-services/prepare-for-ualberta/getting-around.html" },
+            { "label": "Campus maps", "url": "https://www.ualberta.ca/en/maps.html" }
+          ]
+        },
+        {
+          "q": "Where can I find groceries or ingredients from home?",
+          "a": "Start with nearby mainstream grocery stores for basics, then ask student groups, roommates, and local community groups about stores that carry ingredients from your region. Edmonton has many international and specialty markets, including East and Southeast Asian, South Asian, Middle Eastern, halal, African, Latin American, and European grocery options. Check transit time, winter travel, prices, and whether bulk buying is realistic before you shop far from campus.",
+          "sources": [
+            { "label": "Getting around - ISVS", "url": "https://www.ualberta.ca/en/international/international-student-services/prepare-for-ualberta/getting-around.html" }
+          ]
+        },
+        {
           "q": "Is it safe to walk on campus at night?",
           "a": "UAlberta is an urban campus, so use normal city safety habits: travel with others when possible, plan transit, keep your phone charged, and avoid isolated routes late at night. UASU Safewalk is a volunteer-run service that can accompany students on or near campus when operating. Check current Safewalk hours before relying on it.",
           "sources": [
@@ -440,6 +487,13 @@
         {
           "q": "Where can I get academic skills, writing, and learning support?",
           "a": "The Academic Success Centre offers academic advising, learning support, workshops, online resources, and writing support for undergraduate and graduate students. Use it early for writing, exam preparation, time management, reading strategies, and adapting to Canadian academic expectations.",
+          "sources": [
+            { "label": "Academic Success Centre", "url": "https://www.ualberta.ca/en/current-students/academic-success-centre/index.html" }
+          ]
+        },
+        {
+          "q": "How should I talk to professors and use office hours?",
+          "a": "Start respectfully with “Professor [Last Name]” or “Dr. [Last Name]” if they use that title, then follow the name or form of address in the syllabus or email signature. Teaching Assistants (TAs) are often addressed by first name, but check how they introduce themselves. Office hours are scheduled times for students to ask questions about course concepts, assignments, feedback, exams, research interests, or academic direction; you do not need to be failing to use them.",
           "sources": [
             { "label": "Academic Success Centre", "url": "https://www.ualberta.ca/en/current-students/academic-success-centre/index.html" }
           ]
@@ -626,6 +680,29 @@
           ]
         },
         {
+          "q": "How do I open a Canadian bank account, and what documents should I bring?",
+          "a": "Compare student chequing accounts before choosing a bank: monthly fee, debit transactions, e-transfer limits, international transfer options, branch access, and credit-card offers matter more than gifts. Banks must verify your identity with original identification. As an international student, bring your passport, study permit, UAlberta ONEcard if you have it, letter of acceptance or offer letter, and a verification of enrolment document from Bear Tracks or MyCreds if available. Requirements can vary by bank, so check the branch appointment instructions before you go.",
+          "sources": [
+            { "label": "Opening a bank account - FCAC", "url": "https://www.canada.ca/en/financial-consumer-agency/services/banking/opening-bank-account.html" },
+            { "label": "Verification documents - UAlberta", "url": "https://www.ualberta.ca/en/registrar/records/verification-documents.html" }
+          ]
+        },
+        {
+          "q": "Do international students need to file Canadian taxes?",
+          "a": "Many international students should file an income tax and benefit return, even with little or no employment income, because filing can establish tax records and may allow the Canada Revenue Agency (CRA) to determine eligibility for credits or benefits such as the GST/HST credit. Tax residency and eligibility depend on your situation, so use CRA guidance or a qualified tax clinic rather than guessing from social media.",
+          "sources": [
+            { "label": "Students and income tax - CRA", "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/p105/p105-students-income-tax.html" },
+            { "label": "GST/HST credit - CRA", "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4210.html" }
+          ]
+        },
+        {
+          "q": "What is a credit score, and should I build one as a student?",
+          "a": "A credit score is used by lenders and sometimes landlords to estimate how reliably you manage borrowed money. You can start building Canadian credit by using a student credit card or other credit product carefully, keeping balances low, and paying the full balance on time every month. Do not carry debt just to build credit, and avoid applying for multiple cards quickly.",
+          "sources": [
+            { "label": "Credit reports and scores - FCAC", "url": "https://www.canada.ca/en/financial-consumer-agency/services/credit-reports-score.html" }
+          ]
+        },
+        {
           "q": "Can bursaries solve my tuition or living-cost shortfall?",
           "a": "Usually not by themselves. UAlberta bursaries and emergency funds can help with shortfalls or urgent situations, but do not rely on emergency funding as a primary financial plan. Build a realistic full-year budget before arrival and update it after seeing actual Edmonton costs.",
           "sources": [
@@ -641,7 +718,7 @@
         },
         {
           "q": "Where can undergraduates look for emergency or financial support?",
-          "a": "Undergraduate students should review UAlberta bursaries and emergency funding, speak with SSC for routing, and contact UASU services if the issue overlaps with food, health, advocacy, or emergency student support. International students can also contact ISVS if the issue affects immigration, settlement, or crisis planning.",
+          "a": "Undergraduate students should review UAlberta bursaries and emergency funding, speak with the Student Service Centre (SSC) for routing, and contact University of Alberta Students' Union (UASU) services if the issue overlaps with food, health, advocacy, or emergency student support. International students can also contact International Student and Visitor Services (ISVS) if the issue affects immigration, settlement, or crisis planning.",
           "sources": [
             { "label": "Bursaries and emergency funding - UAlberta", "url": "https://www.ualberta.ca/en/registrar/scholarships-awards-financial-support/bursaries-emergency-funding/index.html" },
             { "label": "UASU", "url": "https://www.su.ualberta.ca/" }
